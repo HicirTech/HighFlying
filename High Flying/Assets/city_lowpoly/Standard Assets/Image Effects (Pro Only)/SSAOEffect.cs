@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 [ExecuteInEditMode]
 [RequireComponent (typeof(Camera))]
@@ -190,5 +190,5 @@ public class SSAOEffect : MonoBehaviour
 		table += "};\n";
 		Debug.Log (table);
 	}
-	*/
-}
+	
+}*/
