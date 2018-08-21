@@ -1,0 +1,1840 @@
+fileFormatVersion: 2
+guid: 9ac866bfbea384885bfb79c4327dacbb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: left
+    100002: //RootNode
+    100004: skydiver_rig9:back
+    100006: skydiver_rig9:Backpack
+    100008: skydiver_rig9:Body
+    100010: skydiver_rig9:Camera
+    100012: skydiver_rig9:Eleron_left_joint_a
+    100014: skydiver_rig9:Eleron_left_joint_b
+    100016: skydiver_rig9:Eleron_right_joint_a
+    100018: skydiver_rig9:Eleron_right_joint_b
+    100020: skydiver_rig9:Head
+    100022: skydiver_rig9:Head_Joint
+    100024: skydiver_rig9:Helmet
+    100026: skydiver_rig9:Hip
+    100028: skydiver_rig9:Joints_grp
+    100030: skydiver_rig9:Left_Ankle_Joint_01
+    100032: skydiver_rig9:Left_Forearm_Joint_01
+    100034: skydiver_rig9:Left_Index_Finger_Joint_01a
+    100036: skydiver_rig9:Left_Index_Finger_Joint_01b
+    100038: skydiver_rig9:Left_Index_Finger_Joint_01c
+    100040: skydiver_rig9:Left_Knee_Joint_01
+    100042: skydiver_rig9:Left_Middle_Finger_Joint_01a
+    100044: skydiver_rig9:Left_Middle_Finger_Joint_01b
+    100046: skydiver_rig9:Left_Middle_Finger_Joint_01c
+    100048: skydiver_rig9:Left_Pinky_Finger_Joint_01a
+    100050: skydiver_rig9:Left_Pinky_Finger_Joint_01b
+    100052: skydiver_rig9:Left_Pinky_Finger_Joint_01c
+    100054: skydiver_rig9:Left_Ring_Finger_Joint_01a
+    100056: skydiver_rig9:Left_Ring_Finger_Joint_01b
+    100058: skydiver_rig9:Left_Ring_Finger_Joint_01c
+    100060: skydiver_rig9:Left_Shoulder_Joint_01
+    100062: skydiver_rig9:Left_Thigh_Joint_01
+    100064: skydiver_rig9:Left_Thumb_Joint_01a
+    100066: skydiver_rig9:Left_Thumb_Joint_01b
+    100068: skydiver_rig9:Left_Toe_Joint_01
+    100070: skydiver_rig9:Left_Upper_Arm_Joint_01
+    100072: skydiver_rig9:Left_Wrist_Joint_01
+    100074: skydiver_rig9:LeftHand
+    100076: skydiver_rig9:LeftSneakers
+    100078: skydiver_rig9:Neck_Joint
+    100080: skydiver_rig9:Ribs
+    100082: skydiver_rig9:Right_Ankle_Joint_01
+    100084: skydiver_rig9:Right_Forearm_Joint_01
+    100086: skydiver_rig9:Right_Index_Finger_Joint_01a
+    100088: skydiver_rig9:Right_Index_Finger_Joint_01b
+    100090: skydiver_rig9:Right_Index_Finger_Joint_01c
+    100092: skydiver_rig9:Right_Knee_Joint_01
+    100094: skydiver_rig9:Right_Middle_Finger_Joint_01a
+    100096: skydiver_rig9:Right_Middle_Finger_Joint_01b
+    100098: skydiver_rig9:Right_Middle_Finger_Joint_01c
+    100100: skydiver_rig9:Right_Pinky_Finger_Joint_01a
+    100102: skydiver_rig9:Right_Pinky_Finger_Joint_01b
+    100104: skydiver_rig9:Right_Pinky_Finger_Joint_01c
+    100106: skydiver_rig9:Right_Ring_Finger_Joint_01a
+    100108: skydiver_rig9:Right_Ring_Finger_Joint_01b
+    100110: skydiver_rig9:Right_Ring_Finger_Joint_01c
+    100112: skydiver_rig9:Right_Shoulder_Joint_01
+    100114: skydiver_rig9:Right_Thigh_Joint_01
+    100116: skydiver_rig9:Right_Thumb_Joint_01a
+    100118: skydiver_rig9:Right_Thumb_Joint_01b
+    100120: skydiver_rig9:Right_Toe_Joint_01
+    100122: skydiver_rig9:Right_Upper_Arm_Joint_01
+    100124: skydiver_rig9:Right_Wrist_Joint_01
+    100126: skydiver_rig9:RightHand
+    100128: skydiver_rig9:RightSneakers
+    100130: skydiver_rig9:Root
+    100132: skydiver_rig9:Suit1
+    100134: skydiver_rig9:Wingsuit
+    100136: skydiver_rig9:Wingsuit_rig_dont_touch
+    400000: left
+    400002: //RootNode
+    400004: skydiver_rig9:back
+    400006: skydiver_rig9:Backpack
+    400008: skydiver_rig9:Body
+    400010: skydiver_rig9:Camera
+    400012: skydiver_rig9:Eleron_left_joint_a
+    400014: skydiver_rig9:Eleron_left_joint_b
+    400016: skydiver_rig9:Eleron_right_joint_a
+    400018: skydiver_rig9:Eleron_right_joint_b
+    400020: skydiver_rig9:Head
+    400022: skydiver_rig9:Head_Joint
+    400024: skydiver_rig9:Helmet
+    400026: skydiver_rig9:Hip
+    400028: skydiver_rig9:Joints_grp
+    400030: skydiver_rig9:Left_Ankle_Joint_01
+    400032: skydiver_rig9:Left_Forearm_Joint_01
+    400034: skydiver_rig9:Left_Index_Finger_Joint_01a
+    400036: skydiver_rig9:Left_Index_Finger_Joint_01b
+    400038: skydiver_rig9:Left_Index_Finger_Joint_01c
+    400040: skydiver_rig9:Left_Knee_Joint_01
+    400042: skydiver_rig9:Left_Middle_Finger_Joint_01a
+    400044: skydiver_rig9:Left_Middle_Finger_Joint_01b
+    400046: skydiver_rig9:Left_Middle_Finger_Joint_01c
+    400048: skydiver_rig9:Left_Pinky_Finger_Joint_01a
+    400050: skydiver_rig9:Left_Pinky_Finger_Joint_01b
+    400052: skydiver_rig9:Left_Pinky_Finger_Joint_01c
+    400054: skydiver_rig9:Left_Ring_Finger_Joint_01a
+    400056: skydiver_rig9:Left_Ring_Finger_Joint_01b
+    400058: skydiver_rig9:Left_Ring_Finger_Joint_01c
+    400060: skydiver_rig9:Left_Shoulder_Joint_01
+    400062: skydiver_rig9:Left_Thigh_Joint_01
+    400064: skydiver_rig9:Left_Thumb_Joint_01a
+    400066: skydiver_rig9:Left_Thumb_Joint_01b
+    400068: skydiver_rig9:Left_Toe_Joint_01
+    400070: skydiver_rig9:Left_Upper_Arm_Joint_01
+    400072: skydiver_rig9:Left_Wrist_Joint_01
+    400074: skydiver_rig9:LeftHand
+    400076: skydiver_rig9:LeftSneakers
+    400078: skydiver_rig9:Neck_Joint
+    400080: skydiver_rig9:Ribs
+    400082: skydiver_rig9:Right_Ankle_Joint_01
+    400084: skydiver_rig9:Right_Forearm_Joint_01
+    400086: skydiver_rig9:Right_Index_Finger_Joint_01a
+    400088: skydiver_rig9:Right_Index_Finger_Joint_01b
+    400090: skydiver_rig9:Right_Index_Finger_Joint_01c
+    400092: skydiver_rig9:Right_Knee_Joint_01
+    400094: skydiver_rig9:Right_Middle_Finger_Joint_01a
+    400096: skydiver_rig9:Right_Middle_Finger_Joint_01b
+    400098: skydiver_rig9:Right_Middle_Finger_Joint_01c
+    400100: skydiver_rig9:Right_Pinky_Finger_Joint_01a
+    400102: skydiver_rig9:Right_Pinky_Finger_Joint_01b
+    400104: skydiver_rig9:Right_Pinky_Finger_Joint_01c
+    400106: skydiver_rig9:Right_Ring_Finger_Joint_01a
+    400108: skydiver_rig9:Right_Ring_Finger_Joint_01b
+    400110: skydiver_rig9:Right_Ring_Finger_Joint_01c
+    400112: skydiver_rig9:Right_Shoulder_Joint_01
+    400114: skydiver_rig9:Right_Thigh_Joint_01
+    400116: skydiver_rig9:Right_Thumb_Joint_01a
+    400118: skydiver_rig9:Right_Thumb_Joint_01b
+    400120: skydiver_rig9:Right_Toe_Joint_01
+    400122: skydiver_rig9:Right_Upper_Arm_Joint_01
+    400124: skydiver_rig9:Right_Wrist_Joint_01
+    400126: skydiver_rig9:RightHand
+    400128: skydiver_rig9:RightSneakers
+    400130: skydiver_rig9:Root
+    400132: skydiver_rig9:Suit1
+    400134: skydiver_rig9:Wingsuit
+    400136: skydiver_rig9:Wingsuit_rig_dont_touch
+    2300000: skydiver_rig9:Camera
+    2300002: skydiver_rig9:Helmet
+    3300000: skydiver_rig9:Camera
+    3300002: skydiver_rig9:Helmet
+    4300000: skydiver_rig9:Helmet
+    4300002: skydiver_rig9:Camera
+    4300004: skydiver_rig9:Backpack
+    4300006: skydiver_rig9:LeftSneakers
+    4300008: skydiver_rig9:RightSneakers
+    4300010: skydiver_rig9:LeftHand
+    4300012: skydiver_rig9:RightHand
+    4300014: skydiver_rig9:Head
+    4300016: skydiver_rig9:Suit1
+    7400000: Start
+    7400002: Fly
+    7400004: Turn
+    7400006: FlyInTurn
+    7400008: Revert
+    7400010: LeftTurn
+    7400012: FlyInLeft
+    7400014: RightTurn
+    7400016: FlyInRight
+    9500000: //RootNode
+    13700000: skydiver_rig9:Backpack
+    13700002: skydiver_rig9:Head
+    13700004: skydiver_rig9:LeftHand
+    13700006: skydiver_rig9:LeftSneakers
+    13700008: skydiver_rig9:RightHand
+    13700010: skydiver_rig9:RightSneakers
+    13700012: skydiver_rig9:Suit1
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_BackpackBlack1
+    second: {fileID: 2100000, guid: e67c446fd6ec44d7d8ee5ee91548def2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_BackpackWhite1
+    second: {fileID: 2100000, guid: 9ec16b15e12464ceb8506a24ed5e8d3a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_CamerFixer1
+    second: {fileID: 2100000, guid: 98bbcd5656bc94e74b8c2acc12f44f4c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_CameraFixMat1
+    second: {fileID: 2100000, guid: fc4a323e2b7e442c4a6e0c0b169d8f9f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_CameraMat1
+    second: {fileID: 2100000, guid: 15c7574edc0d242dca6fce037967ddcc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_EyeballBlack
+    second: {fileID: 2100000, guid: 2a0f38f68bffd4e2aa35d91f19da79e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_EyeballBlue
+    second: {fileID: 2100000, guid: 59b511d777f6a460ba5a9350ba676031, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_EyeballWhite
+    second: {fileID: 2100000, guid: 5b792a48644874e13a05255d876bef49, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_HandMat1
+    second: {fileID: 2100000, guid: 1464cd4e619a14056a1ab56c04cd48d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_HeadHair
+    second: {fileID: 2100000, guid: 5ae8d5f7b6483407590b9c81cca0b7e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_HeadLips
+    second: {fileID: 2100000, guid: fced8e220cf2c47eb852ef9b34156398, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_HeadMat
+    second: {fileID: 2100000, guid: 3abb1ada0b0964853affdb74a9fad92d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_HelmetGlass1
+    second: {fileID: 2100000, guid: ae0bd005321134cd2b2b0cba8be28119, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_HelmetMainMat1
+    second: {fileID: 2100000, guid: da02383cab78040298297e27ec2e6daa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_HelmetMat1
+    second: {fileID: 2100000, guid: 83b5fcdcb3db542f390edc0f416bd559, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_SneakersDownMat1
+    second: {fileID: 2100000, guid: 02d78ad1b8f914be49e0df56b82d759e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_SneakersUpMat1
+    second: {fileID: 2100000, guid: b6e96f27ea1084db78bdae374374de42, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_SuitArmsMat1
+    second: {fileID: 2100000, guid: e9af6ab64d6294a21be5fc8ec3649f15, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_SuitLineMat1
+    second: {fileID: 2100000, guid: 99138168d94a7493e8cfd53e432bac1b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_SuitMidleMat1
+    second: {fileID: 2100000, guid: b5ac90660c7a6413cb68b6b4fe9fdfa1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skydiver_rig9_SuitWingsMat1
+    second: {fileID: 2100000, guid: 65483924fa01d4c77b2967e70e3048a1, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Start
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: left
+        weight: 1
+      - path: skydiver_rig9:back
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01/skydiver_rig9:Left_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01/skydiver_rig9:Right_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a/skydiver_rig9:Eleron_left_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b/skydiver_rig9:Left_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b/skydiver_rig9:Left_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b/skydiver_rig9:Left_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b/skydiver_rig9:Left_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a/skydiver_rig9:Left_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet/skydiver_rig9:Camera
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a/skydiver_rig9:Eleron_right_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b/skydiver_rig9:Right_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b/skydiver_rig9:Right_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b/skydiver_rig9:Right_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b/skydiver_rig9:Right_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a/skydiver_rig9:Right_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Backpack
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:Head
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Suit1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Fly
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 229
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: left
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01/skydiver_rig9:Left_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01/skydiver_rig9:Right_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a/skydiver_rig9:Eleron_left_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b/skydiver_rig9:Left_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b/skydiver_rig9:Left_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b/skydiver_rig9:Left_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b/skydiver_rig9:Left_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a/skydiver_rig9:Left_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet/skydiver_rig9:Camera
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a/skydiver_rig9:Eleron_right_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b/skydiver_rig9:Right_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b/skydiver_rig9:Right_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b/skydiver_rig9:Right_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b/skydiver_rig9:Right_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a/skydiver_rig9:Right_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Backpack
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:Head
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Suit1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Turn
+      takeName: Take 001
+      firstFrame: 230
+      lastFrame: 269
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: left
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01/skydiver_rig9:Left_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01/skydiver_rig9:Right_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a/skydiver_rig9:Eleron_left_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b/skydiver_rig9:Left_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b/skydiver_rig9:Left_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b/skydiver_rig9:Left_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b/skydiver_rig9:Left_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a/skydiver_rig9:Left_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet/skydiver_rig9:Camera
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a/skydiver_rig9:Eleron_right_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b/skydiver_rig9:Right_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b/skydiver_rig9:Right_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b/skydiver_rig9:Right_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b/skydiver_rig9:Right_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a/skydiver_rig9:Right_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Backpack
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:Head
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Suit1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: FlyInTurn
+      takeName: Take 001
+      firstFrame: 270
+      lastFrame: 401
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: left
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01/skydiver_rig9:Left_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01/skydiver_rig9:Right_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a/skydiver_rig9:Eleron_left_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b/skydiver_rig9:Left_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b/skydiver_rig9:Left_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b/skydiver_rig9:Left_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b/skydiver_rig9:Left_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a/skydiver_rig9:Left_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet/skydiver_rig9:Camera
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a/skydiver_rig9:Eleron_right_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b/skydiver_rig9:Right_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b/skydiver_rig9:Right_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b/skydiver_rig9:Right_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b/skydiver_rig9:Right_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a/skydiver_rig9:Right_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Backpack
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:Head
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Suit1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Revert
+      takeName: Take 001
+      firstFrame: 402
+      lastFrame: 441
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: left
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01/skydiver_rig9:Left_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01/skydiver_rig9:Right_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a/skydiver_rig9:Eleron_left_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b/skydiver_rig9:Left_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b/skydiver_rig9:Left_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b/skydiver_rig9:Left_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b/skydiver_rig9:Left_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a/skydiver_rig9:Left_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet/skydiver_rig9:Camera
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a/skydiver_rig9:Eleron_right_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b/skydiver_rig9:Right_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b/skydiver_rig9:Right_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b/skydiver_rig9:Right_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b/skydiver_rig9:Right_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a/skydiver_rig9:Right_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Backpack
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:Head
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Suit1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.9
+    - serializedVersion: 16
+      name: LeftTurn
+      takeName: Take 001
+      firstFrame: 442
+      lastFrame: 468
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: left
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01/skydiver_rig9:Left_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01/skydiver_rig9:Right_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a/skydiver_rig9:Eleron_left_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b/skydiver_rig9:Left_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b/skydiver_rig9:Left_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b/skydiver_rig9:Left_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b/skydiver_rig9:Left_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a/skydiver_rig9:Left_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet/skydiver_rig9:Camera
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a/skydiver_rig9:Eleron_right_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b/skydiver_rig9:Right_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b/skydiver_rig9:Right_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b/skydiver_rig9:Right_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b/skydiver_rig9:Right_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a/skydiver_rig9:Right_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Backpack
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:Head
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Suit1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.9
+    - serializedVersion: 16
+      name: FlyInLeft
+      takeName: Take 001
+      firstFrame: 469
+      lastFrame: 509
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: left
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01/skydiver_rig9:Left_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01/skydiver_rig9:Right_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a/skydiver_rig9:Eleron_left_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b/skydiver_rig9:Left_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b/skydiver_rig9:Left_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b/skydiver_rig9:Left_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b/skydiver_rig9:Left_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a/skydiver_rig9:Left_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet/skydiver_rig9:Camera
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a/skydiver_rig9:Eleron_right_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b/skydiver_rig9:Right_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b/skydiver_rig9:Right_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b/skydiver_rig9:Right_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b/skydiver_rig9:Right_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a/skydiver_rig9:Right_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Backpack
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:Head
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Suit1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.9
+    - serializedVersion: 16
+      name: RightTurn
+      takeName: Take 001
+      firstFrame: 519
+      lastFrame: 546
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: left
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01/skydiver_rig9:Left_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01/skydiver_rig9:Right_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a/skydiver_rig9:Eleron_left_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b/skydiver_rig9:Left_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b/skydiver_rig9:Left_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b/skydiver_rig9:Left_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b/skydiver_rig9:Left_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a/skydiver_rig9:Left_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet/skydiver_rig9:Camera
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a/skydiver_rig9:Eleron_right_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b/skydiver_rig9:Right_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b/skydiver_rig9:Right_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b/skydiver_rig9:Right_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b/skydiver_rig9:Right_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a/skydiver_rig9:Right_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Backpack
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:Head
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Suit1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.9
+    - serializedVersion: 16
+      name: FlyInRight
+      takeName: Take 001
+      firstFrame: 547
+      lastFrame: 586
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: left
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Left_Thigh_Joint_01/skydiver_rig9:Left_Knee_Joint_01/skydiver_rig9:Left_Ankle_Joint_01/skydiver_rig9:Left_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Hip/skydiver_rig9:Right_Thigh_Joint_01/skydiver_rig9:Right_Knee_Joint_01/skydiver_rig9:Right_Ankle_Joint_01/skydiver_rig9:Right_Toe_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Eleron_left_joint_a/skydiver_rig9:Eleron_left_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Index_Finger_Joint_01a/skydiver_rig9:Left_Index_Finger_Joint_01b/skydiver_rig9:Left_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Middle_Finger_Joint_01a/skydiver_rig9:Left_Middle_Finger_Joint_01b/skydiver_rig9:Left_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Pinky_Finger_Joint_01a/skydiver_rig9:Left_Pinky_Finger_Joint_01b/skydiver_rig9:Left_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Ring_Finger_Joint_01a/skydiver_rig9:Left_Ring_Finger_Joint_01b/skydiver_rig9:Left_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Left_Shoulder_Joint_01/skydiver_rig9:Left_Upper_Arm_Joint_01/skydiver_rig9:Left_Forearm_Joint_01/skydiver_rig9:Left_Wrist_Joint_01/skydiver_rig9:Left_Thumb_Joint_01a/skydiver_rig9:Left_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Neck_Joint/skydiver_rig9:Head_Joint/skydiver_rig9:Helmet/skydiver_rig9:Camera
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Eleron_right_joint_a/skydiver_rig9:Eleron_right_joint_b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Index_Finger_Joint_01a/skydiver_rig9:Right_Index_Finger_Joint_01b/skydiver_rig9:Right_Index_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Middle_Finger_Joint_01a/skydiver_rig9:Right_Middle_Finger_Joint_01b/skydiver_rig9:Right_Middle_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Pinky_Finger_Joint_01a/skydiver_rig9:Right_Pinky_Finger_Joint_01b/skydiver_rig9:Right_Pinky_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Ring_Finger_Joint_01a/skydiver_rig9:Right_Ring_Finger_Joint_01b/skydiver_rig9:Right_Ring_Finger_Joint_01c
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Joints_grp/skydiver_rig9:Root/skydiver_rig9:Ribs/skydiver_rig9:Right_Shoulder_Joint_01/skydiver_rig9:Right_Upper_Arm_Joint_01/skydiver_rig9:Right_Forearm_Joint_01/skydiver_rig9:Right_Wrist_Joint_01/skydiver_rig9:Right_Thumb_Joint_01a/skydiver_rig9:Right_Thumb_Joint_01b
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Backpack
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:Head
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:LeftSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightHand
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Body/skydiver_rig9:RightSneakers
+        weight: 1
+      - path: skydiver_rig9:Wingsuit_rig_dont_touch/skydiver_rig9:Wingsuit/skydiver_rig9:Suit1
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0.9
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
