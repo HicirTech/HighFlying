@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33606651595404328}
   - component: {fileID: 23308394970613060}
   - component: {fileID: 64245332839400290}
+  - component: {fileID: 136158118138413276}
   m_Layer: 0
   m_Name: tree_birch_01_LOD1
   m_TagString: Untagged
@@ -38,7 +39,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4136590300877680}
   - component: {fileID: 205088080895392994}
-  - component: {fileID: 64061833651512744}
+  - component: {fileID: 136171192954018706}
   m_Layer: 0
   m_Name: Tree_birch_01_cheap_Seasons
   m_TagString: Untagged
@@ -57,6 +58,7 @@ GameObject:
   - component: {fileID: 33678415482131076}
   - component: {fileID: 23947388570281682}
   - component: {fileID: 64987643532893376}
+  - component: {fileID: 136355905868548252}
   m_Layer: 0
   m_Name: tree_birch_01_CROSS
   m_TagString: Untagged
@@ -75,6 +77,7 @@ GameObject:
   - component: {fileID: 33563932565086522}
   - component: {fileID: 23116824259067772}
   - component: {fileID: 64841355666804406}
+  - component: {fileID: 136742778442103434}
   m_Layer: 0
   m_Name: tree_birch_01_LOD2
   m_TagString: Untagged
@@ -93,6 +96,7 @@ GameObject:
   - component: {fileID: 33881892936172934}
   - component: {fileID: 23409475473206680}
   - component: {fileID: 64909181533776366}
+  - component: {fileID: 136360819084701110}
   m_Layer: 0
   m_Name: tree_birch_01_LOD0
   m_TagString: Untagged
@@ -120,7 +124,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1492142132990418}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 218.83916, y: 564.32275, z: -3771.6372}
+  m_LocalPosition: {x: 238.04398, y: 600.9475, z: 75.4328}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4163899470125074}
@@ -340,20 +344,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1818973170304820}
   m_Mesh: {fileID: 4300000, guid: 6e67467f2953a9149a0f7b75c8b400c7, type: 2}
---- !u!64 &64061833651512744
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1492142132990418}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
 --- !u!64 &64245332839400290
 MeshCollider:
   m_ObjectHideFlags: 1
@@ -410,6 +400,71 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 94c03043576b6b641b77980dc0a6902a, type: 3}
+--- !u!136 &136158118138413276
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1093569219009748}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 5.0779877
+  m_Height: 16.866602
+  m_Direction: 1
+  m_Center: {x: -0.27970958, y: 7.4874644, z: -0.68713486}
+--- !u!136 &136171192954018706
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1492142132990418}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!136 &136355905868548252
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1565501720620322}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 5.418603
+  m_Height: 15.489193
+  m_Direction: 1
+  m_Center: {x: -0.3557515, y: 8.246653, z: -0.8272642}
+--- !u!136 &136360819084701110
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1818973170304820}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 5.080597
+  m_Height: 16.868273
+  m_Direction: 1
+  m_Center: {x: -0.2823186, y: 7.4866295, z: -0.68713486}
+--- !u!136 &136742778442103434
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1680561598574942}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 5.0779877
+  m_Height: 16.710644
+  m_Direction: 1
+  m_Center: {x: -0.27970958, y: 7.6238894, z: -0.68713486}
 --- !u!205 &205088080895392994
 LODGroup:
   m_ObjectHideFlags: 1
