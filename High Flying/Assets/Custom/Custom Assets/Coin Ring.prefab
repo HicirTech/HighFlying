@@ -23,7 +23,7 @@ GameObject:
   - component: {fileID: 23825666974366750}
   - component: {fileID: 33504494345666446}
   - component: {fileID: 114615177397824654}
-  - component: {fileID: 64926307281101492}
+  - component: {fileID: 65225700119239292}
   m_Layer: 0
   m_Name: Coin Ring
   m_TagString: CoinRing
@@ -37,13 +37,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1572642013302758}
-  m_LocalRotation: {x: 0, y: 0, z: -0.6294358, w: 0.7770525}
-  m_LocalPosition: {x: 2055.5562, y: 4072.3079, z: -1745.8965}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0.48911455, y: 0.39619738, z: -0.4890982, w: 0.6038026}
+  m_LocalPosition: {x: 234, y: 526.1, z: 227.7}
+  m_LocalScale: {x: 3.9571009, y: 3.9571009, z: 3.9571009}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -11.718, y: 77.76, z: -87.477005}
 --- !u!23 &23825666974366750
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -86,8 +86,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1572642013302758}
   m_Mesh: {fileID: 0}
---- !u!64 &64926307281101492
-MeshCollider:
+--- !u!65 &65225700119239292
+BoxCollider:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -95,11 +95,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 2.0000002, y: 0.25000033, z: 2}
+  m_Center: {x: -1.0000001, y: -0.000000053452485, z: -0.0000075970643}
 --- !u!114 &114366235567191838
 MonoBehaviour:
   m_ObjectHideFlags: 1
