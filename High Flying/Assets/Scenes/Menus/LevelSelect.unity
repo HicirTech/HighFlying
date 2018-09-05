@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -336,7 +336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 196, y: -42.9}
+  m_AnchoredPosition: {x: 196, y: -29}
   m_SizeDelta: {x: 373.7, y: 54.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &286254181
@@ -709,7 +709,7 @@ GameObject:
   - component: {fileID: 521903328}
   - component: {fileID: 521903327}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Level Options Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -732,7 +732,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 221, y: -8}
+  m_AnchoredPosition: {x: 220, y: -19}
   m_SizeDelta: {x: 437.5, y: 296.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &521903327

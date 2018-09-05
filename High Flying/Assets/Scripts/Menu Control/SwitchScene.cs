@@ -11,6 +11,8 @@ public class SwitchScene : MonoBehaviour {
     private string cityLevelName = "City Level";
     [SerializeField]
     private string mainMenuLevelName = "MainPlay";
+    [SerializeField]
+    private string levelSelectLevelName = "LevelSelect";
 
     public void loadIce()
     {
@@ -25,5 +27,10 @@ public class SwitchScene : MonoBehaviour {
     public void loadMain()
     {
         SceneManager.LoadScene(mainMenuLevelName);
+    }
+
+    public void loadLevelSelect()
+    {
+        SceneManager.LoadScene(levelSelectLevelName);
     }
 }
