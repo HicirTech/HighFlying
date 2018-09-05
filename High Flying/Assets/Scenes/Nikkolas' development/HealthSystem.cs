@@ -8,20 +8,17 @@ public class HealthSystem : MonoBehaviour {
 
 	[Tooltip("Invincability Mode on/off")][SerializeField]
 	public bool invincability = true;
-	[Tooltip("Health Value - Between 1 - 5")][SerializeField][Range(1, 5)]
-	public int health = 1;
-
 	[Tooltip("Difficulty Rating - Between 1 - 5")][SerializeField][Range(1, 5)]
 	public int difficultyRating = 1;
 	[Tooltip("Intitial counter for invincability in frames")][SerializeField][Range(1, 100)]
 	public int initialInvincCount;
 	private TextMesh textObject;
+	private int health = 1;
 
 	// Use this for initialization
 	void Start () {
 		health = -difficultyRating+6;
 		invincability = true;
-		initialInvincCount = 100;
 
 		//Initiate the text
 		textObject = GameObject.Find("/Character/Health").GetComponent<TextMesh>();
@@ -30,18 +27,21 @@ public class HealthSystem : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//health = -difficultyRating+6; //For developing. Turn this on to slide difficulty rating and see health change
-
-		//Restart game on death
-		die();
-		//Update health text every frame
-		changeHealthValue(health);
-		//Check for initial invincability values
 		initialInvinc();
+		if(invincability == false){
+			//Restart game on death
+			die();
+			//Update health text every frame
+			changeHealthValue();
+		}else{
+			textObject.text = "Health: ∞";
+		}
+		
+		//health = -difficultyRating+6; //For developing. Turn this on to slide difficulty rating and see health change
 	}
 
-	void changeHealthValue(int currentHealthValue){
-		textObject.text = "Health: "+currentHealthValue;
+	void changeHealthValue(){
+		textObject.text = "Health: "+health;
 	}
 
 	void die(){
@@ -65,16 +65,15 @@ public class HealthSystem : MonoBehaviour {
 			col.gameObject.tag == "CoinRing" ||
 			col.gameObject.tag == "LifeRing" ||
 			col.gameObject.tag == "PointRing") && invincability == false){
-				
 				//Negate the health by 1
 				health -= 1;
-				Debug.Log("Collision Occured");
-		}		
-	}
-
-	//Debugging functions
-	void OnCollisionExit(Collision collisionInfo){
-		Debug.Log("Collision Out" + gameObject.name);
+				Debug.Log("Collision Occured - Negate Life to: "+health);
+		}//Else if collide with life ring, then increase health
+		else if(col.gameObject.tag == "LifeRing" && invincability == false){
+			//Increase health by 1
+			health += 1;
+			Debug.Log("Collision Occured - Life ring collision, life increased to: "+health);
+		}	
 	}
 
 	void initialInvinc(){
