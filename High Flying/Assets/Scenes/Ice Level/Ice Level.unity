@@ -2466,6 +2466,34 @@ Prefab:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 4524270956386334, guid: 3264f179d0138a74fac2993e1878433d, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.05640268
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524270956386334, guid: 3264f179d0138a74fac2993e1878433d, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.045943603
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524270956386334, guid: 3264f179d0138a74fac2993e1878433d, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0.0025961653
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524270956386334, guid: 3264f179d0138a74fac2993e1878433d, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -0.99734706
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524270956386334, guid: 3264f179d0138a74fac2993e1878433d, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 288.81735
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524270956386334, guid: 3264f179d0138a74fac2993e1878433d, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 606.0379
+      objectReference: {fileID: 0}
+    - target: {fileID: 4524270956386334, guid: 3264f179d0138a74fac2993e1878433d, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 64.12596
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3264f179d0138a74fac2993e1878433d, type: 2}
   m_IsPrefabAsset: 0
@@ -2825,7 +2853,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1719567011
 Prefab:
@@ -3149,32 +3177,6 @@ Mesh:
   m_MeshMetrics[0]: 1
   m_MeshMetrics[1]: 1
   m_MeshOptimized: 0
---- !u!1 &1743856896 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1420678902954084, guid: 3264f179d0138a74fac2993e1878433d,
-    type: 2}
-  m_PrefabInternal: {fileID: 1473439733}
---- !u!114 &1743856899
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1743856896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a638fba292d7484e8eca7402e9e5514, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 8
-  PitchEnable: 0
-  YawEnable: 0
-  RollEnable: 0
-  MaxXMovement: 3.23
-  MaxYMovement: 2.5
-  positionPitchFactor: -5
-  controlPitchFactor: -20
-  positionYawFactor: 5
-  controlRollFactor: -30
 --- !u!1 &1784487629
 GameObject:
   m_ObjectHideFlags: 0
