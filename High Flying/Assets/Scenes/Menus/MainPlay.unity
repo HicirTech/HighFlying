@@ -496,8 +496,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -14, y: -36}
-  m_SizeDelta: {x: -255.9, y: 242.2}
+  m_AnchoredPosition: {x: -13, y: -37.831}
+  m_SizeDelta: {x: -258, y: 229.86}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &453912149
 MonoBehaviour:
@@ -516,7 +516,7 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 4
-  m_Spacing: 50
+  m_Spacing: 25
   m_ChildForceExpandWidth: 0
   m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
@@ -589,8 +589,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -127.950005, y: -184.75}
-  m_SizeDelta: {x: 232.8, y: 77.3}
+  m_AnchoredPosition: {x: -129, y: -160.93}
+  m_SizeDelta: {x: 193.5, y: 67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &686257452
 MonoBehaviour:
@@ -712,8 +712,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -127.950005, y: -57.449997}
-  m_SizeDelta: {x: 232.8, y: 77.3}
+  m_AnchoredPosition: {x: -129, y: -68.93}
+  m_SizeDelta: {x: 193.5, y: 67}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &707158990
 MonoBehaviour:
@@ -834,8 +834,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 71.95, y: -66.350006}
-  m_SizeDelta: {x: 84.29999, y: 92.70001}
+  m_AnchoredPosition: {x: 71.95, y: -58.1}
+  m_SizeDelta: {x: 69.9, y: 76.2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &750823075
 MonoBehaviour:
@@ -1366,8 +1366,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 71.95, y: -180.55002}
-  m_SizeDelta: {x: 85.900024, y: 75.70001}
+  m_AnchoredPosition: {x: 71.95, y: -164.05}
+  m_SizeDelta: {x: 69.9, y: 75.70001}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1422464544
 MonoBehaviour:

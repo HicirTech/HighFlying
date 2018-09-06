@@ -336,7 +336,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 196, y: -29}
+  m_AnchoredPosition: {x: 192.04999, y: -27.200005}
   m_SizeDelta: {x: 373.7, y: 54.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &286254181
@@ -732,8 +732,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 220, y: -19}
-  m_SizeDelta: {x: 437.5, y: 296.4}
+  m_AnchoredPosition: {x: 192.05, y: -7}
+  m_SizeDelta: {x: 381.6, y: 215.13}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &521903327
 MonoBehaviour:
@@ -937,8 +937,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 71.316765, y: -0.49999237}
-  m_SizeDelta: {x: 209.40002, y: 489.4}
+  m_AnchoredPosition: {x: 69.3, y: 0.00050926}
+  m_SizeDelta: {x: 202.6, y: 355.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &878940219
 GameObject:
@@ -1116,8 +1116,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 304.2182, y: -1.8298302}
-  m_SizeDelta: {x: 449.79993, y: 493.9}
+  m_AnchoredPosition: {x: 274.94, y: 0.00047493}
+  m_SizeDelta: {x: 352.91, y: 355.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &949473182
 MonoBehaviour:
@@ -1551,6 +1551,7 @@ MonoBehaviour:
   iceLevelName: Ice Level
   cityLevelName: City Level
   mainMenuLevelName: MainPlay
+  levelSelectLevelName: LevelSelect
 --- !u!1 &1738944265
 GameObject:
   m_ObjectHideFlags: 0
