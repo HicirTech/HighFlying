@@ -25,12 +25,17 @@ public class MovementControl : MonoBehaviour {
 	private float positionYawFactor = 5f; 
    	[Tooltip("How much chararacter can roll dur to its left and right movement")][SerializeField] 
 	private float controlRollFactor = -30f; //how much chararacter can roll
-  	private float xThrow;
+    [Tooltip("How high chararacter can jump ")][SerializeField]
+    private float force = 3f; //how high chararacter can jump
+    bool jump = false;
+    private float xThrow;
 	private float yThrow;
+    private Rigidbody rigidbodyPlayer;
     
 	// Use this for initialization
 	void Start () {
 		this.setupControl();
+        rigidbodyPlayer = GetComponentInParent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
@@ -38,13 +43,13 @@ public class MovementControl : MonoBehaviour {
 
 		Move();// move the character left right up down
         rotate(); //  rotate the chatacter whey moving
-	}
+    }
 
 
-	/// <summary>
-	/// This method will check the Checkbox of yaw, pitch, roll
-	/// </summary>
-	private void setupControl()
+    /// <summary>
+    /// This method will check the Checkbox of yaw, pitch, roll
+    /// </summary>
+    private void setupControl()
 	{
 		this.positionPitchFactor=(this.PitchEnable)?this.positionPitchFactor:0;
 		this.controlPitchFactor=(this.PitchEnable)?this.controlPitchFactor:0;
@@ -83,6 +88,12 @@ public class MovementControl : MonoBehaviour {
 		
         float rowY = Mathf.Clamp(transform.localPosition.y + yOffSet, -MaxYMovement, MaxYMovement);//limited the x y way can go
         float rowX = Mathf.Clamp(transform.localPosition.x + xOffSet, -MaxXMovement, MaxXMovement);//limited the x y way can go
+        if (CrossPlatformInputManager.GetButton("Jump"))
+        {
+            print("jump");
+            rowY = Mathf.Clamp(transform.localPosition.y + yOffSet*force, -MaxYMovement, MaxYMovement);
+        }
+
         transform.localPosition = new Vector3(rowX, rowY, transform.localPosition.z);
     }
 
