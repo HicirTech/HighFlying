@@ -2561,7 +2561,7 @@ MonoBehaviour:
   controlPitchFactor: -20
   positionYawFactor: 5
   controlRollFactor: -30
-  force: 3
+  force: 100
 --- !u!114 &114333964004038808
 MonoBehaviour:
   m_ObjectHideFlags: 1
