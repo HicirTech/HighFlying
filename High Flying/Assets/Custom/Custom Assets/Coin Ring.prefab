@@ -29,7 +29,7 @@ GameObject:
   m_TagString: CoinRing
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 127
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4840144379193978
 Transform:
@@ -37,13 +37,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1572642013302758}
-  m_LocalRotation: {x: -0.42629635, y: 0.46548572, z: -0.40432212, w: 0.66190493}
-  m_LocalPosition: {x: 44.82692, y: 94.4823, z: -168.57431}
-  m_LocalScale: {x: 3.957101, y: 3.9571018, z: 3.9571013}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 50, y: 100, z: -160}
+  m_LocalScale: {x: 4, y: 3, z: 4}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -10.832001, y: 78.061005, z: -71.62701}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23825666974366750
 MeshRenderer:
   m_ObjectHideFlags: 1
