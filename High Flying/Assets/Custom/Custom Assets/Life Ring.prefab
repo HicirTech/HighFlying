@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 33530863691511832}
   - component: {fileID: 114139852193137462}
   - component: {fileID: 65455242954364780}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Life Ring
   m_TagString: LifeRing
   m_Icon: {fileID: 0}
@@ -37,13 +37,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1764647414813990}
-  m_LocalRotation: {x: -0.5036216, y: 0.47797936, z: -0.4925503, w: 0.5246859}
-  m_LocalPosition: {x: 242.34, y: 598.15, z: 33.587}
-  m_LocalScale: {x: 3.777117, y: 3.777117, z: 3.777117}
+  m_LocalRotation: {x: -0.4128551, y: 0.5899614, z: -0.44544128, w: 0.5320511}
+  m_LocalPosition: {x: -163.90001, y: -145.83002, z: 455.65}
+  m_LocalScale: {x: 3.7771182, y: 3.777118, z: 3.7771184}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -3.3040001, y: 87.94501, z: -89.568}
+  m_LocalEulerAnglesHint: {x: 4.9490004, y: 92.129005, z: -74.73701}
 --- !u!23 &23582188706329984
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -93,7 +93,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1764647414813990}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2, y: 0.25, z: 1.9999999}

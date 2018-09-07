@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CoinSystem : MonoBehaviour {
 
@@ -8,15 +9,15 @@ public class CoinSystem : MonoBehaviour {
 	public bool enable = true;
 	[Tooltip("Value for coins")][SerializeField]
 	public int coins;
-	private TextMesh textObject;
+	private Text coinsUI;
 
 	// Use this for initialization
 	void Start () {
 		//Initiate values
 		coins = 0;
 
-		textObject = GameObject.Find("/Character/Coins").GetComponent<TextMesh>();
-		textObject.text = "Coins: "+coins;
+		coinsUI = GameObject.Find("Character/IngameUI/Coins").GetComponent<Text>();
+		coinsUI.text = "Coins: "+coins;
 	}
 	
 	// Update is called once per frame
@@ -24,18 +25,18 @@ public class CoinSystem : MonoBehaviour {
 		if(enable == true){
 			changeCoinValue(coins);
 		}else if(enable == false){
-			textObject.text = "";
+			coinsUI.text = "";
 		}
 	}
 
 
 	//Main Functions
 	void changeCoinValue(int currentCoints){
-		textObject.text = "Coins: "+currentCoints;
+		coinsUI.text = "Coins: "+currentCoints;
 	}
 
 	//Detect if get coins
-	void OnCollisionEnter(Collision col){
+	void OnTriggerEnter(Collider col){
 		if(col.gameObject.tag == "CoinRing" || col.gameObject.tag == "CoinToCollect"){
 			coins += 1;
 			Debug.Log("Coin collected - Collision Occured, coins increased to: "+coins);

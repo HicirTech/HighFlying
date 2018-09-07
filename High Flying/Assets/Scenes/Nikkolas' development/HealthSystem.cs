@@ -12,7 +12,7 @@ public class HealthSystem : MonoBehaviour {
 	public int difficultyRating = 1;
 	[Tooltip("Intitial counter for invincability in frames")][SerializeField][Range(1, 100)]
 	public int initialInvincCount;
-	private TextMesh textObject;
+	private Text healthUI;
 	private int health = 1;
 
 	// Use this for initialization
@@ -21,8 +21,8 @@ public class HealthSystem : MonoBehaviour {
 		invincability = true;
 
 		//Initiate the text
-		textObject = GameObject.Find("/Character/Health").GetComponent<TextMesh>();
-		textObject.text = "Health: "+health;
+		healthUI = GameObject.Find("Character/IngameUI/Health").GetComponent<Text>();
+		healthUI.text = "Health: "+health;
 	}
 	
 	// Update is called once per frame
@@ -34,14 +34,14 @@ public class HealthSystem : MonoBehaviour {
 			//Update health text every frame
 			changeHealthValue();
 		}else{
-			textObject.text = "Health: ∞";
+			healthUI.text = "Health: ∞";
 		}
 		
 		//health = -difficultyRating+6; //For developing. Turn this on to slide difficulty rating and see health change
 	}
 
 	void changeHealthValue(){
-		textObject.text = "Health: "+health;
+		healthUI.text = "Health: "+health;
 	}
 
 	void die(){
@@ -68,12 +68,15 @@ public class HealthSystem : MonoBehaviour {
 				//Negate the health by 1
 				health -= 1;
 				Debug.Log("Collision Occured - Negate Life to: "+health);
-		}//Else if collide with life ring, then increase health
-		else if(col.gameObject.tag == "LifeRing" && invincability == false){
+		}
+	}
+
+	void OnTriggerEnter(Collider col){
+		if(col.gameObject.tag == "LifeRing" && invincability == false){
 			//Increase health by 1
 			health += 1;
 			Debug.Log("Collision Occured - Life ring collision, life increased to: "+health);
-		}	
+		}
 	}
 
 	void initialInvinc(){
