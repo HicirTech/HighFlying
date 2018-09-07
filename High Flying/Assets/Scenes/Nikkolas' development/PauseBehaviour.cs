@@ -34,6 +34,8 @@ public class PauseBehaviour : MonoBehaviour {
 		paused = true;
 		Time.timeScale = 0;
 		pausePanel.SetActive(true);
+
+		
 	}
 
 	//Unpause game. Here you have to re-enable scripts because they will not start automatically with timeScale = 1

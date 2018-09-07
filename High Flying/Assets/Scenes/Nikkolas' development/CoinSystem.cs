@@ -35,7 +35,7 @@ public class CoinSystem : MonoBehaviour {
 	}
 
 	//Detect if get coins
-	void OnCollisionEnter(Collision col){
+	void OnTriggerEnter(Collider col){
 		if(col.gameObject.tag == "CoinRing" || col.gameObject.tag == "CoinToCollect"){
 			coins += 1;
 			Debug.Log("Coin collected - Collision Occured, coins increased to: "+coins);

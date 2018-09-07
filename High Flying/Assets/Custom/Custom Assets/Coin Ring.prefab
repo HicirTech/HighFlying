@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 33504494345666446}
   - component: {fileID: 114615177397824654}
   - component: {fileID: 65225700119239292}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Coin Ring
   m_TagString: CoinRing
   m_Icon: {fileID: 0}
@@ -37,13 +37,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1572642013302758}
-  m_LocalRotation: {x: -0.48911455, y: 0.39619738, z: -0.4890982, w: 0.6038026}
-  m_LocalPosition: {x: 234, y: 526.1, z: 227.7}
-  m_LocalScale: {x: 3.9571009, y: 3.9571009, z: 3.9571009}
+  m_LocalRotation: {x: -0.42629635, y: 0.46548572, z: -0.40432212, w: 0.66190493}
+  m_LocalPosition: {x: 44.82692, y: 94.4823, z: -168.57431}
+  m_LocalScale: {x: 3.957101, y: 3.9571018, z: 3.9571013}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -11.718, y: 77.76, z: -87.477005}
+  m_LocalEulerAnglesHint: {x: -10.832001, y: 78.061005, z: -71.62701}
 --- !u!23 &23825666974366750
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -93,11 +93,11 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1572642013302758}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.0000002, y: 0.25000033, z: 2}
-  m_Center: {x: -1.0000001, y: -0.000000053452485, z: -0.0000075970643}
+  m_Size: {x: 2, y: 0.25, z: 1.9999999}
+  m_Center: {x: -1, y: 0, z: 0}
 --- !u!114 &114366235567191838
 MonoBehaviour:
   m_ObjectHideFlags: 1

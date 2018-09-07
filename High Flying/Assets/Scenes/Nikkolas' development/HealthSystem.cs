@@ -68,12 +68,15 @@ public class HealthSystem : MonoBehaviour {
 				//Negate the health by 1
 				health -= 1;
 				Debug.Log("Collision Occured - Negate Life to: "+health);
-		}//Else if collide with life ring, then increase health
-		else if(col.gameObject.tag == "LifeRing" && invincability == false){
+		}
+	}
+
+	void OnTriggerEnter(Collider col){
+		if(col.gameObject.tag == "LifeRing" && invincability == false){
 			//Increase health by 1
 			health += 1;
 			Debug.Log("Collision Occured - Life ring collision, life increased to: "+health);
-		}	
+		}
 	}
 
 	void initialInvinc(){

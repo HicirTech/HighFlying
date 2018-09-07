@@ -24,7 +24,7 @@ GameObject:
   - component: {fileID: 33099117253548188}
   - component: {fileID: 114581408343840300}
   - component: {fileID: 65687495548747114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point Ring
   m_TagString: PointRing
   m_Icon: {fileID: 0}
@@ -37,13 +37,13 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1784373308696742}
-  m_LocalRotation: {x: -0.5887083, y: 0.5238702, z: -0.42276102, w: 0.44749936}
-  m_LocalPosition: {x: 241.946, y: 598.34, z: 32.35}
-  m_LocalScale: {x: 3.478967, y: 3.478967, z: 3.478967}
+  m_LocalRotation: {x: -0.60035104, y: 0.6890599, z: -0.21583311, w: 0.34378937}
+  m_LocalPosition: {x: 51.059998, y: -261.75, z: 724.70996}
+  m_LocalScale: {x: 3.4789674, y: 3.4789667, z: 3.478967}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: -4.8160005, y: 104.05701, z: -92.911}
+  m_LocalEulerAnglesHint: {x: -6.6240005, y: 132.451, z: -79.208}
 --- !u!23 &23990340030538324
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -93,7 +93,7 @@ BoxCollider:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1784373308696742}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 2, y: 0.25, z: 1.9999999}
