@@ -26,7 +26,7 @@ public class MovementControl : MonoBehaviour {
    	[Tooltip("How much chararacter can roll dur to its left and right movement")][SerializeField] 
 	private float controlRollFactor = -30f; //how much chararacter can roll
     [Tooltip("How high chararacter can jump ")][SerializeField]
-    private float force = 3f; //how high chararacter can jump
+    private float force = 100f; //how fast chararacter can jump
     bool jump = false;
     private float xThrow;
 	private float yThrow;
@@ -90,6 +90,7 @@ public class MovementControl : MonoBehaviour {
         float rowX = Mathf.Clamp(transform.localPosition.x + xOffSet, -MaxXMovement, MaxXMovement);//limited the x y way can go
         if (CrossPlatformInputManager.GetButton("Jump"))
         {
+
             Debug.Log("jump");
             rowY = Mathf.Clamp(transform.localPosition.y + yOffSet*force, -MaxYMovement, MaxYMovement);
         }
