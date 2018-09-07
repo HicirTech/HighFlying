@@ -90,13 +90,9 @@ public class MovementControl : MonoBehaviour {
         float rowX = Mathf.Clamp(transform.localPosition.x + xOffSet, -MaxXMovement, MaxXMovement);//limited the x y way can go
         if (CrossPlatformInputManager.GetButton("Jump"))
         {
-<<<<<<< HEAD
-            print("jump");
-            rowY = Mathf.Clamp(transform.localPosition.y + yOffSet*force, 0, MaxYMovement);
-=======
+
             Debug.Log("jump");
             rowY = Mathf.Clamp(transform.localPosition.y + yOffSet*force, -MaxYMovement, MaxYMovement);
->>>>>>> c5734a66b8255a1983e3cf89b26b97bd717fa9f3
         }
 
         transform.localPosition = new Vector3(rowX, rowY, transform.localPosition.z);
