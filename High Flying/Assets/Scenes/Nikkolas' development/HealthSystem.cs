@@ -21,7 +21,7 @@ public class HealthSystem : MonoBehaviour {
 		invincability = true;
 
 		//Initiate the text
-		healthUI = GameObject.Find("Character/IngameUI/Health").GetComponent<Text>();
+		healthUI = GameObject.Find("Character/IngameUI Canvas/Ingame Info Panel/Health").GetComponent<Text>();
 		healthUI.text = "Health: "+health;
 	}
 	

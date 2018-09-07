@@ -16,7 +16,7 @@ public class CoinSystem : MonoBehaviour {
 		//Initiate values
 		coins = 0;
 
-		coinsUI = GameObject.Find("Character/IngameUI/Coins").GetComponent<Text>();
+		coinsUI = GameObject.Find("Character/IngameUI Canvas/Ingame Info Panel/Coins").GetComponent<Text>();
 		coinsUI.text = "Coins: "+coins;
 	}
 	
