@@ -35,6 +35,8 @@ public class CoinSystem : MonoBehaviour {
 		}else{
 			coinsUI.text = "";
 			pointsUI.transform.position = pointsUIPosition-newPointsUIPos;
+
+			Debug.Log("Coin System currently paused");
 		}
 	}
 
@@ -46,13 +48,21 @@ public class CoinSystem : MonoBehaviour {
 
 	//Detect if get coins
 	void OnTriggerEnter(Collider col){
-		if(col.gameObject.tag == "CoinRing"){
-			coins += 5;
-			Debug.Log("Coin ring passed - Collision Occured, coins increased to: "+coins);
+		if(enable){
+			if(col.gameObject.tag == "CoinRing"){
+				coins += 5;
+				Debug.Log("Coin ring passed - Collision Occured, coins increased to: "+coins);
+			}
+			if(col.gameObject.tag == "CoinToCollect"){
+				coins += 1;
+				Debug.Log("Coin collected - Collision Occured, coin increased to: "+coins);
+			}
+		}else{
+			Debug.Log("Coin system's triggers currently paused");
 		}
-		if(col.gameObject.tag == "CoinToCollect"){
-			coins += 1;
-			Debug.Log("Coin collected - Collision Occured, coin increased to: "+coins);
-		}
+	}
+
+	public void enableThis(bool enableThis){
+		this.enable = enableThis;
 	}
 }

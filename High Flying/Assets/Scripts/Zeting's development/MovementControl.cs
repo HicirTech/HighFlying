@@ -5,6 +5,9 @@ using UnityStandardAssets.CrossPlatformInput;
 
 public class MovementControl : MonoBehaviour {
 
+    [Tooltip("Toggle to enable or disable script")][SerializeField]
+    public bool enable = true;
+
     [Tooltip("Move speed of the character to move, unit: M/s")] [SerializeField] 
 	private float moveSpeed = 8; 
 	[Tooltip("Enable this checkbox, will enable pitch system in the object")][SerializeField] 
@@ -35,14 +38,18 @@ public class MovementControl : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		this.setupControl();
+        enable = true;
         rigidbodyPlayer = GetComponentInParent<Rigidbody>();
 	}
 	
 	// Update is called once per frame
 	void Update () {
-
-		Move();// move the character left right up down
-        rotate(); //  rotate the chatacter whey moving
+        if(enable){
+            Move();// move the character left right up down
+            rotate(); //  rotate the chatacter whey moving
+        }else{
+            Debug.Log("Movement Control is paused");
+        }		
     }
 
 
@@ -97,5 +104,9 @@ public class MovementControl : MonoBehaviour {
 
         transform.localPosition = new Vector3(rowX, rowY, transform.localPosition.z);
     }
+
+    public void enableThis(bool enableThis){
+		this.enable = enableThis;
+	}
 
 }

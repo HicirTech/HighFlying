@@ -12,7 +12,6 @@ public class PointSystem : MonoBehaviour {
 	private Text pointsUI;
 
 	//score = ((Amount of coins collected in a mission * 1.75) * (Amount of total rings passed * 1.75)) * ((Point ring multiplier added up with each being 2)^difficulty rating)
-	
 	[Tooltip("This is the coins collected multiplier")][SerializeField][Range(0.0f, 5.0f)]
 	private float coinsCollMult = 1.75f;
 	[Tooltip("This is the rings passed multiplier")][SerializeField][Range(0.0f, 5.0f)]
@@ -49,33 +48,49 @@ public class PointSystem : MonoBehaviour {
 		}
 		else{
 			pointsUI.text = "";
+			Debug.Log("Point System currently paused");
 		}
 	}
 
 	void OnTriggerEnter(Collider col){
-		if(col.gameObject.tag == "CoinToCollect"){
-			coinsCollectedCounter++;
-			Debug.Log("Coin Collection - Collision Occured, coin collected counter increased to: "+coinsCollectedCounter);
-		}
-		if(col.gameObject.tag == "PointRing"){
-			pointRingCounter++;
-			Debug.Log("Point ring passed - Collision Occured, point ring counter increased to: "+pointRingCounter);
-		}
-		if(col.gameObject.tag == "PointRing" || col.gameObject.tag == "CoinRing" || col.gameObject.tag == "LifeRing"){
-			ringsPassedCounter++;
-			Debug.Log("Ring passed - Collision Occured, rings passed counter increased to: "+ringsPassedCounter);
+		if(enable){
+			//If you get a coin
+			if(col.gameObject.tag == "CoinToCollect"){
+				coinsCollectedCounter++;
+				Debug.Log("Coin Collection - Collision Occured, coin collected counter increased to: "+coinsCollectedCounter);
+			}
+			//If you hit the point ring
+			if(col.gameObject.tag == "PointRing"){
+				pointRingCounter++;
+				Debug.Log("Point ring passed - Collision Occured, point ring counter increased to: "+pointRingCounter);
+			}
+			//If you pass any ring
+			if(col.gameObject.tag == "PointRing" || col.gameObject.tag == "CoinRing" || col.gameObject.tag == "LifeRing"){
+				ringsPassedCounter++;
+				Debug.Log("Ring passed - Collision Occured, rings passed counter increased to: "+ringsPassedCounter);
+			}
+		}else{
+			Debug.Log("Point System's triggers currently paused");
 		}
 	}
 
+	//Calculate the points that the player has based off this calculation:
 	void calculatePoints(){
 		points = Mathf.Round((((coinsCollectedCounter+1)*coinsCollMult)*(ringsPassedCounter*ringsPassMult))*Mathf.Pow((pointRingCounter*pointRMult), difficulty));
-		Debug.Log("Mathf.Round(((("+coinsCollectedCounter+"+1)*"+coinsCollMult+")"+
-				  "*("+ringsPassedCounter+"*"+ringsPassMult+"))"+
-				  "*Mathf.Pow(("+pointRingCounter+"*"+pointRMult+"),"+difficulty+"))");
+
+		//Debug it
+		//Debug.Log("Mathf.Round(((("+coinsCollectedCounter+"+1)*"+coinsCollMult+")"+
+		//		  "*("+ringsPassedCounter+"*"+ringsPassMult+"))"+
+		//		  "*Mathf.Pow(("+pointRingCounter+"*"+pointRMult+"),"+difficulty+"))");
 	}
 
+	//Change the text UI to display new point values
 	void changePointsValue(){
 		pointsUI.text = "Points: "+points;
+	}
+
+	public void enableThis(bool enableThis){
+		this.enable = enableThis;
 	}
 
 }

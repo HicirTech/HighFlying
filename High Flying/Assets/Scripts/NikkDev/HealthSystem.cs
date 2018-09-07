@@ -45,6 +45,7 @@ public class HealthSystem : MonoBehaviour {
 		}
 		else{
 			healthUI.text = "";
+			Debug.Log("Health System currently paused");
 		}
 		
 	}
@@ -63,28 +64,35 @@ public class HealthSystem : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision col){
-
-		//if the collision is anything but all friendly tags and invincability is off.
-		if(!(col.gameObject.tag == "Respawn" || 
-			col.gameObject.tag == "Finish" || 
-			col.gameObject.tag == "MainCamera" ||
-			col.gameObject.tag == "Player" ||
-			col.gameObject.tag == "GameController" ||
-			col.gameObject.tag == "RTCam" ||
-			col.gameObject.tag == "CoinRing" ||
-			col.gameObject.tag == "LifeRing" ||
-			col.gameObject.tag == "PointRing") && invincability == false){
-				//Negate the health by 1
-				health -= 1;
-				Debug.Log("Collision Occured - Negate Life to: "+health);
+		if(enable){
+			//if the collision is anything but all friendly tags and invincability is off.
+			if(!(col.gameObject.tag == "Respawn" || 
+				col.gameObject.tag == "Finish" || 
+				col.gameObject.tag == "MainCamera" ||
+				col.gameObject.tag == "Player" ||
+				col.gameObject.tag == "GameController" ||
+				col.gameObject.tag == "RTCam" ||
+				col.gameObject.tag == "CoinRing" ||
+				col.gameObject.tag == "LifeRing" ||
+				col.gameObject.tag == "PointRing") && invincability == false){
+					//Negate the health by 1
+					health -= 1;
+					Debug.Log("Collision Occured - Negate Life to: "+health);
+			}
+		}else{
+			Debug.Log("Health System's collisions currently paused");
 		}
 	}
 
 	void OnTriggerEnter(Collider col){
-		if(col.gameObject.tag == "LifeRing" && invincability == false){
-			//Increase health by 1
-			health += 1;
-			Debug.Log("Collision Occured - Life ring collision, life increased to: "+health);
+		if(enable){
+			if(col.gameObject.tag == "LifeRing" && invincability == false){
+				//Increase health by 1
+				health += 1;
+				Debug.Log("Collision Occured - Life ring collision, life increased to: "+health);
+			}
+		}else{
+			Debug.Log("Health System's triggers currently paused");
 		}
 	}
 
@@ -93,12 +101,15 @@ public class HealthSystem : MonoBehaviour {
 		//Remove 1 per frame from counter of initial invincability
 		if(initialInvincCount != 0 && initialInvincCount > 0){
 			initialInvincCount -= 1;
-			Debug.Log("count is at: "+initialInvincCount);
 		}else if (initialInvincCount == 0){
 			invincability = false;
 			initialInvincCount = -1; //count finished, stop checking
 			Debug.Log("Initial start invinc finished. Count set to: "+initialInvincCount+"\nInvincability now at "+invincability);
 		}
+	}
+
+	public void enableThis(bool enableThis){
+		this.enable = enableThis;
 	}
 }
 
