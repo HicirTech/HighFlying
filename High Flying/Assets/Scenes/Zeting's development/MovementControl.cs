@@ -25,9 +25,14 @@ public class MovementControl : MonoBehaviour {
 	private float positionYawFactor = 5f; 
    	[Tooltip("How much chararacter can roll dur to its left and right movement")][SerializeField] 
 	private float controlRollFactor = -30f; //how much chararacter can roll
+   
+    //---------Zeting: Question  this is how fast can jump or how high it can jump?
     [Tooltip("How high chararacter can jump ")][SerializeField]
     private float force = 100f; //how fast chararacter can jump
-    bool jump = false;
+    
+    [Tooltip("Enable this checkbox, will enable jump system in the object")][SerializeField] 
+    private bool jump = false;
+
     private float xThrow;
 	private float yThrow;
     private Rigidbody rigidbodyPlayer;
@@ -98,4 +103,9 @@ public class MovementControl : MonoBehaviour {
         transform.localPosition = new Vector3(rowX, rowY, transform.localPosition.z);
     }
 
+
+    public void Jump()
+    {
+        
+    }
 }
