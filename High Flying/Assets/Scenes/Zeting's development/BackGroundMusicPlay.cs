@@ -18,7 +18,13 @@ public class BackGroundMusicPlay : MonoBehaviour {
 	}
 	void Play()
 	{
+	
 		this.audioSource.PlayOneShot(this.music);
+	
+	}
+	void Stop()
+	{
+		this.audioSource.Stop();
 	}
 	private void Awake()
     {

@@ -13,8 +13,8 @@ public class MusicPlayerTest {
     public IEnumerator MuiscPlayerPlaysMusicTest() {
     //    var musicPlayerPrefab = Resources.Load("");
         MusicPlayer = GameObject.FindWithTag("MusicPlayer");
+        Assert.IsNotNull(MusicPlayer);
         AudioSource testObject = MusicPlayer.GetComponent(typeof(AudioSource)) as AudioSource;
-      //  var AudioSource = MusicPlayer.GetComponent<BackGroundMusicPlay>();
         testObject.Play();
         yield return null;
         Assert.Equals(testObject.isPlaying,true);
