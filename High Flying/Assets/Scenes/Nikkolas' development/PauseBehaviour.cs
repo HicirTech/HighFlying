@@ -12,7 +12,6 @@ public class PauseBehaviour : MonoBehaviour {
 	private CoinSystem cSys;
 	private HealthSystem hSys;
 	private PointSystem pSys;
-	private MovementControl mControl;
 	
 	Scene currentScene;
 
@@ -29,7 +28,6 @@ public class PauseBehaviour : MonoBehaviour {
 		cSys = GameObject.Find("/Character").GetComponent<CoinSystem>();
 		hSys = GameObject.Find("/Character").GetComponent<HealthSystem>();
 		pSys = GameObject.Find("/Character").GetComponent<PointSystem>();
-		mControl = GameObject.Find("/Character").GetComponent<MovementControl>();
 	}
 	
 	// Update is called once per frame
