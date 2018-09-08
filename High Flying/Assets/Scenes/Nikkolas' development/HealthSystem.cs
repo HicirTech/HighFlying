@@ -6,38 +6,58 @@ using UnityEngine.UI;
 
 public class HealthSystem : MonoBehaviour {
 
+	[Tooltip("Toggle to enable or disable this script")][SerializeField]
+	public bool enable = true; //Variable used for pause functionality
 	[Tooltip("Invincability Mode on/off")][SerializeField]
 	public bool invincability = true;
 	[Tooltip("Difficulty Rating - Between 1 - 5")][SerializeField][Range(1, 5)]
 	public int difficultyRating = 1;
 	[Tooltip("Intitial counter for invincability in frames")][SerializeField][Range(1, 100)]
 	public int initialInvincCount;
+	[System.NonSerialized]
+	public int health = 1;
+
+	//Fill variable with GameObject
+	[Tooltip("Drag and drop the health text field here: ")][SerializeField]
 	private Text healthUI;
-	private int health = 1;
+	
 
 	// Use this for initialization
 	void Start () {
-		health = -difficultyRating+6;
-		invincability = true;
+		if(healthUI == null){
+			print("Please fill the healthUI text field");
+			enable = false;
+		}else{
+			//Initiate the variables
+			health = -difficultyRating+6;
+			invincability = true;
 
-		//Initiate the text
-		healthUI = GameObject.Find("Character/IngameUI Canvas/Ingame Info Panel/Health").GetComponent<Text>();
-		healthUI.text = "Health: "+health;
+			//Initiate the text
+			healthUI.text = "Health: "+health;
+		}
+		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		initialInvinc();
-		if(invincability == false){
-			//Restart game on death
-			die();
-			//Update health text every frame
-			changeHealthValue();
-		}else{
-			healthUI.text = "Health: ∞";
+		if(enable){
+			initialInvinc();
+			if(!invincability){
+				//Restart game on death
+				die();
+				//Update health text every frame
+				changeHealthValue();
+			}else{
+				healthUI.text = "Health: ∞";
+			}
+			
+			//health = -difficultyRating+6; //For developing. Turn this on to slide difficulty rating and see health change
+		}
+		else{
+			healthUI.text = "";
+			Debug.Log("Health System currently paused");
 		}
 		
-		//health = -difficultyRating+6; //For developing. Turn this on to slide difficulty rating and see health change
 	}
 
 	void changeHealthValue(){
@@ -54,28 +74,35 @@ public class HealthSystem : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision col){
-
-		//if the collision is anything but all friendly tags and invincability is off.
-		if(!(col.gameObject.tag == "Respawn" || 
-			col.gameObject.tag == "Finish" || 
-			col.gameObject.tag == "MainCamera" ||
-			col.gameObject.tag == "Player" ||
-			col.gameObject.tag == "GameController" ||
-			col.gameObject.tag == "RTCam" ||
-			col.gameObject.tag == "CoinRing" ||
-			col.gameObject.tag == "LifeRing" ||
-			col.gameObject.tag == "PointRing") && invincability == false){
-				//Negate the health by 1
-				health -= 1;
-				Debug.Log("Collision Occured - Negate Life to: "+health);
+		if(enable){
+			//if the collision is anything but all friendly tags and invincability is off.
+			if(!(col.gameObject.tag == "Respawn" || 
+				col.gameObject.tag == "Finish" || 
+				col.gameObject.tag == "MainCamera" ||
+				col.gameObject.tag == "Player" ||
+				col.gameObject.tag == "GameController" ||
+				col.gameObject.tag == "RTCam" ||
+				col.gameObject.tag == "CoinRing" ||
+				col.gameObject.tag == "LifeRing" ||
+				col.gameObject.tag == "PointRing") && invincability == false){
+					//Negate the health by 1
+					health -= 1;
+					Debug.Log("Collision Occured - Negate Life to: "+health);
+			}
+		}else{
+			Debug.Log("Health System's collisions currently paused");
 		}
 	}
 
 	void OnTriggerEnter(Collider col){
-		if(col.gameObject.tag == "LifeRing" && invincability == false){
-			//Increase health by 1
-			health += 1;
-			Debug.Log("Collision Occured - Life ring collision, life increased to: "+health);
+		if(enable){
+			if(col.gameObject.tag == "LifeRing" && invincability == false){
+				//Increase health by 1
+				health += 1;
+				Debug.Log("Collision Occured - Life ring collision, life increased to: "+health);
+			}
+		}else{
+			Debug.Log("Health System's triggers currently paused");
 		}
 	}
 
@@ -84,11 +111,15 @@ public class HealthSystem : MonoBehaviour {
 		//Remove 1 per frame from counter of initial invincability
 		if(initialInvincCount != 0 && initialInvincCount > 0){
 			initialInvincCount -= 1;
-			Debug.Log("count is at: "+initialInvincCount);
 		}else if (initialInvincCount == 0){
 			invincability = false;
 			initialInvincCount = -1; //count finished, stop checking
 			Debug.Log("Initial start invinc finished. Count set to: "+initialInvincCount+"\nInvincability now at "+invincability);
 		}
 	}
+
+	public void enableThis(bool enableThis){
+		this.enable = enableThis;
+	}
 }
+
