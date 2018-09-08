@@ -13,7 +13,7 @@ public class CoinSystem : MonoBehaviour {
 	[Tooltip("Drag and drop coins text here: ")][SerializeField]
 	private Text coinsUI;
 
-	// Use this for initialization
+	// Use this for initialization 
 	void Start () {
 		if(coinsUI == null){
 			print("Please fill the coins text field");
