@@ -3,7 +3,7 @@ using UnityEngine.TestTools;
 using NUnit.Framework;
 using System.Collections;
 
-/*public class HealthSystemTest {
+public class HealthSystemTest {
 
     private GameObject character;
     private HealthSystem hSys;
@@ -19,14 +19,14 @@ using System.Collections;
     // and allows you to yield null to skip a frame in EditMode
     [UnityTest]
     public IEnumerator HealthSystemTestWithEnumeratorPasses() {
-        character = GameObject.Find("/Character");
+        character = GameObject.Find("Character");
         hSys = character.GetComponent<HealthSystem>();
         healthBeforeCollision = hSys.health;
 
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(10);
 
         healthAfterCollision = hSys.health;
 
         Assert.AreNotEqual(healthBeforeCollision, healthAfterCollision);
     }
-}*/
+}
