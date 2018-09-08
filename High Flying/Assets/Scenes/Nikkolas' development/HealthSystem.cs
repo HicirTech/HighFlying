@@ -19,7 +19,7 @@ public class HealthSystem : MonoBehaviour {
 
 	//Fill variable with GameObject
 	[Tooltip("Drag and drop the health text field here: ")][SerializeField]
-	private Text healthUI;
+	public Text healthUI;
 	
 
 	// Use this for initialization
