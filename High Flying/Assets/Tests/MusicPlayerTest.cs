@@ -11,10 +11,10 @@ public class MusicPlayerTest {
     // and allows you to yield null to skip a frame in EditMode
     [UnityTest]
     public IEnumerator MuiscPlayerPlaysMusicTest() {
-        var musicPlayerPrefab = Resources.Load("");
+    //    var musicPlayerPrefab = Resources.Load("");
         MusicPlayer = GameObject.FindWithTag("MusicPlayer");
+        Assert.IsNotNull(MusicPlayer);
         AudioSource testObject = MusicPlayer.GetComponent(typeof(AudioSource)) as AudioSource;
-    
         testObject.Play();
         yield return null;
         Assert.Equals(testObject.isPlaying,true);

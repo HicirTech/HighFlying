@@ -1458,8 +1458,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1701869088330222}
-  m_LocalRotation: {x: 0.0021559945, y: -0.999892, z: -0.000031347226, w: 0.014538003}
-  m_LocalPosition: {x: 495.2, y: 204.38, z: 913}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
+  m_LocalPosition: {x: 495.266, y: 203.18, z: 913.3335}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4392208438704890}
@@ -1467,7 +1467,7 @@ Transform:
   - {fileID: 4190205428525648}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -178.33401, z: -0.24700001}
+  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!4 &4343553788460606
 Transform:
   m_ObjectHideFlags: 1
@@ -2364,8 +2364,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.46, y: 0.6, z: 2.04}
-  m_Center: {x: 0, y: 0.79, z: -0.46}
+  m_Size: {x: 1.69, y: 0.6834923, z: 1.8887751}
+  m_Center: {x: 0.0000000024616325, y: 0.756865, z: -0.4453713}
 --- !u!81 &81325993810100544
 AudioListener:
   m_ObjectHideFlags: 1
@@ -2579,6 +2579,7 @@ MonoBehaviour:
   positionYawFactor: 5
   controlRollFactor: -30
   force: 100
+  jump: 0
 --- !u!114 &114324596336435304
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2593,7 +2594,7 @@ MonoBehaviour:
   enable: 1
   invincability: 1
   difficultyRating: 1
-  initialInvincCount: 60
+  initialInvincCount: 50
   healthUI: {fileID: 0}
 --- !u!114 &114333964004038808
 MonoBehaviour:
@@ -2607,13 +2608,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   circuit: {fileID: 0}
-  lookAheadForTargetOffset: 0.5
-  lookAheadForTargetFactor: 0.1
-  lookAheadForSpeedOffset: 0.1
-  lookAheadForSpeedFactor: 0.2
+  lookAheadForTargetOffset: 0.05
+  lookAheadForTargetFactor: 0.05
+  lookAheadForSpeedOffset: 0.05
+  lookAheadForSpeedFactor: 0.05
   progressStyle: 0
   pointToPointThreshold: 0.66
   target: {fileID: 4316352312116988}
+  progressDistance: 0
+  progressNum: 0
+  lastPosition: {x: 0, y: 0, z: 0}
+  speed: 0
 --- !u!114 &114611717066361784
 MonoBehaviour:
   m_ObjectHideFlags: 1
