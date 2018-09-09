@@ -7,27 +7,29 @@ public class BackGroundMusicPlay : MonoBehaviour {
 	// Use this for initialization
 	AudioSource audioSource;
 	[SerializeField] AudioClip music;
-		void Start () {
-		this.audioSource = GetComponent<AudioSource>();		
-		Play();
-	}
-	
-	// Update is called once per frame
-	void Update () {
 		
-	}
-	void Play()
+		void Start(){
+		this.audioSource = GetComponent<AudioSource>();		
+		PlayMusic();
+		}
+	
+
+	void PlayMusic()
 	{
-	
 		this.audioSource.PlayOneShot(this.music);
-	
 	}
-	void Stop()
+	void StopPlay()
 	{
 		this.audioSource.Stop();
 	}
 	private void Awake()
     {
-        DontDestroyOnLoad(this.gameObject);
+		if(GameObject.FindObjectsOfType<BackGroundMusicPlay>().Length>1)
+		{
+			Destroy(gameObject);
+		}
+		else{
+			DontDestroyOnLoad(this.gameObject);
+		}
     }
 }
