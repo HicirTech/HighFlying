@@ -14,6 +14,7 @@ public class HealthSystem : MonoBehaviour {
 	public int difficultyRating = 1;
 	[Tooltip("Intitial counter for invincability in frames")][SerializeField][Range(1, 100)]
 	public int initialInvincCount;
+	private int savedInitialInvinc;
 	[System.NonSerialized]
 	public int health = 1;
 
@@ -34,6 +35,12 @@ public class HealthSystem : MonoBehaviour {
 
 			//Initiate the text
 			healthUI.text = "Health: "+health;
+
+			if(savedInitialInvinc == null){
+				savedInitialInvinc = initialInvincCount; //If it's the first time the level starts then saved dev set initialInvincCount
+			}else{
+				initialInvincCount = savedInitialInvinc; //If not, then use saved intial invinc count to set initial invinc count
+			}
 		}
 		
 	}
@@ -68,6 +75,7 @@ public class HealthSystem : MonoBehaviour {
 		//If health is equal or less to zero, then restart the scene/level
 		//Change this code with respawn or different code when a failure screen is up
 		if(health <= 0){
+
 			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 			Debug.Log("Scene Reloaded");
 		}

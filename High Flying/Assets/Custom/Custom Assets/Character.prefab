@@ -798,7 +798,6 @@ GameObject:
   - component: {fileID: 20578517969323268}
   - component: {fileID: 81325993810100544}
   - component: {fileID: 95344166266120092}
-  - component: {fileID: 114929855297265312}
   - component: {fileID: 54676978802219664}
   - component: {fileID: 114333964004038808}
   - component: {fileID: 114324596336435304}
@@ -2594,7 +2593,7 @@ MonoBehaviour:
   enable: 1
   invincability: 1
   difficultyRating: 1
-  initialInvincCount: 50
+  initialInvincCount: 60
   healthUI: {fileID: 0}
 --- !u!114 &114333964004038808
 MonoBehaviour:
@@ -2602,7 +2601,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1701869088330222}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c5cb22d331ef7d64796f917c6a455a32, type: 3}
   m_Name: 
@@ -2637,20 +2636,6 @@ MonoBehaviour:
   coinsCollMult: 1.75
   ringsPassMult: 1.75
   pointRMult: 2
---- !u!114 &114929855297265312
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1701869088330222}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a4b932caa68e9aa468c6fd5723ca52ad, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  enable: 1
-  coins: 0
-  coinsUI: {fileID: 0}
 --- !u!137 &137110073709732308
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1
