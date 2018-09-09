@@ -15,6 +15,8 @@ public class SwitchScene : MonoBehaviour {
     private string levelSelectMenuName = "LevelSelect";
     [SerializeField]
     private string settingsMenuName = "Settings";
+    [SerializeField]
+    private string storeMenuName = "Store";
 
     public void loadIce()
     {
@@ -39,5 +41,10 @@ public class SwitchScene : MonoBehaviour {
     public void loadSettings()
     {
         SceneManager.LoadScene(settingsMenuName);
+    }
+
+    public void loadStore()
+    {
+        SceneManager.LoadScene(storeMenuName);
     }
 }
