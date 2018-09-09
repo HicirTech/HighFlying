@@ -8,6 +8,7 @@ public class SoundButtonController : MonoBehaviour {
     private Button sourceButton;
     [SerializeField]
     private Sprite[] buttonImages = new Sprite[2];
+    BackGroundMusicPlay bgm;
     
     public void onSoundPress()
     {
@@ -33,6 +34,8 @@ public class SoundButtonController : MonoBehaviour {
     }
     private void muteAndUnmute()
     {
-        AudioListener.volume= (AudioListener.volume==0)?1:0;    
+      AudioListener.volume= (AudioListener.volume==0)?1:0;    
+      bgm = FindObjectOfType<BackGroundMusicPlay>();
+      this.bgm.switchPlay();
     }
 }
