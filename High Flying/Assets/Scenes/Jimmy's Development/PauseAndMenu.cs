@@ -1,37 +1,54 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class PauseAndMenu : MonoBehaviour {
-    public static bool pause;
-    public GameObject PauseMenuPanel;
-  
-	// Use this for initialization
-    void Start () {
-        pause = false;
-        PauseMenuPanel.SetActive(false);
+
+    [Tooltip("Drag continue button here")][SerializeField]
+    private Button btnContinue;
+    [Tooltip("Drag back to menu button here")]
+    [SerializeField]
+    private Button btnBackToMenu;
+
+    private void Start()
+    {
+        btnContinue.onClick.AddListener(ClickResumeButton);
+        btnBackToMenu.onClick.AddListener(ClickBackToMenuButton);
     }
 
-    // Update is called once per frame
-    void Update()
+    /// <summary>
+    /// when you click result, timescale will be return 1 and game continue
+    /// </summary>
+    public void ClickResumeButton()
     {
+        HidePopup();
+        ResumeGame();
+    } 
 
+    /// <summary>
+    /// back to scene menu
+    /// </summary>
+    public void ClickBackToMenuButton()
+    {
+        // do something here
     }
 
-    public void pauseAndResume()
+    public void ResumeGame()
     {
-        pause = !pause;
-        if (pause==true)
-        {
-            Time.timeScale = 0;
-            PauseMenuPanel.SetActive(true);
-        }
-        else if (pause==false)
-        {
-            Time.timeScale = 1;
-            PauseMenuPanel.SetActive(false);
-        }
+        Time.timeScale = 1;
+    }
+
+    public void PauseGame()
+    {
+        Time.timeScale = 0;
+    }
+
+    public void ShowPopup()
+    {
+        this.gameObject.SetActive(true);
+    }
+
+    public void HidePopup()
+    {
+        this.gameObject.SetActive(false);
     }
 }

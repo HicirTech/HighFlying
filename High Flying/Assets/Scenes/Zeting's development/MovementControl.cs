@@ -47,7 +47,8 @@ public class MovementControl : MonoBehaviour
 
     [Tooltip("Enable this checkbox, will enable jump system in the object")]
     [SerializeField]
-    private bool jump = false;
+    private bool enableJump = false;
+    public bool EnableJump { get { return enableJump; } }
 
     private bool isJumping = false; // the spaceship is in jump state or not
     private float maxCurrentJumpHeight; // depend on the current position of spaceship
@@ -103,15 +104,9 @@ public class MovementControl : MonoBehaviour
     /// </summary>
     private void Move()
     {
-        if (jump && isJumping == false)
+        if (CrossPlatformInputManager.GetButton("Jump"))
         {
-            if (CrossPlatformInputManager.GetButton("Jump"))
-            {
-
-                Debug.Log("jump");
-                isJumping = true;
-                Jump();
-            }
+            Jump();
         }
 
         if (!isJumping)
@@ -139,7 +134,12 @@ public class MovementControl : MonoBehaviour
 
     public void Jump()
     {
-        StartCoroutine("IJump");
+        if (enableJump && isJumping == false)
+        {
+            Debug.Log("Jump");
+            isJumping = true;
+            StartCoroutine("IJump");
+        }
     }
 
     /// <summary>
@@ -154,7 +154,7 @@ public class MovementControl : MonoBehaviour
         while (true) // loop each frame, out of Fixed Update
         {
             // check if current position is out of valid area
-            if (transform.localPosition.y >= maxCurrentJumpHeight) 
+            if (transform.localPosition.y >= maxCurrentJumpHeight)
             {
                 UpdatePosition(transform.localPosition.x, transform.localPosition.y);
                 StopAllCoroutines();

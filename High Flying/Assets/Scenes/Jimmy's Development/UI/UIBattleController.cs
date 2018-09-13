@@ -1,6 +1,5 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class UIBattleController : MonoBehaviour {
 
@@ -8,10 +7,17 @@ public class UIBattleController : MonoBehaviour {
     private MovementControl movementControl;
 
     #region UI_MAIN
+    [SerializeField]
+    private PauseAndMenu pauseAndMenu;
+    [SerializeField]
+    private Button btnPause;
+    [SerializeField]
+    private Button btnJump;
+    #endregion
 
     private void Start()
     {
-        var character = GameObject.FindGameObjectWithTag("Player");
+        var character = GameObject.FindGameObjectWithTag("Character");
         if (character)
         {
             // get component MovementControl in character
@@ -21,5 +27,16 @@ public class UIBattleController : MonoBehaviour {
         {
             throw new System.Exception("Can't find 'character' in your scene");
         }
+
+        btnPause.onClick.AddListener(() =>
+        {
+            pauseAndMenu.PauseGame();
+            pauseAndMenu.ShowPopup();
+        });
+
+        btnJump.enabled = movementControl.EnableJump;
+        btnJump.onClick.AddListener(()=> {
+            movementControl.Jump();
+        });
     }
 }
