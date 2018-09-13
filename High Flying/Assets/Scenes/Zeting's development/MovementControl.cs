@@ -20,7 +20,7 @@ public class MovementControl : MonoBehaviour
     private bool RollEnable = false;
     [Tooltip("This value will be the max distantce of the model move from original location in x axis")]
     [SerializeField]
-    private float MaxXMovement = 3.23f;
+    private float MaxXMovement = 3.23f; //this one can make the character fly horizontally further
     [Tooltip("This value will be the max distantce of the model move from original location in Y axis")]
     [SerializeField]
     private float MaxYMovement = 2.5f;
@@ -47,11 +47,11 @@ public class MovementControl : MonoBehaviour
 
     [Tooltip("Enable this checkbox, will enable jump system in the object")]
     [SerializeField]
-    private bool enableJump = false;
+    private bool enableJump = false; // if this set to false. jump button wont disappear but will not work
     public bool EnableJump { get { return enableJump; } }
 
-    private bool isJumping = false; // the spaceship is in jump state or not
-    private float maxCurrentJumpHeight; // depend on the current position of spaceship
+    private bool isJumping = false; // the character is in jump state or not
+    private float maxCurrentJumpHeight; // depend on the current position of character
     private float xThrow;
     private float yThrow;
     private Rigidbody rigidbodyPlayer;
@@ -148,7 +148,7 @@ public class MovementControl : MonoBehaviour
     /// <returns></returns>
     private IEnumerator IJump()
     {
-        // recalculate the highest from current position of space ship
+        // recalculate the highest from current position of character
         maxCurrentJumpHeight = Mathf.Min(MaxJumpHeight + transform.localPosition.y, MaxYMovement);
 
         while (true) // loop each frame, out of Fixed Update
@@ -162,7 +162,7 @@ public class MovementControl : MonoBehaviour
 
             }
 
-            // move ship if isJumping ultil equal true
+            // move character if isJumping ultil equal true
             if (isJumping)
                 transform.Translate(Vector3.up * force * Time.smoothDeltaTime);
             // wait ultil end of frame
