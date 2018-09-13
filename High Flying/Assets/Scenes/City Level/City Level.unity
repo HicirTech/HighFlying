@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311918, g: 0.3807398, b: 0.35872716, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731196, g: 0.38074002, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -11046,8 +11046,8 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 527693248}
-  m_LocalRotation: {x: -0.008953046, y: 0.93937063, z: 0.02459829, w: 0.34190294}
-  m_LocalPosition: {x: -69.279755, y: -140.92368, z: -9.670715}
+  m_LocalRotation: {x: -0.008953033, y: 0.93937063, z: 0.02459826, w: 0.34190294}
+  m_LocalPosition: {x: -69.279755, y: -232.38368, z: -9.670715}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1768816358}
@@ -15501,21 +15501,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 114837009993099644, guid: f8d3e8f4e4039ac459ccefbe669cf680,
-        type: 2}
-      propertyPath: coinsUI
-      value: 
-      objectReference: {fileID: 1546168319}
-    - target: {fileID: 114392003900692162, guid: f8d3e8f4e4039ac459ccefbe669cf680,
-        type: 2}
-      propertyPath: healthUI
-      value: 
-      objectReference: {fileID: 904666399}
     - target: {fileID: 114416290598064570, guid: f8d3e8f4e4039ac459ccefbe669cf680,
         type: 2}
       propertyPath: pointsUI
       value: 
       objectReference: {fileID: 1885867150}
+    - target: {fileID: 114392003900692162, guid: f8d3e8f4e4039ac459ccefbe669cf680,
+        type: 2}
+      propertyPath: healthUI
+      value: 
+      objectReference: {fileID: 904666399}
+    - target: {fileID: 114837009993099644, guid: f8d3e8f4e4039ac459ccefbe669cf680,
+        type: 2}
+      propertyPath: coinsUI
+      value: 
+      objectReference: {fileID: 1546168319}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8d3e8f4e4039ac459ccefbe669cf680, type: 2}
   m_IsPrefabAsset: 0
@@ -29875,8 +29875,8 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1422813035}
-  m_LocalRotation: {x: -0.008953045, y: -0.93937063, z: 0.02459829, w: -0.34190294}
-  m_LocalPosition: {x: -69.279755, y: -232.38368, z: -9.670715}
+  m_LocalRotation: {x: -0.008953033, y: 0.93937063, z: 0.02459826, w: 0.34190294}
+  m_LocalPosition: {x: -69.279755, y: -174.58366, z: -9.670715}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1768816358}
