@@ -65,14 +65,8 @@ public class MovementControl : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
-        rotate(); //  rotate the chatacter whey moving
-    }
-
-    // Use for physic
-    void FixedUpdate()
-    {
         Move();// move the character left right up down
+        rotate(); //  rotate the chatacter whey moving
     }
 
     /// <summary>
@@ -162,8 +156,10 @@ public class MovementControl : MonoBehaviour
             // check if current position is out of valid area
             if (transform.localPosition.y >= maxCurrentJumpHeight) 
             {
+                UpdatePosition(transform.localPosition.x, transform.localPosition.y);
                 StopAllCoroutines();
                 isJumping = false;
+
             }
 
             // move ship if isJumping ultil equal true
