@@ -1066,9 +1066,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseAndMenu: {fileID: 114352236865578610}
-  btnRightPause: {fileID: 0}
-  btnLeftPause: {fileID: 0}
-  btnJump: {fileID: 114096696302784706}
+  btnPause: {fileID: 114939221783529734}
+  btnRightJump: {fileID: 114096696302784706}
+  btnLeftJump: {fileID: 114150579225434730}
 --- !u!114 &114893576431821428
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1311,7 +1311,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 133, y: 113.70001}
+  m_AnchoredPosition: {x: 133, y: 113.700195}
   m_SizeDelta: {x: 187.4, y: 152.79999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!224 &224043750761496040

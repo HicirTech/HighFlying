@@ -29,7 +29,7 @@ public class PauseAndMenu : MonoBehaviour {
     /// </summary>
     public void ClickBackToMenuButton()
     {
-        // do something here
+        UnityEngine.SceneManagement.SceneManager.LoadScene("MainPlay");
     }
 
     public void ResumeGame()
