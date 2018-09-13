@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.37311953, g: 0.38074014, b: 0.3587274, a: 1}
+  m_IndirectSpecularColor: {r: 0.3731196, g: 0.38074002, b: 0.35872713, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -28036,8 +28036,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1405737174}
-  m_LocalRotation: {x: -0.0044449037, y: 0.9930444, z: 0.11068796, w: 0.039891995}
-  m_LocalPosition: {x: 5.227051, y: -221.425, z: -95.04413}
+  m_LocalRotation: {x: -0.0011983686, y: 0.99791974, z: 0.06144962, w: 0.019461636}
+  m_LocalPosition: {x: -335.0131, y: -434.07886, z: 1241.9631}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1000465478}
@@ -29073,8 +29073,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1458797425}
-  m_LocalRotation: {x: -0.0044449037, y: 0.9930444, z: 0.11068796, w: 0.039891995}
-  m_LocalPosition: {x: 5.227051, y: -279.22504, z: -95.04413}
+  m_LocalRotation: {x: -0.0011983686, y: 0.99791974, z: 0.06144962, w: 0.019461636}
+  m_LocalPosition: {x: -335.0131, y: -491.87885, z: 1241.9631}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1000465478}
@@ -33905,6 +33905,10 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1302831515502998, guid: 0c15e598ebdf43849851bacee7089bfd, type: 2}
+      propertyPath: m_TagString
+      value: PauseButton
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0c15e598ebdf43849851bacee7089bfd, type: 2}
