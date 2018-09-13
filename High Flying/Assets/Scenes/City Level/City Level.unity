@@ -15501,21 +15501,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 7
       objectReference: {fileID: 0}
-    - target: {fileID: 114416290598064570, guid: f8d3e8f4e4039ac459ccefbe669cf680,
-        type: 2}
-      propertyPath: pointsUI
-      value: 
-      objectReference: {fileID: 1885867150}
-    - target: {fileID: 114392003900692162, guid: f8d3e8f4e4039ac459ccefbe669cf680,
-        type: 2}
-      propertyPath: healthUI
-      value: 
-      objectReference: {fileID: 904666399}
     - target: {fileID: 114837009993099644, guid: f8d3e8f4e4039ac459ccefbe669cf680,
         type: 2}
       propertyPath: coinsUI
       value: 
       objectReference: {fileID: 1546168319}
+    - target: {fileID: 114392003900692162, guid: f8d3e8f4e4039ac459ccefbe669cf680,
+        type: 2}
+      propertyPath: healthUI
+      value: 
+      objectReference: {fileID: 904666399}
+    - target: {fileID: 114416290598064570, guid: f8d3e8f4e4039ac459ccefbe669cf680,
+        type: 2}
+      propertyPath: pointsUI
+      value: 
+      objectReference: {fileID: 1885867150}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f8d3e8f4e4039ac459ccefbe669cf680, type: 2}
   m_IsPrefabAsset: 0
