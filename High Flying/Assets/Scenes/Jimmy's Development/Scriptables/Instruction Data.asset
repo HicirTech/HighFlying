@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ca8da1a79427684e858097f2c294599, type: 3}
+  m_Name: Instruction Data
+  m_EditorClassIdentifier: 
+  description:
+  - 'Can I play daddy : Player will have 5 lives, and a speed of 3.3m/s. Estimate
+    time to finish: 5 minutes'
+  - 'Don''t hurt me: player will have 4 lives, and a speed of 5.5m/s. Estimate time
+    to finish: 3 minutes'
+  - 'Normal: Player will have 3 lives, and a speed of 8.5m/s. Estimate time to finish:
+    1.9 minutes'
+  - 'Sweaty Boy: Player will have 3 lives, and a speed of 20m/s. Estimate time to
+    finish: 50 seconds'
+  - 'Hell on Earth: Player will have 1 live, and a speed of 50m/s. Estimate time to
+    finish: 20 seconds'

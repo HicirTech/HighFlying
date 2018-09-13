@@ -10,7 +10,7 @@ public class UIBattleController : MonoBehaviour {
     [SerializeField]
     private PauseAndMenu pauseAndMenu;
     [SerializeField]
-    private Button btnPause;
+    private Button btnRightPause, btnLeftPause;
     [SerializeField]
     private Button btnJump;
     #endregion
@@ -28,15 +28,18 @@ public class UIBattleController : MonoBehaviour {
             throw new System.Exception("Can't find 'character' in your scene");
         }
 
-        btnPause.onClick.AddListener(() =>
-        {
-            pauseAndMenu.PauseGame();
-            pauseAndMenu.ShowPopup();
-        });
+        btnRightPause.onClick.AddListener(PauseGame);
+        btnLeftPause.onClick.AddListener(PauseGame);
 
         btnJump.enabled = movementControl.EnableJump;
         btnJump.onClick.AddListener(()=> {
             movementControl.Jump();
         });
+    }
+
+    private void PauseGame()
+    {
+        pauseAndMenu.PauseGame();
+        pauseAndMenu.ShowPopup();
     }
 }
