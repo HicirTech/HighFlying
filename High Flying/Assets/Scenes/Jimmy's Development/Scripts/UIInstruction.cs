@@ -10,19 +10,21 @@ public class UIInstruction : MonoBehaviour {
     [Tooltip("Data contain description of each difficult level")][SerializeField]
     private InstructionData data;
 
+    private Instruction instruction;
+
     private void Start()
     {
-        sldLevel.onValueChanged.AddListener(UpdateDescription);
-        UpdateDescription(sldLevel.value);
+        InitInstruction();
+
+        sldLevel.onValueChanged.AddListener(instruction.UpdateDescription);
+        instruction.UpdateDescription(sldLevel.value);
     }
 
     /// <summary>
-    ///  return value of call back in onValueChanged is float. but we always set is interger.
-    ///  so no problem if level param is float
+    /// declare and create new objec for instruction
     /// </summary>
-    /// <param name="level"></param>
-    public void UpdateDescription(float level)
+    private void InitInstruction()
     {
-        txtContent.text = data.GetDescription((int)level - 1);
+        instruction = new Instruction(txtContent, data);
     }
 }

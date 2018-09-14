@@ -57,10 +57,13 @@ public class MovementControl : MonoBehaviour
 
     private bool isValidUpdatePosition = true;
 
+    private CharacterMovement characterMovement;
+
     // Use this for initialization
     void Start()
     {
-        this.setupControl();
+        this.SetupControl();
+        this.InitCharacterMovement();
     }
 
     // Update is called once per frame
@@ -73,12 +76,18 @@ public class MovementControl : MonoBehaviour
     /// <summary>
     /// This method will check the Checkbox of yaw, pitch, roll
     /// </summary>
-    private void setupControl()
+    private void SetupControl()
     {
         this.positionPitchFactor = (this.PitchEnable) ? this.positionPitchFactor : 0;
         this.controlPitchFactor = (this.PitchEnable) ? this.controlPitchFactor : 0;
         this.controlRollFactor = (this.RollEnable) ? this.controlRollFactor : 0;
         this.positionYawFactor = (this.YawEnable) ? this.positionYawFactor : 0;
+    }
+
+    private void InitCharacterMovement()
+    {
+        characterMovement = new CharacterMovement(transform);
+        characterMovement.SetMaxMovement(MaxXMovement, MaxYMovement);
     }
 
     /// <summary>
@@ -115,24 +124,13 @@ public class MovementControl : MonoBehaviour
         }
     }
 
-    private void UpdatePosition(float xOffSet, float yOffSet, ref bool isValidUpdate)
-    {
-        isValidUpdate = true;
-
-        float rowY = Mathf.Clamp(transform.localPosition.y + yOffSet, -MaxYMovement, MaxYMovement);//limited the x y way can go
-        float rowX = Mathf.Clamp(transform.localPosition.x + xOffSet, -MaxXMovement, MaxXMovement);//limited the x y way can go
-
-        transform.localPosition = new Vector3(rowX, rowY, transform.localPosition.z);
-        isValidUpdate = false; 
-    }
-
     public void NormalMove()
     {
         xThrow = CrossPlatformInputManager.GetAxis("Horizontal");//get data from CrossPlatformInputManager
         yThrow = CrossPlatformInputManager.GetAxis("Vertical");
         float xOffSet = xThrow * moveSpeed * Time.deltaTime;
         float yOffSet = yThrow * moveSpeed * Time.deltaTime;
-        UpdatePosition(xOffSet, yOffSet, ref isValidUpdatePosition);
+        characterMovement.UpdatePosition(xOffSet, yOffSet, ref isValidUpdatePosition);
     }
 
     public void Jump()
@@ -158,13 +156,13 @@ public class MovementControl : MonoBehaviour
         {
             
             // move character if isJumping ultil equal true
-                UpdatePosition(0, force * Time.deltaTime, ref isValidUpdatePosition);
+                characterMovement.UpdatePosition(0, force * Time.deltaTime, ref isValidUpdatePosition);
                 isJumping = isValidUpdatePosition;
                 // check if current position is out of valid area
                 if (transform.localPosition.y >= maxCurrentJumpHeight)
                 {
                     isJumping = false;
-                    UpdatePosition(0, maxCurrentJumpHeight - transform.localPosition.y, ref isValidUpdatePosition);
+                characterMovement.UpdatePosition(0, maxCurrentJumpHeight - transform.localPosition.y, ref isValidUpdatePosition);
                 }
             // wait ultil end of frame
             yield return new WaitForEndOfFrame();
