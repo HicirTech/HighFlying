@@ -54,13 +54,13 @@ public class MovementControl : MonoBehaviour
     private float maxCurrentJumpHeight; // depend on the current position of character
     private float xThrow;
     private float yThrow;
-    private Rigidbody rigidbodyPlayer;
+
+    private bool isValidUpdatePosition = true;
 
     // Use this for initialization
     void Start()
     {
         this.setupControl();
-        rigidbodyPlayer = GetComponentInParent<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -115,12 +115,20 @@ public class MovementControl : MonoBehaviour
         }
     }
 
-    private void UpdatePosition(float xOffSet, float yOffSet)
+    private void UpdatePosition(Vector3 direction, ref bool isValidUpdate)
     {
-        float rowY = Mathf.Clamp(transform.localPosition.y + yOffSet, -MaxYMovement, MaxYMovement);//limited the x y way can go
-        float rowX = Mathf.Clamp(transform.localPosition.x + xOffSet, -MaxXMovement, MaxXMovement);//limited the x y way can go
+        isValidUpdate = true;
 
-        transform.localPosition = new Vector3(rowX, rowY, transform.localPosition.z);
+        transform.Translate(direction);
+
+        float rowY = Mathf.Clamp(transform.localPosition.y, -MaxYMovement, MaxYMovement);//limited the x y way can go
+        float rowX = Mathf.Clamp(transform.localPosition.x, -MaxXMovement, MaxXMovement);//limited the x y way can go
+
+        if (rowX != direction.x || rowY != direction.y)
+        {
+            transform.localPosition = new Vector3(rowX, rowY, transform.localPosition.z);
+            isValidUpdate = false; 
+        }
     }
 
     public void NormalMove()
@@ -129,7 +137,7 @@ public class MovementControl : MonoBehaviour
         yThrow = CrossPlatformInputManager.GetAxis("Vertical");
         float xOffSet = xThrow * moveSpeed * Time.deltaTime;
         float yOffSet = yThrow * moveSpeed * Time.deltaTime;
-        UpdatePosition(xOffSet, yOffSet);
+        UpdatePosition(new Vector3(xOffSet, yOffSet, 0), ref isValidUpdatePosition);
     }
 
     public void Jump()
@@ -151,20 +159,20 @@ public class MovementControl : MonoBehaviour
         // recalculate the highest from current position of character
         maxCurrentJumpHeight = Mathf.Min(MaxJumpHeight + transform.localPosition.y, MaxYMovement);
 
-        while (true) // loop each frame, out of Fixed Update
+        while (isJumping) // loop each frame, out of Fixed Update
         {
             // check if current position is out of valid area
             if (transform.localPosition.y >= maxCurrentJumpHeight)
             {
-                UpdatePosition(transform.localPosition.x, transform.localPosition.y);
-                StopAllCoroutines();
                 isJumping = false;
-
             }
 
             // move character if isJumping ultil equal true
             if (isJumping)
-                transform.Translate(Vector3.up * force * Time.smoothDeltaTime);
+            {
+                UpdatePosition(Vector3.up * force * Time.smoothDeltaTime, ref isValidUpdatePosition);
+                isJumping = isValidUpdatePosition;
+            }
             // wait ultil end of frame
             yield return new WaitForEndOfFrame();
         }
