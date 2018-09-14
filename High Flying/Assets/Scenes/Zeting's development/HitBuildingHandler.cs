@@ -7,14 +7,7 @@ public class HitBuildingHandler : MonoBehaviour {
 	// Use this for initialization
 
 	[SerializeField] AudioClip whenHit;
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}	
+
 	void OnCollisionEnter(Collision col){
 	
 		print("hit");
