@@ -1,8 +1,11 @@
 ﻿using UnityEngine;
 using NUnit.Framework;
+using UnityEngine.UI;
+using UnityEditor;
 
-public class CharacterTest {
-    
+public class CharacterTest
+{
+
     public class CharacterPositionProperty
     {
         [TestCase(3, 3, 2, 2, false)]
@@ -20,6 +23,50 @@ public class CharacterTest {
             Assert.That(expectedPosition == characterMovement.Character.localPosition);
             Assert.That(expectedValidPosition == isValidPosition);
         }
+    }
+}
+
+public class InstructionTest
+{
+    public class UpdateInstructionMethod
+    {
+        [TestCase(1, "Can I play daddy : Player will have 5 lives, and a speed of 3.3m/s. Estimate time to finish: 5 minutes")]
+        [TestCase(2, "Don't hurt me: player will have 4 lives, and a speed of 5.5m/s. Estimate time to finish: 3 minutes")]
+        [TestCase(3, "Normal: Player will have 3 lives, and a speed of 8.5m/s. Estimate time to finish: 1.9 minutes")]
+        [TestCase(4, "Sweaty Boy: Player will have 3 lives, and a speed of 20m/s. Estimate time to finish: 50 seconds")]
+        [TestCase(5, "Hell on Earth: Player will have 1 live, and a speed of 50m/s. Estimate time to finish: 20 seconds")]
+        [TestCase(-1, "")]
+        public void UpdateDescriptionTest(float level, string expectedResult)
+        {
+            var data = (InstructionData)AssetDatabase.LoadAssetAtPath("Assets/Scenes/Jimmy's Development/Scriptables/InstructionData.asset", typeof(InstructionData));
+            var description = new GameObject().AddComponent<Text>();
+
+            var instruction = new Instruction(description, data);
+
+            instruction.UpdateDescription(level);
+
+            Assert.That(instruction.Description.text == expectedResult);
+        }
+    }
+}
+
+public class Instruction
+{
+    public Text Description { get; private set; }
+    public InstructionData Data { get; private set; }
+
+    public Instruction(Text description, InstructionData data)
+    {
+        this.Description = description;
+        this.Data = data;
+    }
+
+    public void UpdateDescription(float level)
+    {
+        if (level > 0 && level <= 5)
+            Description.text = Data.GetDescription((int)level - 1);
+        else
+            Description.text = "";
     }
 }
 

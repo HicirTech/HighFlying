@@ -16,6 +16,11 @@ public class UIInstruction : MonoBehaviour {
         UpdateDescription(sldLevel.value);
     }
 
+    /// <summary>
+    ///  return value of call back in onValueChanged is float. but we always set is interger.
+    ///  so no problem if level param is float
+    /// </summary>
+    /// <param name="level"></param>
     public void UpdateDescription(float level)
     {
         txtContent.text = data.GetDescription((int)level - 1);
