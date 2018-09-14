@@ -5,19 +5,20 @@ public class CharacterTest {
     
     public class CharacterPositionProperty
     {
-        [TestCase(3, 3)]
-        public void UpdatePositionTest(float moveX, float moveY)
+        [TestCase(3, 3, 2, 2, false)]
+        [TestCase(2, 2, 2, 2, true)]
+        [TestCase(-2, 1, -2, 1, true)]
+        [TestCase(-3, 3, -2, 2, false)]
+        public void UpdatePositionTest(float moveX, float moveY, float expectedPositionX, float expectedPositionY, bool expectedValidPosition)
         {
-            var expectedPosition = new Vector3(2, 2, 0);
-            var expectedValidPosition = false;
+            var expectedPosition = new Vector3(expectedPositionX, expectedPositionY, 0);
             var isValidPosition = true;
             var character = new GameObject().GetComponent<Transform>();
             var characterMovement = new CharacterMovement(character);
             characterMovement.SetMaxMovement(2, 2);
             characterMovement.UpdatePosition(new Vector3(moveX, moveY, 0), ref isValidPosition);
             Assert.That(expectedPosition == characterMovement.Character.localPosition);
-            Assert.That(expectedValidPosition = isValidPosition);
-            
+            Assert.That(expectedValidPosition == isValidPosition);
         }
     }
 }
