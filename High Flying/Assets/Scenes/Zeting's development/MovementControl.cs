@@ -40,7 +40,7 @@ public class MovementControl : MonoBehaviour
     //---------Zeting: Question  this is how fast can jump or how high it can jump?
     [Tooltip("How fast chararacter can jump ")]
     [SerializeField]
-    private float force = 100f; //how fast chararacter can jump
+    private float force = 10f; //how fast chararacter can jump
     [Tooltip("How high chararacter can jump ")]
     [SerializeField]
     private float MaxJumpHeight = 2; //how height chararacter can jump
@@ -115,20 +115,15 @@ public class MovementControl : MonoBehaviour
         }
     }
 
-    private void UpdatePosition(Vector3 direction, ref bool isValidUpdate)
+    private void UpdatePosition(float xOffSet, float yOffSet, ref bool isValidUpdate)
     {
         isValidUpdate = true;
 
-        transform.Translate(direction);
+        float rowY = Mathf.Clamp(transform.localPosition.y + yOffSet, -MaxYMovement, MaxYMovement);//limited the x y way can go
+        float rowX = Mathf.Clamp(transform.localPosition.x + xOffSet, -MaxXMovement, MaxXMovement);//limited the x y way can go
 
-        float rowY = Mathf.Clamp(transform.localPosition.y, -MaxYMovement, MaxYMovement);//limited the x y way can go
-        float rowX = Mathf.Clamp(transform.localPosition.x, -MaxXMovement, MaxXMovement);//limited the x y way can go
-
-        if (rowX != direction.x || rowY != direction.y)
-        {
-            transform.localPosition = new Vector3(rowX, rowY, transform.localPosition.z);
-            isValidUpdate = false; 
-        }
+        transform.localPosition = new Vector3(rowX, rowY, transform.localPosition.z);
+        isValidUpdate = false; 
     }
 
     public void NormalMove()
@@ -137,7 +132,7 @@ public class MovementControl : MonoBehaviour
         yThrow = CrossPlatformInputManager.GetAxis("Vertical");
         float xOffSet = xThrow * moveSpeed * Time.deltaTime;
         float yOffSet = yThrow * moveSpeed * Time.deltaTime;
-        UpdatePosition(new Vector3(xOffSet, yOffSet, 0), ref isValidUpdatePosition);
+        UpdatePosition(xOffSet, yOffSet, ref isValidUpdatePosition);
     }
 
     public void Jump()
@@ -161,18 +156,16 @@ public class MovementControl : MonoBehaviour
 
         while (isJumping) // loop each frame, out of Fixed Update
         {
-            // check if current position is out of valid area
-            if (transform.localPosition.y >= maxCurrentJumpHeight)
-            {
-                isJumping = false;
-            }
-
+            
             // move character if isJumping ultil equal true
-            if (isJumping)
-            {
-                UpdatePosition(Vector3.up * force * Time.smoothDeltaTime, ref isValidUpdatePosition);
+                UpdatePosition(0, force * Time.deltaTime, ref isValidUpdatePosition);
                 isJumping = isValidUpdatePosition;
-            }
+                // check if current position is out of valid area
+                if (transform.localPosition.y >= maxCurrentJumpHeight)
+                {
+                    isJumping = false;
+                    UpdatePosition(0, maxCurrentJumpHeight - transform.localPosition.y, ref isValidUpdatePosition);
+                }
             // wait ultil end of frame
             yield return new WaitForEndOfFrame();
         }
