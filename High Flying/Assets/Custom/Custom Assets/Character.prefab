@@ -19,7 +19,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4758747368927960}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Forearm_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34,7 +34,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4264933511578082}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Index_Finger_Joint_01a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4671032960964452}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Ring_Finger_Joint_01a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -64,7 +64,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4507139335083156}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Upper_Arm_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,7 +79,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4432627474251224}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Pinky_Finger_Joint_01b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -95,7 +95,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4288800155675312}
   - component: {fileID: 137384700337112152}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:LeftHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -110,7 +110,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4030625972038242}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Pinky_Finger_Joint_01a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -125,7 +125,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4373850400100046}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Ankle_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4363272886818358}
   - component: {fileID: 64870163948899672}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Wingsuit_rig_dont_touch
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -156,7 +156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4881827956610010}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Head_Joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -171,7 +171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4084882495640080}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Ring_Finger_Joint_01b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -186,7 +186,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4253518930940600}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Eleron_right_joint_b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -202,7 +202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4524008935302890}
   - component: {fileID: 137857910650349926}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:RightSneakers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -217,7 +217,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4254299954906034}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Pinky_Finger_Joint_01c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -232,7 +232,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4313632992616196}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Shoulder_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4680218682259756}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Index_Finger_Joint_01c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4494462281672122}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Neck_Joint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -279,7 +279,7 @@ GameObject:
   - component: {fileID: 4192356884901002}
   - component: {fileID: 23268598890833908}
   - component: {fileID: 102245044635948474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Health
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -294,7 +294,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4266889603430512}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Knee_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -309,7 +309,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4895421068373938}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Toe_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -324,7 +324,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4127457212771902}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Ring_Finger_Joint_01c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -340,7 +340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4236090408164408}
   - component: {fileID: 137971190441831550}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Backpack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4436458201518676}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Thumb_Joint_01a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -370,7 +370,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4716204910176026}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Eleron_left_joint_b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -385,7 +385,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4673084868581380}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Ribs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -402,7 +402,7 @@ GameObject:
   - component: {fileID: 4958554953332682}
   - component: {fileID: 33494118649644834}
   - component: {fileID: 23979042895100768}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Helmet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -417,7 +417,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4212367287846050}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Index_Finger_Joint_01c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -432,7 +432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4009450617401986}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Middle_Finger_Joint_01b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -447,7 +447,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4677754243805970}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Wrist_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +463,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4610482251669554}
   - component: {fileID: 137803377635760452}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:RightHand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,7 +478,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4933004235042328}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Ankle_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -493,7 +493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4880040672933502}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Index_Finger_Joint_01a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -508,7 +508,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4214655426536854}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Joints_grp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -523,7 +523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4950914934420648}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Eleron_left_joint_a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -538,7 +538,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4241819665389112}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -555,7 +555,7 @@ GameObject:
   - component: {fileID: 4190205428525648}
   - component: {fileID: 23764318626612736}
   - component: {fileID: 102914985579281406}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Coins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -570,7 +570,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4571974510182890}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Ring_Finger_Joint_01c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,7 +585,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4950037087314288}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Hip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -600,7 +600,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4930611436078774}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Wrist_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -615,7 +615,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4616569929558118}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Pinky_Finger_Joint_01a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -630,7 +630,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4180337559979392}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Ring_Finger_Joint_01b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -645,7 +645,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4343553788460606}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Middle_Finger_Joint_01c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -660,7 +660,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4218986712087378}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Index_Finger_Joint_01b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -675,7 +675,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4879945552230782}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Thumb_Joint_01b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -690,7 +690,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4737803167013004}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Pinky_Finger_Joint_01b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -705,7 +705,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4256608066093394}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Thigh_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -720,7 +720,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4259911225038326}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Eleron_right_joint_a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -735,7 +735,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4919072346533652}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Thumb_Joint_01b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -750,7 +750,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4266213830194008}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Middle_Finger_Joint_01a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -765,7 +765,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4209244640123422}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Ring_Finger_Joint_01a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -780,7 +780,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4944529775379350}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Thumb_Joint_01a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -795,17 +795,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4316352312116988}
-  - component: {fileID: 20578517969323268}
   - component: {fileID: 81325993810100544}
-  - component: {fileID: 95344166266120092}
   - component: {fileID: 54676978802219664}
-  - component: {fileID: 114333964004038808}
   - component: {fileID: 114324596336435304}
   - component: {fileID: 114076387938387410}
   - component: {fileID: 114611717066361784}
-  m_Layer: 9
+  - component: {fileID: 82712968120707604}
+  - component: {fileID: 114523646929843824}
+  m_Layer: 8
   m_Name: Character
-  m_TagString: MainCamera
+  m_TagString: Character
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -818,7 +817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4831137920575664}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -836,7 +835,7 @@ GameObject:
   - component: {fileID: 95546483756855422}
   - component: {fileID: 65510456078094814}
   - component: {fileID: 114239884920494840}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Pilot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -851,7 +850,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4749289091699780}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Thigh_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -867,13 +866,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4767938166720938}
   - component: {fileID: 96421441676974656}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1797301234249234
 GameObject:
   m_ObjectHideFlags: 1
@@ -882,7 +881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4300014382826214}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Knee_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -897,7 +896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4964302357301756}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Toe_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -913,7 +912,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4891652996851486}
   - component: {fileID: 137623850100837796}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -928,7 +927,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4616675168956846}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Pinky_Finger_Joint_01c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -943,7 +942,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4924879040195524}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Middle_Finger_Joint_01c
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -958,7 +957,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4569941368228652}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Index_Finger_Joint_01b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -974,7 +973,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4818379495658484}
   - component: {fileID: 137654167895860318}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Suit1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -989,7 +988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4462507652789428}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Forearm_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1004,7 +1003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4454531425952474}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Wingsuit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1019,7 +1018,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4479201524212932}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Upper_Arm_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1034,7 +1033,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4618845093016716}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1049,7 +1048,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4946809196351018}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Shoulder_Joint_01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1066,7 +1065,7 @@ GameObject:
   - component: {fileID: 4983381326690522}
   - component: {fileID: 33239092545749104}
   - component: {fileID: 23285899503631948}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Camera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1081,7 +1080,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4167195842252232}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Left_Middle_Finger_Joint_01a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1097,7 +1096,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4474066463320240}
   - component: {fileID: 137110073709732308}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:LeftSneakers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1112,7 +1111,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4456976210226698}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: skydiver_rig9:Right_Middle_Finger_Joint_01b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1275,7 +1274,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1597906769107904}
-  m_LocalRotation: {x: 0.11410219, y: -0.05578627, z: 0.19865239, w: 0.9718054}
+  m_LocalRotation: {x: 0.1141022, y: -0.055786274, z: 0.1986524, w: 0.97180545}
   m_LocalPosition: {x: -0.038873274, y: 0.0060091503, z: 0.00038184662}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1457,8 +1456,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1701869088330222}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 495.266, y: 203.18, z: 913.3335}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4392208438704890}
@@ -1466,7 +1465,7 @@ Transform:
   - {fileID: 4190205428525648}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4343553788460606
 Transform:
   m_ObjectHideFlags: 1
@@ -1516,7 +1515,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1754839327982744}
   m_LocalRotation: {x: 0.0079589505, y: -0.0019845054, z: 0.007450018, w: 0.99993867}
-  m_LocalPosition: {x: 0.06, y: -1.48, z: 2.225}
+  m_LocalPosition: {x: -0, y: -0.78, z: 2.86}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4618845093016716}
@@ -1725,7 +1724,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1814189443412518}
-  m_LocalRotation: {x: -0.009677755, y: -0.000689017, z: -0.041797183, w: 0.9990791}
+  m_LocalRotation: {x: -0.009677714, y: -0.000689017, z: -0.04179702, w: 0.9990791}
   m_LocalPosition: {x: -0.018283546, y: -0.002743202, z: 0.00002678881}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1826,7 +1825,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1604812108220678}
-  m_LocalRotation: {x: -0.03786057, y: 0.022016695, z: 0.30951422, w: 0.94988567}
+  m_LocalRotation: {x: -0.037860572, y: 0.022016695, z: 0.30951425, w: 0.94988567}
   m_LocalPosition: {x: 0.030256901, y: -0.000047395028, z: 0.00015790923}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2126,46 +2125,6 @@ Transform:
   m_Father: {fileID: 4958554953332682}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!20 &20578517969323268
-Camera:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1701869088330222}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_projectionMatrixMode: 1
-  m_SensorSize: {x: 36, y: 24}
-  m_LensShift: {x: 0, y: 0}
-  m_FocalLength: 50
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 96.12709
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 1
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
 --- !u!23 &23268598890833908
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -2334,7 +2293,7 @@ Rigidbody:
   m_Mass: 0.1
   m_Drag: 0
   m_AngularDrag: 0.05
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -2371,25 +2330,102 @@ AudioListener:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1701869088330222}
-  m_Enabled: 1
---- !u!95 &95344166266120092
-Animator:
-  serializedVersion: 3
+  m_Enabled: 0
+--- !u!82 &82712968120707604
+AudioSource:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1701869088330222}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: 9ac866bfbea384885bfb79c4327dacbb, type: 3}
-  m_Controller: {fileID: 9100000, guid: 83052dc33d4817a46aa2a9da595f3759, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!95 &95546483756855422
 Animator:
   serializedVersion: 3
@@ -2399,7 +2435,7 @@ Animator:
   m_GameObject: {fileID: 1754839327982744}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 9ac866bfbea384885bfb79c4327dacbb, type: 3}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 83052dc33d4817a46aa2a9da595f3759, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -2577,8 +2613,9 @@ MonoBehaviour:
   controlPitchFactor: -20
   positionYawFactor: 5
   controlRollFactor: -30
-  force: 100
-  jump: 0
+  force: 20
+  MaxJumpHeight: 2
+  enableJump: 1
 --- !u!114 &114324596336435304
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2595,29 +2632,18 @@ MonoBehaviour:
   difficultyRating: 1
   initialInvincCount: 60
   healthUI: {fileID: 0}
---- !u!114 &114333964004038808
+--- !u!114 &114523646929843824
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1701869088330222}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5cb22d331ef7d64796f917c6a455a32, type: 3}
+  m_Script: {fileID: 11500000, guid: 9e825c5951130204cb7931e79119ee7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  circuit: {fileID: 0}
-  lookAheadForTargetOffset: 0.05
-  lookAheadForTargetFactor: 0.05
-  lookAheadForSpeedOffset: 0.05
-  lookAheadForSpeedFactor: 0.05
-  progressStyle: 0
-  pointToPointThreshold: 0.66
-  target: {fileID: 4316352312116988}
-  progressDistance: 0
-  progressNum: 0
-  lastPosition: {x: 0, y: 0, z: 0}
-  speed: 0
+  whenHit: {fileID: 8300000, guid: 2f640055d569e3a4d8f5f1a027737eb8, type: 3}
 --- !u!114 &114611717066361784
 MonoBehaviour:
   m_ObjectHideFlags: 1
