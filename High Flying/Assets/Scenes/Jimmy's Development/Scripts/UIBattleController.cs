@@ -40,4 +40,7 @@ public class UIBattleController : MonoBehaviour {
         pauseAndMenu.PauseGame();
         pauseAndMenu.ShowPopup();
     }
+
+    public PauseAndMenu getPauseAndMenu() //this method used to initialise pauseAndMenu Object
+    {         pauseAndMenu = new PauseAndMenu();         return pauseAndMenu;     }
 }
