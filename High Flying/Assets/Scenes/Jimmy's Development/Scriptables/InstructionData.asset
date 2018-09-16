@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: InstructionData
   m_EditorClassIdentifier: 
   description:
-  - 'Can I play daddy : Player will have 5 lives, and a speed of 3.3m/s. Estimate
+  - 'Can I play, Daddy: Player will have 5 lives, and a speed of 3.3m/s. Estimate
     time to finish: 5 minutes'
   - 'Don''t hurt me: player will have 4 lives, and a speed of 5.5m/s. Estimate time
     to finish: 3 minutes'
@@ -20,5 +20,5 @@ MonoBehaviour:
     1.9 minutes'
   - 'Sweaty Boy: Player will have 3 lives, and a speed of 20m/s. Estimate time to
     finish: 50 seconds'
-  - 'Hell on Earth: Player will have 1 live, and a speed of 50m/s. Estimate time to
+  - 'Hell on Earth: Player will have 1 life, and a speed of 50m/s. Estimate time to
     finish: 20 seconds'
