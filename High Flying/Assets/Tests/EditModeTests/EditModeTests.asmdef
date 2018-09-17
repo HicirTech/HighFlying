@@ -1,9 +1,14 @@
-﻿{
+{
     "name": "EditModeTests",
+    "references": [
+        "NikkScripts"
+    ],
     "optionalUnityReferences": [
         "TestAssemblies"
     ],
     "includePlatforms": [
         "Editor"
-    ]
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
 }

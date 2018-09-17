@@ -7,7 +7,7 @@ public class PointSystemTest
 {
 
     GameObject character;
-    //PointSystem pSys;
+    PointSystem pSys;
     Component[] listOfComponents;
     float pointsBeforeEngage;
     float pointsAfterEngage;
@@ -29,7 +29,7 @@ public class PointSystemTest
             Debug.Log("Component: " + c);
         }
 
-       // pSys = character.GetComponent<PointSystem>();
+        pSys = character.GetComponent<PointSystem>();
         pointsBeforeEngage = pSys.points;
 
         yield return new WaitForSeconds(5);

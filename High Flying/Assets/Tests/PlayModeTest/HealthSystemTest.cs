@@ -13,7 +13,7 @@ public class HealthSystemTest
     [UnityTest]
     public IEnumerator HealthSystemTestWithEnumeratorPasses() {
         character = GameObject.Find("Character");
-        //HealthSystem hSys = character.GetComponent(typeof(HealthSystem)) as HealthSystem;
+        HealthSystem hSys = character.GetComponent(typeof(HealthSystem)) as HealthSystem;
 
         hSys.healthUI = null;
         yield return new WaitForFixedUpdate();
