@@ -1,20 +1,36 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class BackGroundMusicPlay : MonoBehaviour {
 
 	// Use this for initialization
 	AudioSource audioSource;
+	Scene currentScene;
+	string nameOfStart="";
+	[SerializeField] AudioClip CityNoise;
+	[SerializeField] AudioClip Wind;
 	private bool isPlaying{get;set;}
-	[SerializeField] AudioClip music;
+	AudioClip music;
 		
-		void Start(){
+	private void Awake()
+    {
+		checkDouble();
+	}
+
+	void Start(){
+		this.currentScene= SceneManager.GetActiveScene();
 		this.audioSource = GetComponent<AudioSource>();		
-		PlayMusic();
-		}
+		this.SetClipForPlay();
+		this.audioSource.loop=true;
+		this.PlayMusic();
+	}
+
+
+
 	public void switchPlay()
 	{
+		
 		if(this.isPlaying)
 		{
 			this.StopPlay();
@@ -24,16 +40,45 @@ public class BackGroundMusicPlay : MonoBehaviour {
 			this.PlayMusic();
 		}
 	}
+	void Update()
+	{
+		this.updateMuic();	
+		
+	}
 
-
+	
 	private void PlayMusic()
 	{
 		if(!this.isPlaying)
 		{
-			this.audioSource.PlayOneShot(this.music);
+			this.audioSource.Play();
 			this.isPlaying=!this.isPlaying;
 		}
 	}
+
+	private void updateMuic()
+	{
+
+		this.currentScene= SceneManager.GetActiveScene();
+		
+		if(!currentScene.name.Equals(nameOfStart))//if this change happened
+		{
+			if((nameOfStart.Contains("Main")&&currentScene.name.Contains("City"))||(nameOfStart.Contains("City")))
+			{
+				this.StopPlay();;
+				this.SetClipForPlay();
+				this.PlayMusic();
+				nameOfStart=this.currentScene.name;
+			}
+		}
+	}
+
+
+	private void SetClipForPlay()
+	{
+		this.audioSource.clip=(this.currentScene.name.Contains("City"))?CityNoise:Wind;
+	}
+	
 
 	private void StopPlay()
 	{
@@ -42,10 +87,6 @@ public class BackGroundMusicPlay : MonoBehaviour {
 			this.audioSource.Stop();
 			this.isPlaying=!this.isPlaying;
 		}
-	}
-	private void Awake()
-    {
-		checkDouble();
 	}
 
 	private void checkDouble()

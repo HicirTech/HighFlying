@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1501,7 +1501,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -2.7625122, y: -48.9}
+  m_AnchoredPosition: {x: -2.7624512, y: -48.899994}
   m_SizeDelta: {x: -4.425, y: 97.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1736297915
@@ -1601,7 +1601,22 @@ Prefab:
         type: 2}
       propertyPath: music
       value: 
-      objectReference: {fileID: 8300000, guid: c2e67fd9b10f5f14893eac326d04d83d, type: 3}
+      objectReference: {fileID: 8300000, guid: 761094be6f67b7b478a7cc34225947dd, type: 3}
+    - target: {fileID: 114638163520418194, guid: 696b02ec15d354648bb89454feebf9d1,
+        type: 2}
+      propertyPath: Wind
+      value: 
+      objectReference: {fileID: 8300000, guid: 761094be6f67b7b478a7cc34225947dd, type: 3}
+    - target: {fileID: 114638163520418194, guid: 696b02ec15d354648bb89454feebf9d1,
+        type: 2}
+      propertyPath: CityNoise
+      value: 
+      objectReference: {fileID: 8300000, guid: a270fd2b395d1f843a5f5ecc5a2f1aca, type: 3}
+    - target: {fileID: 114638163520418194, guid: 696b02ec15d354648bb89454feebf9d1,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 696b02ec15d354648bb89454feebf9d1, type: 2}
   m_IsPrefabAsset: 0
