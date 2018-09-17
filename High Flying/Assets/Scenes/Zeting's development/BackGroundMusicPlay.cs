@@ -42,7 +42,7 @@ public class BackGroundMusicPlay : MonoBehaviour {
 	}
 	void Update()
 	{
-		this.updateMuic();	
+		this.CheckUpdate();	
 		
 	}
 
@@ -56,23 +56,27 @@ public class BackGroundMusicPlay : MonoBehaviour {
 		}
 	}
 
-	private void updateMuic()
+	private void CheckUpdate()
 	{
 
 		this.currentScene= SceneManager.GetActiveScene();
 		
 		if(!currentScene.name.Equals(nameOfStart))//if this change happened
 		{
-			if((nameOfStart.Contains("Main")&&currentScene.name.Contains("City"))||(nameOfStart.Contains("City")))
-			{
-				this.StopPlay();;
-				this.SetClipForPlay();
-				this.PlayMusic();
-				nameOfStart=this.currentScene.name;
+			if((nameOfStart.Contains("Main")&&currentScene.name.Contains("City"))||currentScene.name.Contains("City")||currentScene.name.Contains("Main"))
+			{	
+				this.DoUpdateMusic();
 			}
 		}
 	}
 
+	private void DoUpdateMusic()
+	{
+		this.StopPlay();;
+		this.SetClipForPlay();
+		this.PlayMusic();
+		nameOfStart=this.currentScene.name;
+	}
 
 	private void SetClipForPlay()
 	{
