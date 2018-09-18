@@ -84,25 +84,24 @@ public class HealthSystem : MonoBehaviour {
 	void OnCollisionEnter(Collision col){
 		if(enable){
 			//if the collision is anything but all friendly tags and invincability is off.
-			if(!(col.gameObject.tag == "Respawn" || 
-				col.gameObject.tag == "Finish" || 
+			if(!(col.gameObject.tag == "Respawn" ||  
 				col.gameObject.tag == "MainCamera" ||
 				col.gameObject.tag == "Player" ||
 				col.gameObject.tag == "GameController" ||
 				col.gameObject.tag == "RTCam" ||
 				col.gameObject.tag == "CoinRing" ||
 				col.gameObject.tag == "LifeRing" ||
-				col.gameObject.tag == "PointRing") && invincability == false){
-					//Negate the health by 1
+				col.gameObject.tag == "Finish"||
+				col.gameObject.tag == "PointRing"
+				) && invincability == false)
+				{
+					
 					health -= 1;
-					Debug.Log("Collision Occured - Negate Life to: "+health);
+					Debug.Log("Collision Occured"+col.gameObject.name+ "- Negate Life to: "+health);	
 			}
-		}else if(col.gameObject.tag.Equals("Finish"))
-		{
-			Invoke("Landing",2f);
-		}		
 		else{
 			Debug.Log("Health System's collisions currently paused");
+		}
 		}
 	}
 
@@ -134,9 +133,6 @@ public class HealthSystem : MonoBehaviour {
 		this.enable = enableThis;
 	}
 
-	public void Landing()
-	{
-		SceneManager.LoadScene("MainPlay");
-	}
+
 }
 

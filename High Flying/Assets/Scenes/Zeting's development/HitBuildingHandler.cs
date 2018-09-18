@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HitBuildingHandler : MonoBehaviour {
 
@@ -10,10 +11,21 @@ public class HitBuildingHandler : MonoBehaviour {
 
 	void OnCollisionEnter(Collision col){
 	
-		print("hit");
-		AudioSource audio = gameObject.GetComponent<AudioSource>();
-		audio.PlayOneShot(this.whenHit);
-	
+		
+		if(col.gameObject.tag.Equals("Finish"))
+		{
+			print("fin");
+			Invoke("Landing",2f);
+		}
+		else{
+			print("hit");
+			AudioSource audio = gameObject.GetComponent<AudioSource>();
+			audio.PlayOneShot(this.whenHit);
+		}
+	}
+	public void Landing()
+	{
+		SceneManager.LoadScene("MainPlay");
 	}
 }
 
