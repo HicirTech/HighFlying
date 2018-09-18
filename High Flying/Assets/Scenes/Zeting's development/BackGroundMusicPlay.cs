@@ -10,24 +10,28 @@ public class BackGroundMusicPlay : MonoBehaviour {
 	string nameOfStart="";
 	[SerializeField] AudioClip CityNoise;
 	[SerializeField] AudioClip Wind;
-	private bool isPlaying{get;set;}
+	public bool isPlaying ;
 	AudioClip music;
 		
 	private void Awake()
     {
 		checkDouble();
+		isPlaying=false;
 	}
 
 	void Start(){
+		setupPlayer();
+	}
+
+
+	public void setupPlayer()
+	{
 		this.currentScene= SceneManager.GetActiveScene();
 		this.audioSource = GetComponent<AudioSource>();		
 		this.SetClipForPlay();
 		this.audioSource.loop=true;
 		this.PlayMusic();
 	}
-
-
-
 	public void switchPlay()
 	{
 		
@@ -47,17 +51,18 @@ public class BackGroundMusicPlay : MonoBehaviour {
 	}
 
 	
-	private void PlayMusic()
+	private bool PlayMusic()
 	{
 		if(!this.isPlaying)
 		{
 			this.audioSource.Play();
 			this.isPlaying=!this.isPlaying;
 		}
+		return isPlaying;
 	}
 
 	private void CheckUpdate()
-	{
+	{ 
 
 		this.currentScene= SceneManager.GetActiveScene();
 		
@@ -84,13 +89,14 @@ public class BackGroundMusicPlay : MonoBehaviour {
 	}
 	
 
-	private void StopPlay()
+	private bool StopPlay()
 	{
 		if(this.isPlaying)
 		{
 			this.audioSource.Stop();
 			this.isPlaying=!this.isPlaying;
 		}
+		return isPlaying;
 	}
 
 	private void checkDouble()
