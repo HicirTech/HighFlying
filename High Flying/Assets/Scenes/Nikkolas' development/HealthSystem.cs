@@ -97,7 +97,11 @@ public class HealthSystem : MonoBehaviour {
 					health -= 1;
 					Debug.Log("Collision Occured - Negate Life to: "+health);
 			}
-		}else{
+		}else if(col.gameObject.tag.Equals("Finish"))
+		{
+			Invoke("Landing",2f);
+		}		
+		else{
 			Debug.Log("Health System's collisions currently paused");
 		}
 	}
@@ -128,6 +132,11 @@ public class HealthSystem : MonoBehaviour {
 
 	public void enableThis(bool enableThis){
 		this.enable = enableThis;
+	}
+
+	public void Landing()
+	{
+		SceneManager.LoadScene("MainPlay");
 	}
 }
 
