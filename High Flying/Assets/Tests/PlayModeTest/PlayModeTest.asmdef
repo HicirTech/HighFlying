@@ -1,12 +1,6 @@
-{
+﻿{
     "name": "PlayModeTest",
-    "references": [
-        "NikkScripts"
-    ],
     "optionalUnityReferences": [
         "TestAssemblies"
-    ],
-    "includePlatforms": [],
-    "excludePlatforms": [],
-    "allowUnsafeCode": false
+    ]
 }
