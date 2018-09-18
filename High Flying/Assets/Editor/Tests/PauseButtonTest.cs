@@ -12,7 +12,7 @@ public class NewTestScript {
    // set object for UIbatttleController 
     PauseAndMenu pauseMenu = UIButtons.getPauseAndMenu(); 
     //get object from pauseMenu       
-     Assert.AreEqual(0, pauseMenu.PauseGame()); //make sure time Scale return to 0 so the game pause
+    Assert.AreEqual(0, pauseMenu.PauseGame()); //make sure time Scale return to 0 so the game pause
     Assert.AreEqual(1, pauseMenu.ResumeGame()); //make sure time Scale return to 1 so the game resume
-     }
+    }
 }
