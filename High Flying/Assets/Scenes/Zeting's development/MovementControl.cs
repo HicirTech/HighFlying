@@ -20,10 +20,10 @@ public class MovementControl : MonoBehaviour
     private bool RollEnable = false;
     [Tooltip("This value will be the max distantce of the model move from original location in x axis")]
     [SerializeField]
-    private float MaxXMovement = 3.23f; //this one can make the character fly horizontally further
+    private float MaxXRightMovement = 3.23f, MaxXLeftMovement = -3.23f; //this one can make the character fly horizontally further
     [Tooltip("This value will be the max distantce of the model move from original location in Y axis")]
     [SerializeField]
-    private float MaxYMovement = 2.5f;
+    private float MaxYTopMovement = 2.5f, MaxYBottomMovement = -5f;
     [Tooltip("How much character can pitch dur to its position changes")]
     [SerializeField]
     private float positionPitchFactor = -5f;
@@ -87,7 +87,7 @@ public class MovementControl : MonoBehaviour
     private void InitCharacterMovement()
     {
         characterMovement = new CharacterMovement(transform);
-        characterMovement.SetMaxMovement(MaxXMovement, MaxYMovement);
+        characterMovement.SetMaxMovement(MaxXRightMovement, MaxXLeftMovement, MaxYTopMovement, MaxYBottomMovement);
     }
 
     /// <summary>
@@ -150,7 +150,7 @@ public class MovementControl : MonoBehaviour
     private IEnumerator IJump()
     {
         // recalculate the highest from current position of character
-        maxCurrentJumpHeight = Mathf.Min(MaxJumpHeight + transform.localPosition.y, MaxYMovement);
+        maxCurrentJumpHeight = Mathf.Min(MaxJumpHeight + transform.localPosition.y, MaxYTopMovement);
 
         while (isJumping) // loop each frame, out of Fixed Update
         {

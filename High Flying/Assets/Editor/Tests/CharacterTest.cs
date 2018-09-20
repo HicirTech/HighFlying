@@ -18,7 +18,7 @@ public class CharacterTest
             var isValidPosition = true;
             var character = new GameObject().GetComponent<Transform>();
             var characterMovement = new CharacterMovement(character);
-            characterMovement.SetMaxMovement(2, 2);
+            characterMovement.SetMaxMovement(2, -2, 2, -2);
             characterMovement.UpdatePosition(xOffset, yOffset, ref isValidPosition);
             Assert.That(expectedPosition == characterMovement.Character.localPosition);
             Assert.That(expectedValidPosition == isValidPosition);
