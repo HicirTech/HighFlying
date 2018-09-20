@@ -14,7 +14,7 @@ public class HealthSystem : MonoBehaviour {
 	public int difficultyRating = 1;
 	[Tooltip("Intitial counter for invincability in frames")][SerializeField][Range(1, 100)]
 	public int initialInvincCount;
-	private int savedInitialInvinc;
+	private int savedInitialInvinc = -999;
 	[System.NonSerialized]
 	public int health = 1;
 
@@ -36,7 +36,7 @@ public class HealthSystem : MonoBehaviour {
 			//Initiate the text
 			healthUI.text = "Health: "+health;
 
-			if(savedInitialInvinc == null){
+			if(savedInitialInvinc == -999){
 				savedInitialInvinc = initialInvincCount; //If it's the first time the level starts then saved dev set initialInvincCount
 			}else{
 				initialInvincCount = savedInitialInvinc; //If not, then use saved intial invinc count to set initial invinc count
@@ -117,10 +117,11 @@ public class HealthSystem : MonoBehaviour {
 		}
 	}
 
-	void initialInvinc(){
+	public void initialInvinc(){
 		//If the initial start time is finished, then set invincability to false
 		//Remove 1 per frame from counter of initial invincability
-		if(initialInvincCount != 0 && initialInvincCount > 0){
+		print("initialInvinc() : "+this.initialInvincCount);
+		if(initialInvincCount > 0){
 			initialInvincCount -= 1;
 		}else if (initialInvincCount == 0){
 			invincability = false;

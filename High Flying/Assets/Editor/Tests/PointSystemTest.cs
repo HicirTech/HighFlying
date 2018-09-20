@@ -5,35 +5,40 @@ using System.Collections;
 
 public class PointSystemTest {
 
-    //GameObject character;
-    //PointSystem pSys;
-    //Component[] listOfComponents;
-    //float pointsBeforeEngage;
-    //float pointsAfterEngage;
+    [Test]
+    public void testEnable()
+    {
+        GameObject testObject = new GameObject();
+        testObject.AddComponent<PointSystem>();
 
-    //[Test]
-    //public void PointSystemTestSimplePasses() {
-    //    // Use the Assert class to test conditions.
-    //}
+        PointSystem testSystem = testObject.GetComponent<PointSystem>();
+        testSystem.enable = false;
 
-    //// A UnityTest behaves like a coroutine in PlayMode
-    //// and allows you to yield null to skip a frame in EditMode
-    //[UnityTest]
-    //public IEnumerator PointSystemTestWithEnumeratorPasses() {
-    //    character = GameObject.Find("Character");
-    //    //listOfComponents = character.GetComponents(typeof(Component));
+        Assert.IsFalse(testSystem.enable);
 
-    //    //foreach(Component c in listOfComponents){
-    //    //    Debug.Log("Component: "+c);
-    //    //}
+    }
 
-    //    pSys = character.GetComponent<PointSystem>();
-    //    pointsBeforeEngage = pSys.points;
+    [Test]
+    public void testCalculator()
+    {
+        //points = Mathf.Round((((coinsCollectedCounter+1)*coinsCollMult)*(ringsPassedCounter*ringsPassMult))*Mathf.Pow((pointRingCounter*pointRMult), difficulty));
 
-    //    yield return new WaitForSeconds(5);
+        GameObject testObject = new GameObject();
+        testObject.AddComponent<PointSystem>();
 
-    //    pointsAfterEngage = pSys.points;
+        PointSystem testSystem = testObject.GetComponent<PointSystem>();
+        testSystem.points = 0;
 
-    //    Assert.AreNotEqual(pointsBeforeEngage, pointsAfterEngage);
-    //}
+        testSystem.setCoinsCollectedCounter(1);
+        testSystem.setRingsPassedCounter(1);
+        testSystem.setPointRingCounter(1);
+        testSystem.setDifficulty(1);
+
+        testSystem.calculatePoints();
+
+        Assert.AreNotEqual(testSystem.points, 0);
+        Assert.AreEqual(12.0f, testSystem.points); //Expected points with values set above
+    }
+
+    
 }
