@@ -32,14 +32,16 @@ public class PauseAndMenu : MonoBehaviour {
         UnityEngine.SceneManagement.SceneManager.LoadScene("MainPlay");
     }
 
-    public void ResumeGame()
+    public float ResumeGame()
     {
         Time.timeScale = 1;
+        return 1;
     }
 
-    public void PauseGame()
+    public float PauseGame()
     {
         Time.timeScale = 0;
+        return 0;
     }
 
     public void ShowPopup()

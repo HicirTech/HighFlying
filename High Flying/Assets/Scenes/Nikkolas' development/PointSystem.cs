@@ -17,12 +17,9 @@ public class PointSystem : MonoBehaviour {
 	private GameObject character;
 
 	//score = ((Amount of coins collected in a mission * 1.75) * (Amount of total rings passed * 1.75)) * ((Point ring multiplier added up with each being 2)^difficulty rating)
-	[Tooltip("This is the coins collected multiplier")][SerializeField][Range(0.0f, 5.0f)]
-	private float coinsCollMult = 1.75f;
-	[Tooltip("This is the rings passed multiplier")][SerializeField][Range(0.0f, 5.0f)]
-	private float ringsPassMult = 1.75f;
-	[Tooltip("This is the point ring multiplier")][SerializeField][Range(0.0f, 10.0f)]
-	private float pointRMult = 2.0f;
+	public const float coinsCollMult = 1.75f;
+	public const float ringsPassMult = 1.75f;
+	public const float pointRMult = 2.0f;
 	private int coinsCollectedCounter;
 	private int ringsPassedCounter;
 	private int pointRingCounter;
@@ -84,7 +81,7 @@ public class PointSystem : MonoBehaviour {
 	}
 
 	//Calculate the points that the player has based off this calculation:
-	void calculatePoints(){
+	public void calculatePoints(){
 		points = Mathf.Round((((coinsCollectedCounter+1)*coinsCollMult)*(ringsPassedCounter*ringsPassMult))*Mathf.Pow((pointRingCounter*pointRMult), difficulty));
 
 		//Debug it
@@ -100,6 +97,42 @@ public class PointSystem : MonoBehaviour {
 
 	public void enableThis(bool enableThis){
 		this.enable = enableThis;
+	}
+	
+
+	//Getters
+	public int getCoinsCollectedCounter()
+	{
+		return this.coinsCollectedCounter;
+	}
+	public int getRingsPassedCounter()
+	{
+		return this.ringsPassedCounter;
+	}
+	public int getPointRingCounter(){
+		return this.pointRingCounter;
+	}
+	public int getDifficulty()
+	{
+		return this.difficulty;
+	}
+
+	//Setters
+	public void setCoinsCollectedCounter(int coinsCollected)
+	{
+		this.coinsCollectedCounter = coinsCollected;
+	}
+	public void setRingsPassedCounter(int ringsPassed)
+	{
+		this.ringsPassedCounter = ringsPassed;
+	}
+	public void setPointRingCounter(int pointRing)
+	{
+		this.pointRingCounter = pointRing;
+	}
+	public void setDifficulty(int diff)
+	{
+		this.difficulty = diff;
 	}
 
 }

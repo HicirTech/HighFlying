@@ -54,7 +54,7 @@ public class PauseBehaviour : MonoBehaviour {
 
 		cSys.enableThis(false);
 		hSys.enableThis(false);
-		pSys.enableThis(false);
+		//pSys.enableThis(false);
 	}
 
 	//Unpause game. Here you have to re-enable scripts because they will not start automatically with timeScale = 1
@@ -65,6 +65,6 @@ public class PauseBehaviour : MonoBehaviour {
 
 		cSys.enableThis(true);
 		hSys.enableThis(true);
-		pSys.enableThis(true);
+		//pSys.enableThis(true);
 	}
 }
