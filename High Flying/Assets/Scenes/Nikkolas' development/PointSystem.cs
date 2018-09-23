@@ -68,7 +68,7 @@ public class PointSystem : MonoBehaviour {
 			//If you hit the point ring
 			if(col.gameObject.tag == "PointRing"){
 				pointRingCounter++;
-				Debug.Log("Point ring passed - Collision Occured, point ring counter increased to: "+pointRingCounter);
+                Debug.Log("Point ring passed - Collision Occured, point ring counter increased to: "+pointRingCounter);
 			}
 			//If you pass any ring
 			if(col.gameObject.tag == "PointRing" || col.gameObject.tag == "CoinRing" || col.gameObject.tag == "LifeRing"){
