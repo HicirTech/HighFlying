@@ -20,10 +20,10 @@ public class MovementControl : MonoBehaviour
     private bool RollEnable = false;
     [Tooltip("This value will be the max distantce of the model move from original location in x axis")]
     [SerializeField]
-    private float MaxXMovement = 3.23f; //this one can make the character fly horizontally further
+    private float MaxXRightMovement = 3.23f, MaxXLeftMovement = -3.23f; //this one can make the character fly horizontally further
     [Tooltip("This value will be the max distantce of the model move from original location in Y axis")]
     [SerializeField]
-    private float MaxYMovement = 2.5f;
+    private float MaxYTopMovement = 2.5f, MaxYBottomMovement = -5f;
     [Tooltip("How much character can pitch dur to its position changes")]
     [SerializeField]
     private float positionPitchFactor = -5f;
@@ -40,7 +40,7 @@ public class MovementControl : MonoBehaviour
     //---------Zeting: Question  this is how fast can jump or how high it can jump?
     [Tooltip("How fast chararacter can jump ")]
     [SerializeField]
-    private float force = 100f; //how fast chararacter can jump
+    private float force = 10f; //how fast chararacter can jump
     [Tooltip("How high chararacter can jump ")]
     [SerializeField]
     private float MaxJumpHeight = 2; //how height chararacter can jump
@@ -57,10 +57,14 @@ public class MovementControl : MonoBehaviour
 
     private bool isValidUpdatePosition = true;
 
+    private CharacterMovement characterMovement;
+
     // Use this for initialization
     void Start()
     {
-        this.setupControl();
+        Time.timeScale = 1;
+        this.SetupControl();
+        this.InitCharacterMovement();
     }
 
     // Update is called once per frame
@@ -73,12 +77,18 @@ public class MovementControl : MonoBehaviour
     /// <summary>
     /// This method will check the Checkbox of yaw, pitch, roll
     /// </summary>
-    private void setupControl()
+    private void SetupControl()
     {
         this.positionPitchFactor = (this.PitchEnable) ? this.positionPitchFactor : 0;
         this.controlPitchFactor = (this.PitchEnable) ? this.controlPitchFactor : 0;
         this.controlRollFactor = (this.RollEnable) ? this.controlRollFactor : 0;
         this.positionYawFactor = (this.YawEnable) ? this.positionYawFactor : 0;
+    }
+
+    private void InitCharacterMovement()
+    {
+        characterMovement = new CharacterMovement(transform);
+        characterMovement.SetMaxMovement(MaxXRightMovement, MaxXLeftMovement, MaxYTopMovement, MaxYBottomMovement);
     }
 
     /// <summary>
@@ -115,29 +125,13 @@ public class MovementControl : MonoBehaviour
         }
     }
 
-    private void UpdatePosition(Vector3 direction, ref bool isValidUpdate)
-    {
-        isValidUpdate = true;
-
-        transform.Translate(direction);
-
-        float rowY = Mathf.Clamp(transform.localPosition.y, -MaxYMovement, MaxYMovement);//limited the x y way can go
-        float rowX = Mathf.Clamp(transform.localPosition.x, -MaxXMovement, MaxXMovement);//limited the x y way can go
-
-        if (rowX != direction.x || rowY != direction.y)
-        {
-            transform.localPosition = new Vector3(rowX, rowY, transform.localPosition.z);
-            isValidUpdate = false; 
-        }
-    }
-
     public void NormalMove()
     {
         xThrow = CrossPlatformInputManager.GetAxis("Horizontal");//get data from CrossPlatformInputManager
         yThrow = CrossPlatformInputManager.GetAxis("Vertical");
         float xOffSet = xThrow * moveSpeed * Time.deltaTime;
         float yOffSet = yThrow * moveSpeed * Time.deltaTime;
-        UpdatePosition(new Vector3(xOffSet, yOffSet, 0), ref isValidUpdatePosition);
+        characterMovement.UpdatePosition(xOffSet, yOffSet, ref isValidUpdatePosition);
     }
 
     public void Jump()
@@ -157,22 +151,20 @@ public class MovementControl : MonoBehaviour
     private IEnumerator IJump()
     {
         // recalculate the highest from current position of character
-        maxCurrentJumpHeight = Mathf.Min(MaxJumpHeight + transform.localPosition.y, MaxYMovement);
+        maxCurrentJumpHeight = Mathf.Min(MaxJumpHeight + transform.localPosition.y, MaxYTopMovement);
 
         while (isJumping) // loop each frame, out of Fixed Update
         {
-            // check if current position is out of valid area
-            if (transform.localPosition.y >= maxCurrentJumpHeight)
-            {
-                isJumping = false;
-            }
-
+            
             // move character if isJumping ultil equal true
-            if (isJumping)
-            {
-                UpdatePosition(Vector3.up * force * Time.smoothDeltaTime, ref isValidUpdatePosition);
+                characterMovement.UpdatePosition(0, force * Time.deltaTime, ref isValidUpdatePosition);
                 isJumping = isValidUpdatePosition;
-            }
+                // check if current position is out of valid area
+                if (transform.localPosition.y >= maxCurrentJumpHeight)
+                {
+                    isJumping = false;
+                characterMovement.UpdatePosition(0, maxCurrentJumpHeight - transform.localPosition.y, ref isValidUpdatePosition);
+                }
             // wait ultil end of frame
             yield return new WaitForEndOfFrame();
         }

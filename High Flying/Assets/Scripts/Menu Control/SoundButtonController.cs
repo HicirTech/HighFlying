@@ -4,11 +4,9 @@ using UnityEngine.UI;
 
 public class SoundButtonController : MonoBehaviour {
 
-    [SerializeField]
-    private Button sourceButton;
-    [SerializeField]
-    private Sprite[] buttonImages = new Sprite[2];
-    BackGroundMusicPlay bgm;
+    [SerializeField] private Button sourceButton;
+    [SerializeField] private Sprite[] buttonImages = new Sprite[2];
+    private BackGroundMusicPlay[] bgm;
     
     public void onSoundPress()
     {
@@ -32,10 +30,22 @@ public class SoundButtonController : MonoBehaviour {
         sourceButton.image.sprite =sourceButton.image.sprite.Equals(buttonImages[0])? buttonImages[1]:buttonImages[0];
 
     }
-    private void muteAndUnmute()
+
+    public void muteAndUnmute()
     {
       AudioListener.volume= (AudioListener.volume==0)?1:0;    
-      bgm = FindObjectOfType<BackGroundMusicPlay>();
-      this.bgm.switchPlay();
+      try{
+        bgm = FindObjectsOfType<BackGroundMusicPlay>();
+        if(bgm.Length!=0)
+        {
+            foreach(BackGroundMusicPlay e in bgm)
+            {
+                e.switchPlay();
+            }
+        }
+      }catch(UnassignedReferenceException)
+      {
+          print("no music player found, only mute and unmute the game");
+      }
     }
 }

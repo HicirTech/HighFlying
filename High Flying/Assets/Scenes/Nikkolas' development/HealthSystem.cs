@@ -14,14 +14,15 @@ public class HealthSystem : MonoBehaviour {
 	public int difficultyRating = 1;
 	[Tooltip("Intitial counter for invincability in frames")][SerializeField][Range(1, 100)]
 	public int initialInvincCount;
-	private int savedInitialInvinc;
+	private int savedInitialInvinc = -999;
 	[System.NonSerialized]
 	public int health = 1;
 
 	//Fill variable with GameObject
 	[Tooltip("Drag and drop the health text field here: ")][SerializeField]
 	public Text healthUI;
-	
+
+    public System.Action onDie = delegate { };
 
 	// Use this for initialization
 	void Start () {
@@ -36,7 +37,7 @@ public class HealthSystem : MonoBehaviour {
 			//Initiate the text
 			healthUI.text = "Health: "+health;
 
-			if(savedInitialInvinc == null){
+			if(savedInitialInvinc == -999){
 				savedInitialInvinc = initialInvincCount; //If it's the first time the level starts then saved dev set initialInvincCount
 			}else{
 				initialInvincCount = savedInitialInvinc; //If not, then use saved intial invinc count to set initial invinc count
@@ -75,8 +76,9 @@ public class HealthSystem : MonoBehaviour {
 		//If health is equal or less to zero, then restart the scene/level
 		//Change this code with respawn or different code when a failure screen is up
 		if(health <= 0){
-
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Time.timeScale = 0;
+            onDie();
+			//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 			Debug.Log("Scene Reloaded");
 		}
 	}
@@ -84,21 +86,24 @@ public class HealthSystem : MonoBehaviour {
 	void OnCollisionEnter(Collision col){
 		if(enable){
 			//if the collision is anything but all friendly tags and invincability is off.
-			if(!(col.gameObject.tag == "Respawn" || 
-				col.gameObject.tag == "Finish" || 
+			if(!(col.gameObject.tag == "Respawn" ||  
 				col.gameObject.tag == "MainCamera" ||
 				col.gameObject.tag == "Player" ||
 				col.gameObject.tag == "GameController" ||
 				col.gameObject.tag == "RTCam" ||
 				col.gameObject.tag == "CoinRing" ||
 				col.gameObject.tag == "LifeRing" ||
-				col.gameObject.tag == "PointRing") && invincability == false){
-					//Negate the health by 1
+				col.gameObject.tag == "Finish"||
+				col.gameObject.tag == "PointRing"
+				) && invincability == false)
+				{
+					
 					health -= 1;
-					Debug.Log("Collision Occured - Negate Life to: "+health);
+					Debug.Log("Collision Occured"+col.gameObject.name+ "- Negate Life to: "+health);	
 			}
-		}else{
+		else{
 			Debug.Log("Health System's collisions currently paused");
+		}
 		}
 	}
 
@@ -114,10 +119,11 @@ public class HealthSystem : MonoBehaviour {
 		}
 	}
 
-	void initialInvinc(){
+	public void initialInvinc(){
 		//If the initial start time is finished, then set invincability to false
 		//Remove 1 per frame from counter of initial invincability
-		if(initialInvincCount != 0 && initialInvincCount > 0){
+		print("initialInvinc() : "+this.initialInvincCount);
+		if(initialInvincCount > 0){
 			initialInvincCount -= 1;
 		}else if (initialInvincCount == 0){
 			invincability = false;
@@ -129,5 +135,7 @@ public class HealthSystem : MonoBehaviour {
 	public void enableThis(bool enableThis){
 		this.enable = enableThis;
 	}
+
+
 }
 
