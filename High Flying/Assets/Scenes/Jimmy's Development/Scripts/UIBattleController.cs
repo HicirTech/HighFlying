@@ -5,10 +5,14 @@ public class UIBattleController : MonoBehaviour {
 
     private GameObject character;
     private MovementControl movementControl;
+    private HitBuildingHandler hitBuldingHandler;
+    private HealthSystem healthSystem;
 
     #region UI_MAIN
     [SerializeField]
     private PauseAndMenu pauseAndMenu;
+    [SerializeField]
+    private GameOver gameOver;
     [SerializeField]
     private Button btnPause;
     [SerializeField]
@@ -22,6 +26,22 @@ public class UIBattleController : MonoBehaviour {
         {
             // get component MovementControl in character
             movementControl = character.GetComponentInChildren<MovementControl>();
+
+            // get component HitBuiling to call action when level complete
+            hitBuldingHandler = character.GetComponent<HitBuildingHandler>();
+            hitBuldingHandler.onLevelComplete = () =>
+            {
+                gameOver.ShowPopup();
+                gameOver.LevelComplete(1, 1, 1, 1);
+            };
+
+            // get component HealthSystem to call action when spaceship die
+            healthSystem = character.GetComponent<HealthSystem>();
+            healthSystem.onDie = () =>
+            {
+                gameOver.ShowPopup();
+                gameOver.Die();
+            };
         }
         else
         {
@@ -42,5 +62,8 @@ public class UIBattleController : MonoBehaviour {
     }
 
     public PauseAndMenu getPauseAndMenu() //this method used to initialise pauseAndMenu Object
-    {         pauseAndMenu = new PauseAndMenu();         return pauseAndMenu;     }
+    {
+        pauseAndMenu = new PauseAndMenu();
+        return pauseAndMenu;
+    }
 }

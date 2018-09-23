@@ -21,7 +21,8 @@ public class HealthSystem : MonoBehaviour {
 	//Fill variable with GameObject
 	[Tooltip("Drag and drop the health text field here: ")][SerializeField]
 	public Text healthUI;
-	
+
+    public System.Action onDie = delegate { };
 
 	// Use this for initialization
 	void Start () {
@@ -75,8 +76,9 @@ public class HealthSystem : MonoBehaviour {
 		//If health is equal or less to zero, then restart the scene/level
 		//Change this code with respawn or different code when a failure screen is up
 		if(health <= 0){
-
-			SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            Time.timeScale = 0;
+            onDie();
+			//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 			Debug.Log("Scene Reloaded");
 		}
 	}
@@ -96,7 +98,7 @@ public class HealthSystem : MonoBehaviour {
 				) && invincability == false)
 				{
 					
-					health -= 1;
+					health -= 0;
 					Debug.Log("Collision Occured"+col.gameObject.name+ "- Negate Life to: "+health);	
 			}
 		else{

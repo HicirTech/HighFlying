@@ -5,7 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class HitBuildingHandler : MonoBehaviour {
 
-	// Use this for initialization
+    // Use this for initialization
+
+    public System.Action onLevelComplete = delegate { };
 
 	[SerializeField] AudioClip whenHit;
 
@@ -15,7 +17,7 @@ public class HitBuildingHandler : MonoBehaviour {
 		if(col.gameObject.tag.Equals("Finish"))
 		{
 			print("fin");
-			Invoke("Landing",2f);
+            LevelComplete();
 		}
 		else{
 			print("hit");
@@ -23,7 +25,14 @@ public class HitBuildingHandler : MonoBehaviour {
 			audio.PlayOneShot(this.whenHit);
 		}
 	}
-	public void Landing()
+
+    private void LevelComplete()
+    {
+        onLevelComplete();
+        //Invoke("Landing", 2f);
+    }
+
+    public void Landing()
 	{
 		SceneManager.LoadScene("MainPlay");
 	}

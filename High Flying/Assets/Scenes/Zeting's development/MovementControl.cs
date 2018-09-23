@@ -62,6 +62,7 @@ public class MovementControl : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        Time.timeScale = 1;
         this.SetupControl();
         this.InitCharacterMovement();
     }
