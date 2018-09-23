@@ -1357,7 +1357,7 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 90
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 3
     m_MaxSize: 90
     m_Alignment: 4
@@ -1831,8 +1831,8 @@ MonoBehaviour:
   bodyInfo: {fileID: 1775528504398716}
   coinsCollectedText: {fileID: 114189660592034704}
   ringCollectedText: {fileID: 114233826536567692}
-  RingMultiplierText: {fileID: 114920515155370114}
-  DifficultyMultiplierText: {fileID: 114793555606372154}
+  ringMultiplierText: {fileID: 114920515155370114}
+  difficultyMultiplierText: {fileID: 114793555606372154}
   totalScoreText: {fileID: 114858022193531100}
   mainMenuButton: {fileID: 114914614180314696}
   levelSelectionButton: {fileID: 114309295597117062}

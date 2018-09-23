@@ -98,7 +98,7 @@ public class HealthSystem : MonoBehaviour {
 				) && invincability == false)
 				{
 					
-					health -= 0;
+					health -= 1;
 					Debug.Log("Collision Occured"+col.gameObject.name+ "- Negate Life to: "+health);	
 			}
 		else{
