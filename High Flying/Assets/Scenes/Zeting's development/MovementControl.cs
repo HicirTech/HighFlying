@@ -58,6 +58,7 @@ public class MovementControl : MonoBehaviour
     private bool isValidUpdatePosition = true;
 
     private CharacterMovement characterMovement;
+    private HitBuildingHandler hitBuildingHandler;
 
     // Use this for initialization
     void Start()
@@ -89,6 +90,14 @@ public class MovementControl : MonoBehaviour
     {
         characterMovement = new CharacterMovement(transform);
         characterMovement.SetMaxMovement(MaxXRightMovement, MaxXLeftMovement, MaxYTopMovement, MaxYBottomMovement);
+
+        hitBuildingHandler = GetComponentInParent<HitBuildingHandler>();
+        Debug.AssertFormat(hitBuildingHandler != null, "hitBuildingHandler cant be null");
+        hitBuildingHandler.onLevelComplete += () =>
+        {
+            moveSpeed = 0;
+            enableJump = false;
+        };
     }
 
     /// <summary>

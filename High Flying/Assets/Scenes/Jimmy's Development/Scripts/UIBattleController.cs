@@ -33,7 +33,7 @@ public class UIBattleController : MonoBehaviour {
             // get component HitBuiling to call action when level complete
             hitBuldingHandler = character.GetComponent<HitBuildingHandler>();
             Debug.AssertFormat(hitBuldingHandler != null, "hitBuldingHandler cant be null");
-            hitBuldingHandler.onLevelComplete = () =>
+            hitBuldingHandler.onLevelComplete += () =>
             {
                 gameOver.ShowPopup();
                 gameOver.LevelComplete(coinSystem.coins, pointSystem.getRingsPassedCounter(), 1, healthSystem.difficultyRating, pointSystem.points);
