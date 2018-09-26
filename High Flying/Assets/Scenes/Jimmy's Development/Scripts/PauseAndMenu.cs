@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class PauseAndMenu : PanelBase {
+public class PauseAndMenu : MonoBehaviour {
 
     [Tooltip("Drag continue button here")][SerializeField]
     private Button btnContinue;
@@ -42,5 +42,15 @@ public class PauseAndMenu : PanelBase {
     {
         Time.timeScale = 0;
         return 0;
+    }
+
+    public void ShowPopup()
+    {
+        this.gameObject.SetActive(true);
+    }
+
+    public void HidePopup()
+    {
+        this.gameObject.SetActive(false);
     }
 }
