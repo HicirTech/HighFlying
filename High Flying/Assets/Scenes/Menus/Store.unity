@@ -699,6 +699,10 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 86.520004
       objectReference: {fileID: 0}
+    - target: {fileID: 9500000, guid: 9ac866bfbea384885bfb79c4327dacbb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: fcec09c0b9cf0504fb22af41d3091cc8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ac866bfbea384885bfb79c4327dacbb, type: 3}
   m_IsPrefabAsset: 0
@@ -1034,7 +1038,7 @@ Camera:
   m_GameObject: {fileID: 1819026261}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 3
+  m_ClearFlags: 1
   m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
@@ -1055,7 +1059,7 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 1
   m_TargetTexture: {fileID: 8400000, guid: 89cad3484632cd648895f9fd65790873, type: 2}
   m_TargetDisplay: 0
   m_TargetEye: 3
