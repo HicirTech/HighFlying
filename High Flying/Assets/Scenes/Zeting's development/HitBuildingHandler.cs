@@ -1,11 +1,11 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class HitBuildingHandler : MonoBehaviour {
 
-    // Use this for initialization
-
-    public System.Action onLevelComplete = delegate { };
+	// Use this for initialization
 
 	[SerializeField] AudioClip whenHit;
 
@@ -15,7 +15,7 @@ public class HitBuildingHandler : MonoBehaviour {
 		if(col.gameObject.tag.Equals("Finish"))
 		{
 			print("fin");
-            LevelComplete();
+			Invoke("Landing",2f);
 		}
 		else{
 			print("hit");
@@ -23,14 +23,7 @@ public class HitBuildingHandler : MonoBehaviour {
 			audio.PlayOneShot(this.whenHit);
 		}
 	}
-
-    private void LevelComplete()
-    {
-        onLevelComplete();
-        //Invoke("Landing", 2f);
-    }
-
-    public void Landing()
+	public void Landing()
 	{
 		SceneManager.LoadScene("MainPlay");
 	}
