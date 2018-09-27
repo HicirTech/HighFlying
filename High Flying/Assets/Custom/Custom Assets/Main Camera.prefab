@@ -975,6 +975,7 @@ GameObject:
   - component: {fileID: 114229249750856946}
   - component: {fileID: 82941168755804636}
   - component: {fileID: 114371989466330346}
+  - component: {fileID: 114378736225681106}
   m_Layer: 0
   m_Name: Character
   m_TagString: Character
@@ -2877,6 +2878,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   whenHit: {fileID: 8300000, guid: 9069ca160e482124abb4db008715f555, type: 3}
+--- !u!114 &114378736225681106
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1804323634046858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae93cfe7e767e34382e6408f2bc739f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
 --- !u!114 &114699268043511570
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2892,8 +2905,10 @@ MonoBehaviour:
   PitchEnable: 1
   YawEnable: 1
   RollEnable: 1
-  MaxXMovement: 2
-  MaxYMovement: 1
+  MaxXRightMovement: 3.23
+  MaxXLeftMovement: -3.23
+  MaxYTopMovement: 2.5
+  MaxYBottomMovement: -5
   positionPitchFactor: -5
   controlPitchFactor: -20
   positionYawFactor: 5
