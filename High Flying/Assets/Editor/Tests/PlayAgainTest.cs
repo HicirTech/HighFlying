@@ -8,7 +8,7 @@ using UnityEngine.TestTools;
 
 public class PlayAgainTest
 {
-    public const string scenePath = "Assets/Scenes/CityLevel/CityLevel.unity"; // string for city level path
+    public const string scenePath = "Assets/Scenes/CityLevel/City Level.unity"; // string for city level path
     [UnityTest]
     public IEnumerator PlayAgainButtonTest()
     {
