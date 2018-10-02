@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class AccelerometerControl : MonoBehaviour {
 
-	[Tooltip("Drag and drop the character here")][SerializeField]
-	GameObject character;
+	[SerializeField]private float maxX = 1;
 	
 	// Update is called once per frame
 	void Update () {
-		character.transform.Translate(Input.acceleration.x, -Input.acceleration.z, 0);
+		float accel = Input.acceleration.x;
+		transform.Translate(accel, 0, 0);
 	}
 }
