@@ -46,13 +46,15 @@ public class CoinSystem : MonoBehaviour {
 	//Detect if get coins
 	void OnTriggerEnter(Collider col){
 		if(enable){
-			if(col.gameObject.tag == "CoinRing"){
-				coins += 5;
-				Debug.Log("Coin ring passed - Collision Occured, coins increased to: "+coins);
-			}
-			if(col.gameObject.tag == "CoinToCollect"){
-				coins += 1;
-				Debug.Log("Coin collected - Collision Occured, coin increased to: "+coins);
+			switch(col.gameObject.tag){
+				case("CoinRing"):
+					coins += 5;
+					print("Coin ring passed - Collision Occured, coins increased to: "+coins);
+					break;
+				case("CoinToCollect"):
+					coins += 1;
+					print("Coin collected - Collision Occured, coin increased to: "+coins);
+					break;
 			}
 		}else{
 			Debug.Log("Coin system's triggers currently paused");

@@ -17,6 +17,9 @@ public class HitBuildingHandler : MonoBehaviour {
 			print("fin");
             LevelComplete();
 		}
+		else if(col.gameObject.tag.Equals("CoinToCollect")){
+			print("points");
+		}
 		else{
 			print("hit");
 			AudioSource audio = gameObject.GetComponent<AudioSource>();
