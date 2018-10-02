@@ -9,7 +9,7 @@ using UnityEngine.TestTools;
 public class EndGameInfoTest
 {
     
-    public const string scenePath = "Assets/Scenes/CityLevel/CityLevel.unity";
+    public const string scenePath = "Assets/Scenes/CityLevel/City Level.unity";
     [UnityTest]
     public IEnumerator EndGameInfo()
     {
