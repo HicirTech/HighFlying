@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 33133246115473248}
   - component: {fileID: 114301125818943092}
   - component: {fileID: 65200098303428938}
+  - component: {fileID: 114827237005347670}
   m_Layer: 8
   m_Name: Point Ring
   m_TagString: PointRing
@@ -17806,3 +17807,15 @@ MonoBehaviour:
   m_selectedFaces: 
   m_SelectedEdges: []
   m_selectedTriangles: 
+--- !u!114 &114827237005347670
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1928317283953308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2ac106ba3b0544baa6626bcd4c0117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeSpeed: 2.5

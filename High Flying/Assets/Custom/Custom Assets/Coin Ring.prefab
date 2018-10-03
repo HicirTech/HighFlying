@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 33936479617957716}
   - component: {fileID: 114909645565147024}
   - component: {fileID: 65301359734752994}
+  - component: {fileID: 114907185748151250}
   m_Layer: 8
   m_Name: Coin Ring
   m_TagString: CoinRing
@@ -110,6 +111,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114907185748151250
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1853104372414024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2ac106ba3b0544baa6626bcd4c0117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeSpeed: 2.5
 --- !u!114 &114909645565147024
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -24,6 +24,7 @@ GameObject:
   - component: {fileID: 33507629926404800}
   - component: {fileID: 114426754679335904}
   - component: {fileID: 65150392356597648}
+  - component: {fileID: 114863201232124642}
   m_Layer: 8
   m_Name: Life Ring
   m_TagString: LifeRing
@@ -17806,3 +17807,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _entityType: 0
+--- !u!114 &114863201232124642
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1639004203285974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2ac106ba3b0544baa6626bcd4c0117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeSpeed: 2.5
