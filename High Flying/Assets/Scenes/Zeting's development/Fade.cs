@@ -7,12 +7,7 @@ public class Fade : MonoBehaviour {
 	// Use this for initialization
    [Tooltip("How fast the object fade")] [SerializeField] private float fadeSpeed = 2.5f;
     private bool fadable = false;
-    
-    
-    private void Update()
-    {
-        this.fade();
-    }
+    private Color color;
     private void OnCollisionEnter(Collision e)
     {
         this.fadable=true;
@@ -23,20 +18,21 @@ public class Fade : MonoBehaviour {
         this.fadable=true;
         print("T");
     }
+    private void Update()
+    {
+        this.fade();
+    }
     
     /// <summary>
     /// a fade function will fade a object
     /// </summary>
     private void fade()
     {
-        if(fadable)
-        {gameObject.GetComponent<Renderer>().material.color= new Color(
-            gameObject.GetComponent<Renderer>().material.color.r,
-             gameObject.GetComponent<Renderer>().material.color.g,
-              gameObject.GetComponent<Renderer>().material.color.b
-              , Mathf.Clamp(gameObject.GetComponent<Renderer>().material.color.a -
-               (fadeSpeed* Time.deltaTime),0.00f,1.0f));
-            print("fade");}
-       
+        color = gameObject.GetComponent<Renderer>().material.color;
+        if(fadable){
+            color = new Color(color.r,color.g,color.b, Mathf.Clamp(color.a - (fadeSpeed* Time.deltaTime),0.00f,1.0f));
+            print("fade");
+        }
     }
+
 }
