@@ -86,24 +86,24 @@ public class HealthSystem : MonoBehaviour {
 	void OnCollisionEnter(Collision col){
 		if(enable){
 			//if the collision is anything but all friendly tags and invincability is off.
-			if(!(col.gameObject.tag == "Respawn" ||  
-				col.gameObject.tag == "MainCamera" ||
-				col.gameObject.tag == "Player" ||
-				col.gameObject.tag == "GameController" ||
-				col.gameObject.tag == "RTCam" ||
-				col.gameObject.tag == "CoinRing" ||
-				col.gameObject.tag == "LifeRing" ||
-				col.gameObject.tag == "Finish"||
-				col.gameObject.tag == "PointRing"
+			if(!(col.gameObject.tag.Equals("Respawn")||  
+				col.gameObject.tag.Equals("MainCamera")||
+				col.gameObject.tag.Equals("Player")||
+				col.gameObject.tag.Equals("GameController")||
+				col.gameObject.tag.Equals("RTCam")||
+				col.gameObject.tag.Equals("CoinRing")||
+				col.gameObject.tag.Equals("LifeRing")||
+				col.gameObject.tag.Equals("Finish")||
+				col.gameObject.tag.Equals("PointRing")||
+				col.gameObject.tag.Equals("CoinToCollect")
 				) && invincability == false)
 				{
-					
 					health -= 1;
 					Debug.Log("Collision Occured"+col.gameObject.name+ "- Negate Life to: "+health);	
 			}
-		else{
-			Debug.Log("Health System's collisions currently paused");
-		}
+			else{
+				Debug.Log("Hit something good");
+			}
 		}
 	}
 
@@ -122,8 +122,8 @@ public class HealthSystem : MonoBehaviour {
 	public void initialInvinc(){
 		//If the initial start time is finished, then set invincability to false
 		//Remove 1 per frame from counter of initial invincability
-		print("initialInvinc() : "+this.initialInvincCount);
 		if(initialInvincCount > 0){
+			print("initialInvinc() : "+this.initialInvincCount);
 			initialInvincCount -= 1;
 		}else if (initialInvincCount == 0){
 			invincability = false;

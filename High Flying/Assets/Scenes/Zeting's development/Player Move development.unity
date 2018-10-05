@@ -462,14 +462,17 @@ MonoBehaviour:
   PitchEnable: 1
   YawEnable: 1
   RollEnable: 1
-  MaxXMovement: 3.23
-  MaxYMovement: 2.5
+  MaxXRightMovement: 3.23
+  MaxXLeftMovement: -3.23
+  MaxYTopMovement: 2.5
+  MaxYBottomMovement: -5
   positionPitchFactor: -5
   controlPitchFactor: -20
   positionYawFactor: 5
   controlRollFactor: -30
   force: 100
-  jump: 0
+  MaxJumpHeight: 2
+  enableJump: 0
 --- !u!1 &1925888211
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +677,7 @@ GameObject:
   - component: {fileID: 2106672039}
   - component: {fileID: 2106672038}
   - component: {fileID: 2106672037}
+  - component: {fileID: 2106672036}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -694,6 +698,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2106672036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2106672034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2ac106ba3b0544baa6626bcd4c0117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeSpeed: 1
 --- !u!65 &2106672037
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -721,7 +737,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 35067ce29cba84a4bb501fc7779f8171, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
