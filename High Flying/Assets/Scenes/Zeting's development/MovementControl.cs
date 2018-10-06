@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
@@ -161,7 +161,7 @@ public class MovementControl : MonoBehaviour
     {
         // recalculate the highest from current position of character
         maxCurrentJumpHeight = Mathf.Min(MaxJumpHeight + transform.localPosition.y, MaxYTopMovement);
-
+        bool isFloatBack = false;
         while (isJumping) // loop each frame, out of Fixed Update
         {
             
@@ -174,6 +174,22 @@ public class MovementControl : MonoBehaviour
                     isJumping = false;
                 characterMovement.UpdatePosition(0, maxCurrentJumpHeight - transform.localPosition.y, ref isValidUpdatePosition);
                 }
+            // wait ultil end of frame
+            yield return new WaitForEndOfFrame();
+        }
+        isFloatBack = true;
+        float minFloatBack = Mathf.Max(-MaxJumpHeight + transform.localPosition.y, MaxYBottomMovement);
+        while (isFloatBack)
+        {
+            // move character if isJumping ultil equal true
+            characterMovement.UpdatePosition(0, force * Time.deltaTime, ref isValidUpdatePosition);
+            isFloatBack = isValidUpdatePosition;
+            // check if current position is out of valid area
+            if (transform.localPosition.y >= maxCurrentJumpHeight)
+            {
+                isFloatBack = false;
+                characterMovement.UpdatePosition(0, minFloatBack - transform.localPosition.y, ref isValidUpdatePosition);
+            }
             // wait ultil end of frame
             yield return new WaitForEndOfFrame();
         }
