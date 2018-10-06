@@ -16,7 +16,8 @@ public class HealthSystem : MonoBehaviour {
 	public int initialInvincCount;
 	[System.NonSerialized]
 	public int health = 1;
-	private string[] tagsToCheck = {"Respawn","MainCamera","Player","GameController","RTCam","CoinRing","LifeRing","Finish","PointRing","CoinToCollect"};
+	private string[] tagsToCheck = {"Respawn","MainCamera","Player","GameController","RTCam","CoinRing","LifeRing","Finish","PointRing",
+									"CoinToCollect","ColliderWall"};
 
 	//Fill variable with GameObject
 	[Tooltip("Drag and drop the health text field here: ")][SerializeField]
@@ -55,15 +56,22 @@ public class HealthSystem : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision col){
 		if(enable){
-			foreach(string tag in tagsToCheck){
-				//Check for all friendly tags, is the collision good?
-				if(!col.gameObject.tag.Contains(tag)){
- 					health -= 1;
-					Debug.Log("Collision Occured"+col.gameObject.name+ "- Negate Life to: "+health);
-				}
-				else Debug.Log("Hit something good");
-			}
+			//if collider not found in the array, then it's not friendly
+			if(!isInArray(tagsToCheck, col.gameObject.tag)){
+				health -= 1;
+				Debug.Log("Collision Occured"+col.gameObject.name+ "- Negate Life to: "+health);
+			}else{
+				Debug.Log("Hit something good");
+			} 
 		}
+	}
+	//Check if a given value is in an array
+	public bool isInArray(string[] array, string a){
+		bool query = false;
+		foreach(string tag in array){
+			if(a.Equals(tag)) return true;
+		}
+		return false;
 	}
 	void OnTriggerEnter(Collider col){
 		if(enable){

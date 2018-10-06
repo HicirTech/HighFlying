@@ -31,7 +31,6 @@ public class Fade : MonoBehaviour {
         color = gameObject.GetComponent<Renderer>().material.color;
         if(fadable){
             color = new Color(color.r,color.g,color.b, Mathf.Clamp(color.a - (fadeSpeed* Time.deltaTime),0.00f,1.0f));
-            print("fade");
         }
     }
 

@@ -20,6 +20,9 @@ public class HitBuildingHandler : MonoBehaviour {
 		else if(col.gameObject.tag.Equals("CoinToCollect")){
 			print("points");
 		}
+		else if(col.gameObject.tag.Equals("ColliderWall")){
+			print("Stopped on colliderwall");
+		}
 		else{
 			print("hit");
 			AudioSource audio = gameObject.GetComponent<AudioSource>();
