@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 
 public class UIBattleController : MonoBehaviour {
@@ -23,49 +23,24 @@ public class UIBattleController : MonoBehaviour {
 
     private void Start()
     {
-        var character = GameObject.FindGameObjectWithTag("Character");
+        GameObject character = GameObject.FindGameObjectWithTag("Character");
         if (character)
         {
-            // get component MovementControl in character
-            movementControl = character.GetComponentInChildren<MovementControl>();
-            Debug.AssertFormat(movementControl != null, "movementControl cant be null");
-
-            // get component HitBuiling to call action when level complete
-            hitBuldingHandler = character.GetComponent<HitBuildingHandler>();
-            Debug.AssertFormat(hitBuldingHandler != null, "hitBuldingHandler cant be null");
-            hitBuldingHandler.onLevelComplete += () =>
-            {
-                gameOver.ShowPopup();
-                gameOver.LevelComplete(coinSystem.coins, pointSystem.getRingsPassedCounter(), 1, healthSystem.difficultyRating, pointSystem.points);
-            };
-
-            // get component HealthSystem to call action when character die
-            healthSystem = character.GetComponent<HealthSystem>();
-            Debug.AssertFormat(hitBuldingHandler != null, "healthSystem cant be null");
-            healthSystem.onDie = () =>
-            {
-                gameOver.ShowPopup();
-                gameOver.Die();
-            };
-
-            // get component PointSystem to get point and ring
-            pointSystem = character.GetComponent<PointSystem>();
-            Debug.AssertFormat(pointSystem != null, "pointSystem cant be null");
-
-            // get component CoinSystem to get coins
-            coinSystem = character.GetComponent<CoinSystem>();
-            Debug.AssertFormat(coinSystem != null, "coinSystem cant be null");
+            //get all subcomponents
+            getSubComponents(character);
+            // get component HitBuiling to 
+            //set trigger  to call action when level complete
+            setTriggerLevelCompleted();
+            //set trigger to call action when character die
+            setTriggerDie();
         }
         else
         {
-            throw new System.Exception("Can't find 'character' in your scene");
+            throw new System.Exception("Can't find 'character' in your scene"); // if cant find then throw the exception
         }
 
-        btnPause.onClick.AddListener(PauseGame);
-
-        btnLeftJump.enabled = btnRightJump.enabled = movementControl.EnableJump;
-        btnLeftJump.onClick.AddListener(movementControl.Jump);
-        btnRightJump.onClick.AddListener(movementControl.Jump);
+        btnLeftJump.enabled = btnRightJump.enabled = movementControl.EnableJump; //enable all 3 buttons
+        addListenerToButton(); //add listeners to button pause, left and right
     }
 
     private void PauseGame()
@@ -78,5 +53,76 @@ public class UIBattleController : MonoBehaviour {
     {
         pauseAndMenu = new PauseAndMenu();
         return pauseAndMenu;
+    }
+
+    //this method is to add Listeners to Buttons pause, left and right
+    public void addListenerToButton()
+    {
+        btnPause.onClick.AddListener(PauseGame);
+        btnLeftJump.onClick.AddListener(movementControl.Jump);
+        btnRightJump.onClick.AddListener(movementControl.Jump);
+    }
+
+    private void getMovementControl(GameObject character)
+    {
+        movementControl = character.GetComponentInChildren<MovementControl>();
+        Debug.AssertFormat(movementControl != null, "movementControl cant be null");
+    }
+
+    private void gethitBuldingHandler(GameObject character)
+    {
+        hitBuldingHandler = character.GetComponent<HitBuildingHandler>();
+        Debug.AssertFormat(hitBuldingHandler != null, "hitBuldingHandler cant be null");
+    }
+
+    private void getComponentHealthSystem(GameObject character)
+    {
+        healthSystem = character.GetComponent<HealthSystem>();
+        Debug.AssertFormat(hitBuldingHandler != null, "healthSystem cant be null");
+    }
+
+    private void getComponentPointSystem(GameObject character)
+    {
+        pointSystem = character.GetComponent<PointSystem>();
+        Debug.AssertFormat(pointSystem != null, "pointSystem cant be null");
+    }
+
+    private void getComponentCoinSystem(GameObject character)
+    {
+        coinSystem = character.GetComponent<CoinSystem>();
+        Debug.AssertFormat(coinSystem != null, "coinSystem cant be null");
+    }
+
+    private void setTriggerLevelCompleted()
+    {
+        hitBuldingHandler.onLevelComplete += () =>
+        {
+            gameOver.ShowPopup();
+            gameOver.LevelComplete(coinSystem.coins, pointSystem.getRingsPassedCounter(), 1, healthSystem.difficultyRating, pointSystem.points);
+        };
+    }
+
+    private void setTriggerDie()
+    {
+        healthSystem.onDie = () =>
+        {
+            gameOver.ShowPopup();
+            gameOver.Die();
+        };
+    }
+
+    private void getSubComponents(GameObject character)
+    {
+        // get component MovementControl in character
+        getMovementControl(character);
+        //get all components
+        //get componentBuilfingHandler
+        gethitBuldingHandler(character);
+        // get component HealthSystem 
+        getComponentHealthSystem(character);
+        // get component PointSystem to get point and ring
+        getComponentPointSystem(character);
+        // get component CoinSystem to get coins
+        getComponentCoinSystem(character);
     }
 }
