@@ -21,12 +21,10 @@ public class CoinSystem : MonoBehaviour {
 		}else{
 			//Initiate values
 			coins = 0;
-
 			//Initiate UI text
 			coinsUI.text = "Coins: "+coins;
 		}
 	}
-	
 	// Update is called once per frame
 	void Update () {
 		if(enable){
@@ -36,8 +34,6 @@ public class CoinSystem : MonoBehaviour {
 			Debug.Log("Coin System currently paused");
 		}
 	}
-
-
 	//Main Functions
 	void changeCoinValue(int currentCoints){
 		coinsUI.text = "Coins: "+currentCoints;
@@ -53,7 +49,7 @@ public class CoinSystem : MonoBehaviour {
 					break;
 				case("CoinToCollect"):
 					coins += 1;
-					print("Coin collected - Collision Occured, coin increased to: "+coins);
+					print("Coin collected - Collision Occured, coins increased to: "+coins);
 					break;
 			}
 		}else{

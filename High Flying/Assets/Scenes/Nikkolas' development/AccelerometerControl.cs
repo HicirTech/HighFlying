@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class AccelerometerControl : MonoBehaviour {
 
-	[SerializeField]private float maxX = 1;
 	
 	// Update is called once per frame
 	void Update () {

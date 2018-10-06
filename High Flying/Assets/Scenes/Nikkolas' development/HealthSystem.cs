@@ -21,7 +21,6 @@ public class HealthSystem : MonoBehaviour {
 	//Fill variable with GameObject
 	[Tooltip("Drag and drop the health text field here: ")][SerializeField]
 	public Text healthUI;
-
     public System.Action onDie = delegate { };
 
 	// Use this for initialization
@@ -33,54 +32,39 @@ public class HealthSystem : MonoBehaviour {
 			//Initiate the variables
 			health = -difficultyRating+6;
 			invincability = true;
-
 			//Initiate the text
 			healthUI.text = "Health: "+health;
-
+			//Save the initial invince
 			if(savedInitialInvinc == -999){
 				savedInitialInvinc = initialInvincCount; //If it's the first time the level starts then saved dev set initialInvincCount
 			}else{
 				initialInvincCount = savedInitialInvinc; //If not, then use saved intial invinc count to set initial invinc count
 			}
 		}
-		
 	}
-	
-	// Update is called once per frame
 	void Update () {
 		if(enable){
-			initialInvinc();
-			if(!invincability){
-				//Restart game on death
-				die();
-				//Update health text every frame
-				changeHealthValue();
-			}else{
-				healthUI.text = "Health: ∞";
-			}
-			
-			//health = -difficultyRating+6; //For developing. Turn this on to slide difficulty rating and see health change
+			//If you're invincable, count down invince, if not, normal health and check for death
+			healthUI.text = (!invincability) ? "Health: "+health+die() : "Health: "+initialInvinc();
 		}
 		else{
 			healthUI.text = "";
 			Debug.Log("Health System currently paused");
 		}
-		
 	}
 
 	void changeHealthValue(){
 		healthUI.text = "Health: "+health;
 	}
 
-	void die(){
+	string die(){
 		//If health is equal or less to zero, then restart the scene/level
-		//Change this code with respawn or different code when a failure screen is up
 		if(health <= 0){
             Time.timeScale = 0;
-            onDie();
-			//SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            onDie(); //Pop up death screen
 			Debug.Log("Scene Reloaded");
 		}
+		return "";
 	}
 
 	void OnCollisionEnter(Collision col){
@@ -119,7 +103,7 @@ public class HealthSystem : MonoBehaviour {
 		}
 	}
 
-	public void initialInvinc(){
+	public string initialInvinc(){
 		//If the initial start time is finished, then set invincability to false
 		//Remove 1 per frame from counter of initial invincability
 		if(initialInvincCount > 0){
@@ -130,6 +114,7 @@ public class HealthSystem : MonoBehaviour {
 			initialInvincCount = -1; //count finished, stop checking
 			Debug.Log("Initial start invinc finished. Count set to: "+initialInvincCount+"\nInvincability now at "+invincability);
 		}
+		return "∞";
 	}
 
 	public void enableThis(bool enableThis){
