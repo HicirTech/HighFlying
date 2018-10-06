@@ -3515,7 +3515,7 @@ Prefab:
     - target: {fileID: 114005183694429844, guid: 08ca6d1566690b648a627bd201a6bfbc,
         type: 2}
       propertyPath: initialInvincCount
-      value: 100
+      value: 60
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08ca6d1566690b648a627bd201a6bfbc, type: 2}
@@ -6059,8 +6059,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 298999323}
-  m_LocalRotation: {x: -0.08248813, y: 0.20358728, z: 0.017208083, w: 0.97542393}
-  m_LocalPosition: {x: 495.92523, y: 25.831924, z: 99.49939}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalPosition: {x: 495.13834, y: -131.08, z: 914.898}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -15897,8 +15897,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 853570064}
-  m_LocalRotation: {x: -0.08248813, y: 0.20358728, z: 0.017208083, w: 0.97542393}
-  m_LocalPosition: {x: 495.92523, y: -31.968094, z: 99.49939}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalPosition: {x: 495.13834, y: -246.68004, z: 914.898}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -24620,7 +24620,7 @@ MonoBehaviour:
     foreground:
       apply: 0
       opacity: 1
-      num: 0
+      num: 1
     background:
       apply: 0
       opacity: 1
@@ -24652,9 +24652,9 @@ MonoBehaviour:
   guiShowBrush: 1
   guiShowGenerator: 1
   guiShowTextures: 1
-  guiShowGlobal: 0
-  guiShowSettings: 0
-  guiShowAbout: 0
+  guiShowGlobal: 1
+  guiShowSettings: 1
+  guiShowAbout: 1
   guiMaxBrushSize: 100
   guiSelectPresetsUsingNumkeys: 1
   allowUndo: 0

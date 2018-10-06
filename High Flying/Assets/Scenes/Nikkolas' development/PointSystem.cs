@@ -36,10 +36,6 @@ public class PointSystem : MonoBehaviour {
 			coinsCollectedCounter = 0;
 			ringsPassedCounter = 0;
 			pointRingCounter = 0;
-
-			//Initiate the points text UI and fill
-			pointsUI.text = "Points: "+points;
-
 			//Get difficulty rating
 			difficulty = character.GetComponent<HealthSystem>().difficultyRating;
 		}
@@ -48,75 +44,34 @@ public class PointSystem : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//If script is enabled
-		if(enable){
-			calculatePoints();
-			changePointsValue();
-		}
-		else{
-			pointsUI.text = "";
-			Debug.Log("Point System currently paused");
-		}
+		pointsUI.text = (enable) ? "Points: "+calculatePoints() : "";
 	}
-
+	//On entering specific things
 	void OnTriggerEnter(Collider col){
 		if(enable){
 			//If you get a coin
-			if(col.gameObject.tag == "CoinToCollect"){
-				coinsCollectedCounter++;
+			if(col.gameObject.tag == "CoinToCollect") coinsCollectedCounter++;
 				Debug.Log("Coin Collection - Collision Occured, coin collected counter increased to: "+coinsCollectedCounter);
-			}
 			//If you hit the point ring
-			if(col.gameObject.tag == "PointRing"){
-				pointRingCounter++;
+			if(col.gameObject.tag == "PointRing") pointRingCounter++;
                 Debug.Log("Point ring passed - Collision Occured, point ring counter increased to: "+pointRingCounter);
-			}
 			//If you pass any ring
-			if(col.gameObject.tag == "PointRing" || col.gameObject.tag == "CoinRing" || col.gameObject.tag == "LifeRing"){
-				ringsPassedCounter++;
+			if(col.gameObject.tag == "PointRing" || col.gameObject.tag == "CoinRing" || col.gameObject.tag == "LifeRing") ringsPassedCounter++;
 				Debug.Log("Ring passed - Collision Occured, rings passed counter increased to: "+ringsPassedCounter);
-			}
 		}else{
 			Debug.Log("Point System's triggers currently paused");
 		}
 	}
-
 	//Calculate the points that the player has based off this calculation:
-	public void calculatePoints(){
+	public float calculatePoints(){
 		points = Mathf.Round((((coinsCollectedCounter+1)*coinsCollMult)*(ringsPassedCounter*ringsPassMult))*Mathf.Pow((pointRingCounter*pointRMult), difficulty));
-
-		//Debug it
-		//Debug.Log("Mathf.Round(((("+coinsCollectedCounter+"+1)*"+coinsCollMult+")"+
-		//		  "*("+ringsPassedCounter+"*"+ringsPassMult+"))"+
-		//		  "*Mathf.Pow(("+pointRingCounter+"*"+pointRMult+"),"+difficulty+"))");
+		return points;
 	}
-
-	//Change the text UI to display new point values
-	void changePointsValue(){
-		pointsUI.text = "Points: "+points;
-	}
-
-	public void enableThis(bool enableThis){
-		this.enable = enableThis;
-	}
-	
-
 	//Getters
-	public int getCoinsCollectedCounter()
-	{
-		return this.coinsCollectedCounter;
-	}
 	public int getRingsPassedCounter()
 	{
 		return this.ringsPassedCounter;
 	}
-	public int getPointRingCounter(){
-		return this.pointRingCounter;
-	}
-	public int getDifficulty()
-	{
-		return this.difficulty;
-	}
-
 	//Setters
 	public void setCoinsCollectedCounter(int coinsCollected)
 	{
@@ -134,5 +89,4 @@ public class PointSystem : MonoBehaviour {
 	{
 		this.difficulty = diff;
 	}
-
 }
