@@ -2722,7 +2722,6 @@ GameObject:
   - component: {fileID: 1673122140}
   - component: {fileID: 1673122141}
   - component: {fileID: 1673122142}
-  - component: {fileID: 1673122139}
   m_Layer: 0
   m_Name: Controlers
   m_TagString: Untagged
@@ -2730,17 +2729,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1673122139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1673122138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ad7744630d69ea6498e65fbe88a0c8fa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1673122140
 Transform:
   m_ObjectHideFlags: 0
