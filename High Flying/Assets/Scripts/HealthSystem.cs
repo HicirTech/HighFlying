@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using InterSceneCommunication;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -6,6 +7,7 @@ using UnityEngine.UI;
 
 public class HealthSystem : MonoBehaviour {
 
+    private VariableContainer theContainer;
 	[Tooltip("Toggle to enable or disable this script")][SerializeField]
 	public bool enable = true; //Variable used for pause functionality
 	[Tooltip("Invincability Mode on/off")][SerializeField]

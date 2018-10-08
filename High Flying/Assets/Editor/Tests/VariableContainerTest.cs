@@ -2,6 +2,7 @@
 using UnityEngine.TestTools;
 using NUnit.Framework;
 using System.Collections;
+using InterSceneCommunication;
 
 public class VariableContainerTest {
 

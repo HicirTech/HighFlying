@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using InterSceneCommunication;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
