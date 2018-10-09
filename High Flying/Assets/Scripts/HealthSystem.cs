@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class HealthSystem : MonoBehaviour {
 
-    private VariableContainer theContainer;
+    private VariableContainer theContainer = null;
 	[Tooltip("Toggle to enable or disable this script")][SerializeField]
 	public bool enable = true; //Variable used for pause functionality
 	[Tooltip("Invincability Mode on/off")][SerializeField]
@@ -28,7 +28,19 @@ public class HealthSystem : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		if(healthUI == null){
+
+        //If the variable container can not be found then tell the user, otherwise get and use the value
+        if (GameObject.FindObjectsOfType<VariableContainer>().Length != 1)
+        {
+            Debug.Log("Could not find variable container");
+        }
+        else
+        {
+            theContainer = GameObject.FindObjectOfType<VariableContainer>();
+            difficultyRating = theContainer.difficultyRating; //set the difficulty rating to the one set by the user
+        }
+
+        if (healthUI == null){
 			print("Please fill the healthUI text field");
 			enable = false;
 		}else{
