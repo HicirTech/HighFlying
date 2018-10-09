@@ -694,6 +694,7 @@ GameObject:
   - component: {fileID: 2106672038}
   - component: {fileID: 2106672037}
   - component: {fileID: 2106672036}
+  - component: {fileID: 2106672040}
   m_Layer: 0
   m_Name: TestCube
   m_TagString: Untagged
@@ -781,3 +782,15 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2106672034}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2106672040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2106672034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3593089eef9aba24ba203ec30092058a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clip: {fileID: 8300000, guid: 6e0016ec5a157ee4bac86ce730283639, type: 3}
