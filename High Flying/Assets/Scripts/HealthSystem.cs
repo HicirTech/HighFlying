@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class HealthSystem : MonoBehaviour {
 
     private VariableContainer theContainer = null;
+
 	[Tooltip("Toggle to enable or disable this script")][SerializeField]
 	public bool enable = true; //Variable used for pause functionality
 	[Tooltip("Invincability Mode on/off")][SerializeField]
@@ -30,25 +31,22 @@ public class HealthSystem : MonoBehaviour {
 	void Start () {
 
         //If the variable container can not be found then tell the user, otherwise get and use the value
-        if (GameObject.FindObjectsOfType<VariableContainer>().Length != 1)
-        {
+        if (GameObject.FindObjectsOfType<VariableContainer>().Length != 1){
             Debug.Log("Could not find variable container");
-        }
-        else
-        {
+        }else{
             theContainer = GameObject.FindObjectOfType<VariableContainer>();
             difficultyRating = theContainer.difficultyRating; //set the difficulty rating to the one set by the user
         }
 
-        if (healthUI == null){
-			print("Please fill the healthUI text field");
-			enable = false;
-		}else{
+		if(!(healthUI == null)){
 			//Initiate the variables
 			health = -difficultyRating+6;
 			invincability = true;
 			//Initiate the text
 			healthUI.text = "Health: "+health;
+		}else{
+			//Throw exception when health UI item is empty
+			throw new System.Exception("Health UI item is empty");
 		}
 	}
 	void Update () {
@@ -56,8 +54,8 @@ public class HealthSystem : MonoBehaviour {
 			//If you're invincable, count down invince, if not, normal health and check for death
 			healthUI.text = (!invincability) ? "Health: "+health+die() : "Health: "+initialInvinc();
 		}else{
+			//Pause health system
 			healthUI.text = "";
-			Debug.Log("Health System currently paused");
 		}
 	}
 	string die(){
@@ -79,7 +77,7 @@ public class HealthSystem : MonoBehaviour {
 			} 
 		}
 	}
-	//Check if a given value is in an array
+	//Check if a given value is in an array (strings)
 	public bool isInArray(string[] array, string a){
 		bool query = false;
 		foreach(string tag in array){
@@ -106,7 +104,7 @@ public class HealthSystem : MonoBehaviour {
 		}
 		return "∞";
 	}
-	//Enable this function
+	//Enable this class
 	public void enableThis(bool enableThis){
 		this.enable = enableThis;
 	}

@@ -21,7 +21,7 @@ public class HitBuildingHandler : MonoBehaviour {
 			print("points");
 		}
 		else if(col.gameObject.tag.Equals("ColliderWall")){
-			print("Stopped on colliderwall");
+			print("Hit on colliderwall");
 		}
 		else{
 			print("hit");
