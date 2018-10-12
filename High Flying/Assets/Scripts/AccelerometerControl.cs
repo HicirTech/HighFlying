@@ -1,12 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using InterSceneCommunication;
 
 public class AccelerometerControl : MonoBehaviour {
 
 	[SerializeField][Tooltip("Click to enable or disable")]
 	private bool enable = true; //enable or disable the accelerometer
-
+    private VariableContainer theContainer = null;
 	private float accel;
 	private bool stop = false;
 	private string sideCheck;
@@ -14,7 +15,20 @@ public class AccelerometerControl : MonoBehaviour {
 
 
 	void Start(){
-		if(SystemInfo.supportsGyroscope){
+
+        //If the variable container can not be found then tell the user, otherwise get and use the value
+        if (GameObject.FindObjectsOfType<VariableContainer>().Length != 1)
+        {
+            Debug.Log("Could not find variable container");
+        }
+        else
+        {
+            theContainer = GameObject.FindObjectOfType<VariableContainer>();
+        }
+
+        //If the device supports accelerometer control and the user wants to utilise it then enable accelerometer control
+        if (SystemInfo.supportsGyroscope && theContainer.isAccelerometerEnabled) 
+        {
 			enable=true;
 			debugText.text="";
 		}else{

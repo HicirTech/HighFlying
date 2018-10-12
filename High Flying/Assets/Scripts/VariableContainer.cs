@@ -11,6 +11,7 @@ namespace InterSceneCommunication
 
         private int objectAge = 0;
         public int difficultyRating = 0;
+        public bool isAccelerometerEnabled = false;
 
         void OnEnable()
         {
