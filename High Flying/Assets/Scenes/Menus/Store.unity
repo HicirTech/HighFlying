@@ -1814,9 +1814,9 @@ MonoBehaviour:
       m_Image: {fileID: 0}
     - m_Text: Body Lines
       m_Image: {fileID: 0}
-    - m_Text: Helment Accents
+    - m_Text: Helmet Accents
       m_Image: {fileID: 0}
-    - m_Text: Helment
+    - m_Text: Helmet
       m_Image: {fileID: 0}
     - m_Text: Ankles and Wrists
       m_Image: {fileID: 0}

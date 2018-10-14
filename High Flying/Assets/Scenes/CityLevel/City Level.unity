@@ -16044,8 +16044,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 853570064}
-  m_LocalRotation: {x: -0.047008336, y: 0.9326857, z: 0.33241305, w: 0.13186815}
-  m_LocalPosition: {x: 489.39713, y: -225.33905, z: 946.8511}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalPosition: {x: 495.13834, y: -246.68004, z: 914.898}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -33596,43 +33596,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114229249750856946, guid: 08ca6d1566690b648a627bd201a6bfbc,
-        type: 2}
-      propertyPath: pointsUI
-      value: 
-      objectReference: {fileID: 222105744}
-    - target: {fileID: 114073223293790476, guid: 08ca6d1566690b648a627bd201a6bfbc,
-        type: 2}
-      propertyPath: coinsUI
-      value: 
-      objectReference: {fileID: 896032457}
     - target: {fileID: 114005183694429844, guid: 08ca6d1566690b648a627bd201a6bfbc,
         type: 2}
       propertyPath: healthUI
       value: 
       objectReference: {fileID: 36722864}
-    - target: {fileID: 1354606204367972, guid: 08ca6d1566690b648a627bd201a6bfbc, type: 2}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
+    - target: {fileID: 114073223293790476, guid: 08ca6d1566690b648a627bd201a6bfbc,
+        type: 2}
+      propertyPath: coinsUI
+      value: 
+      objectReference: {fileID: 896032457}
     - target: {fileID: 114229249750856946, guid: 08ca6d1566690b648a627bd201a6bfbc,
         type: 2}
-      propertyPath: enable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 102189413094210076, guid: 08ca6d1566690b648a627bd201a6bfbc,
-        type: 2}
-      propertyPath: m_Text
-      value: Phone does not support Gyroscope
-      objectReference: {fileID: 0}
-    - target: {fileID: 4471957040493116, guid: 08ca6d1566690b648a627bd201a6bfbc, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -1.984
-      objectReference: {fileID: 0}
-    - target: {fileID: 4471957040493116, guid: 08ca6d1566690b648a627bd201a6bfbc, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: -3.7
-      objectReference: {fileID: 0}
+      propertyPath: pointsUI
+      value: 
+      objectReference: {fileID: 222105744}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08ca6d1566690b648a627bd201a6bfbc, type: 2}
   m_IsPrefabAsset: 0
@@ -39473,7 +39451,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2125663150}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
-  m_LocalPosition: {x: 495.13834, y: -246.68004, z: 914.898}
+  m_LocalPosition: {x: 495.13834, y: -188.88002, z: 914.898}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

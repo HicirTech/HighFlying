@@ -412,7 +412,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &1356600973353232
 GameObject:
   m_ObjectHideFlags: 0
@@ -1048,6 +1048,7 @@ GameObject:
   - component: {fileID: 82941168755804636}
   - component: {fileID: 114371989466330346}
   - component: {fileID: 114378736225681106}
+  - component: {fileID: 114248344665845826}
   m_Layer: 0
   m_Name: Character
   m_TagString: Character
@@ -1795,7 +1796,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1354606204367972}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: -1}
-  m_LocalPosition: {x: -0.80862427, y: 0.6, z: 2.109436}
+  m_LocalPosition: {x: -3.7, y: -1.984, z: 2.109436}
   m_LocalScale: {x: 0.009706666, y: 0.009706651, z: 0.009706664}
   m_Children: []
   m_Father: {fileID: 4884974219508298}
@@ -2611,7 +2612,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: da02383cab78040298297e27ec2e6daa, type: 2}
+  - {fileID: 2100000, guid: 45fc47e7f8b2d6f4eaa124ba48bfc7c4, type: 2}
   - {fileID: 2100000, guid: 83b5fcdcb3db542f390edc0f416bd559, type: 2}
   - {fileID: 2100000, guid: ae0bd005321134cd2b2b0cba8be28119, type: 2}
   - {fileID: 2100000, guid: fc4a323e2b7e442c4a6e0c0b169d8f9f, type: 2}
@@ -3130,7 +3131,7 @@ TextMesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1354606204367972}
-  m_Text: "Acceleration: \nX Position: \nY Position: \nFrozen: "
+  m_Text: Phone does not support Gyroscope
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -3206,10 +3207,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6f3a53c75d35c1489f455e517308c35, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enable: 1
+  enable: 0
   points: 0
   pointsUI: {fileID: 0}
   character: {fileID: 1804323634046858}
+--- !u!114 &114248344665845826
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1804323634046858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf75b43416884034184f927ed90e120b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mainBody: {r: 0.057271298, g: 0.9339623, b: 0.8985481, a: 0}
+  armFlaps: {r: 1, g: 0, b: 0.62277794, a: 0}
+  bodyLines: {r: 0.11779833, g: 1, b: 0, a: 0}
+  helmetAccents: {r: 0, g: 0.36323023, b: 1, a: 0}
+  helmet: {r: 0.5206111, g: 0.3160377, b: 1, a: 0}
+  anklesWrists: {r: 0.9150943, g: 0.41426113, b: 0, a: 0}
+  pilot: {fileID: 1968407299165242}
 --- !u!114 &114371989466330346
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3233,6 +3252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ae93cfe7e767e34382e6408f2bc739f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enable: 1
   debugText: {fileID: 102189413094210076}
 --- !u!114 &114699268043511570
 MonoBehaviour:
