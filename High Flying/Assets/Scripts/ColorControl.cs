@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ColorControl : MonoBehaviour {
 
+	[SerializeField][Tooltip("Click to enable/disable the script")]
 	private bool enable = true; //enable bool for entire script
 
 	[SerializeField][Tooltip("Select color for Main Body")] private Color mainBody;  //Serialized color for main body
