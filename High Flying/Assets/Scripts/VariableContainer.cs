@@ -11,12 +11,12 @@ namespace InterSceneCommunication
         public int difficultyRating = 0;
         public bool isAccelerometerEnabled = false;
 
-        public Color mainBody = Color.HSVToRGB(0, 0, 2, true);  //Colour for main body (Default is shipped off-black)
-        public Color armFlaps = Color.HSVToRGB(130, 100, 91, true); //Colour for arm flaps (Default is shipped green)
-        public Color bodyLines = Color.HSVToRGB(0, 0, 100, true); //Colour for body lines (Default is shipped while)
-        public Color helmetAccents = Color.HSVToRGB(0, 0, 2, true); //Colour for helmet accents (Default is shipped off-black)
-        public Color helmet = Color.HSVToRGB(0, 0, 2, true); //Colour for helmet (Default is shipped off-black)
-        public Color anklesWrists = Color.HSVToRGB(0, 0, 50, true); //Colour for ankles and wrists (Default is shipped grey)
+        public Color mainBody = Color.HSVToRGB(0, 0, 2);  //Colour for main body (Default is shipped off-black)
+        public Color armFlaps = Color.HSVToRGB(130, 100, 91); //Colour for arm flaps (Default is shipped green)
+        public Color bodyLines = Color.HSVToRGB(0, 0, 100); //Colour for body lines (Default is shipped while)
+        public Color helmetAccents = Color.HSVToRGB(0, 0, 2); //Colour for helmet accents (Default is shipped off-black)
+        public Color helmet = Color.HSVToRGB(0, 0, 2); //Colour for helmet (Default is shipped off-black)
+        public Color anklesWrists = Color.HSVToRGB(0, 0, 50); //Colour for ankles and wrists (Default is shipped grey)
 
         void OnEnable()
         {

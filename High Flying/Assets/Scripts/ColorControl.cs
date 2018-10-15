@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using InterSceneCommunication;
 
 public class ColorControl : MonoBehaviour {
+
+    private VariableContainer theContainer = null; //a reference to the variable container 
 
 	[SerializeField][Tooltip("Click to enable/disable the script")]
 	private bool enable = true; //enable bool for entire script
@@ -26,11 +29,33 @@ public class ColorControl : MonoBehaviour {
 	//Main initialization
 	void Awake(){
 		if(enable){
-			//Do not touch the child getters. Unfortunately, the only other way to do this is serialized fields and it looks ugly with a 
-			//billion different variables for each object, so I'm using .Find
-			//.Find only works per transform. It does not get children or grandchildren gameobjects.
+
+            //If the variable container can not be found then tell the user, otherwise get and use the required values
+            if (GameObject.FindObjectsOfType<VariableContainer>().Length != 1)
+            {
+                Debug.Log("Could not find variable container");
+            }
+            else
+            {
+                //get the container 
+                theContainer = GameObject.FindObjectOfType<VariableContainer>();
+                
+                // then, set the wingsuit colours to the ones set by the user
+                anklesWrists = theContainer.anklesWrists;
+                armFlaps = theContainer.armFlaps;
+                bodyLines = theContainer.bodyLines;
+                helmet = theContainer.helmet;
+                helmetAccents = theContainer.helmetAccents;
+                mainBody = theContainer.mainBody;
+
+
+            }
+
+            //Do not touch the child getters. Unfortunately, the only other way to do this is serialized fields and it looks ugly with a 
+            //billion different variables for each object, so I'm using .Find
+            //.Find only works per transform. It does not get children or grandchildren gameobjects.
             //Get component from child of child ect of Pilot and then debug it
-			mainBodyGO = pilot.transform.Find("skydiver_rig9:Wingsuit_rig_dont_touch").gameObject.transform.Find("skydiver_rig9:Wingsuit").gameObject.transform.Find("skydiver_rig9:Suit1").gameObject;
+            mainBodyGO = pilot.transform.Find("skydiver_rig9:Wingsuit_rig_dont_touch").gameObject.transform.Find("skydiver_rig9:Wingsuit").gameObject.transform.Find("skydiver_rig9:Suit1").gameObject;
 			if(mainBodyGO != null) Debug.Log("main body object found");
 			else Debug.Log("main body object NOT FOUND");
 
