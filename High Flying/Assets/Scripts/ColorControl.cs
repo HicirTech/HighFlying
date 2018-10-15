@@ -7,12 +7,12 @@ public class ColorControl : MonoBehaviour {
 	[SerializeField][Tooltip("Click to enable/disable the script")]
 	private bool enable = true; //enable bool for entire script
 
-	[SerializeField][Tooltip("Select color for Main Body")] private Color mainBody;  //Serialized color for main body
-	[SerializeField][Tooltip("Select color for Arm Flaps")] private Color armFlaps; //Serialized color for arm flaps
-	[SerializeField][Tooltip("Select color for Main Body")] private Color bodyLines; //Serialized color for body lines
-	[SerializeField][Tooltip("Select color for Main Body")] private Color helmetAccents; //Serialized color for helmet accents
-	[SerializeField][Tooltip("Select color for Main Body")] private Color helmet; //Serialized color for helmet
-	[SerializeField][Tooltip("Select color for Main Body")] private Color anklesWrists; //Serialized color for ankles and wrists
+	[Tooltip("Select color for Main Body")] public Color mainBody;  //Serialized color for main body
+	[Tooltip("Select color for Arm Flaps")] public Color armFlaps; //Serialized color for arm flaps
+	[Tooltip("Select color for Main Body")] public Color bodyLines; //Serialized color for body lines
+	[Tooltip("Select color for Main Body")] public Color helmetAccents; //Serialized color for helmet accents
+	[Tooltip("Select color for Main Body")] public Color helmet; //Serialized color for helmet
+	[Tooltip("Select color for Main Body")] public Color anklesWrists; //Serialized color for ankles and wrists
 
 	[SerializeField][Tooltip("Drop Pilot Model here (not character, model)")] private GameObject pilot; //Serialized drop field for pilot model
 	private GameObject mainBodyGO; //Private GameObject for main body
