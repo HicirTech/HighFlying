@@ -12,11 +12,11 @@
 
 <p><b>Our Product Pitch Proposal:</b><br>
 High Flying is the next greatest android game that'll blow your socks off. It's a wing suiting, sci-fi crazy adventure where you wingsuit across beautiful valleys of alien forests, lakes of lava, rivers of molten diamond, and other amazing alien landscapes. 
-<img src = "https://i.gyazo.com/a106b993a4feee282de6528489c21517.jpg" alt="Some pictures found online about alien games" width="80%">
+<img src = "https://i.gyazo.com/a106b993a4feee282de6528489c21517.jpg" alt="Some pictures found online about alien games" width="75%"><br>
 This is a wing suiting adventure you won't want to miss. It's going to be developed for the android mobile phones and will be using accelerometer for controls.</p>
 <img src = "https://i.gyazo.com/380e731bc32ae559dc69d7b940a2c6e8.png" alt="Another image used in our product proposal">
 
-<p>How far we got with that:</b><br>
+<p><b>How far we got with that:</b><br>
 We're going to be honest, we didn't get all the things into the game that we originally proposed so long ago. The task of learning Unity and then putting that knowledge to actual use was extremely difficult, but through all that, we managed to create a working product that displays an immense amount of learning, team work and tears.
 I think we even said during the conceptualising phase: "This is going to be easy. All we need is a few classes, maybe about 8 or 9 and we're done"... Good god where we wrong.
 The one thing that stuck very true through most of the entire project was our very original UI design. The game follows almost the exact same design we built on August the 16th.</p>
