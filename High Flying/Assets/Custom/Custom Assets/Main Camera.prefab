@@ -3222,6 +3222,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf75b43416884034184f927ed90e120b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enable: 1
   mainBody: {r: 0.057271298, g: 0.9339623, b: 0.8985481, a: 0}
   armFlaps: {r: 1, g: 0, b: 0.62277794, a: 0}
   bodyLines: {r: 0.11779833, g: 1, b: 0, a: 0}

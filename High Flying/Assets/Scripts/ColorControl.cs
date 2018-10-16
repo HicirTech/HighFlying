@@ -127,7 +127,10 @@ public class ColorControl : MonoBehaviour {
 		
 		//Get the materials array from component since components sometimes have multiple materials
 		var helmetAccentsGOmats = helmetAccentsGO.GetComponent<Renderer>().materials;
+		helmetAccentsGOmats[2].color = helmetAccents;
+		helmetAccentsGOmats[1].color = helmetAccents;
 		helmetAccentsGOmats[3].color = helmetAccents;
+		helmetAccentsGOmats[4].color = helmetAccents;
 		
 		//Get the materials array from component since components sometimes have multiple materials
 		var anklesLeftGOmats = anklesLeftGO.GetComponent<Renderer>().materials;
@@ -139,6 +142,11 @@ public class ColorControl : MonoBehaviour {
 		wristsLeftGOmats[0].color = anklesWrists;
 		wristsRightGOmats[0].color = anklesWrists;
 
+		this.debugLog(changed);
+		return("updated colors");
+	}
+
+	private void debugLog(int changed){
 		switch(changed){
 			case 0:
 				print("Main body changed to: "+mainBody);
@@ -162,7 +170,5 @@ public class ColorControl : MonoBehaviour {
 				print("Changed all");
 				break;
 		}
-
-		return("updated colors");
 	}
 }

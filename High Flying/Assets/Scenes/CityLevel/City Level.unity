@@ -33596,21 +33596,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 114005183694429844, guid: 08ca6d1566690b648a627bd201a6bfbc,
-        type: 2}
-      propertyPath: healthUI
-      value: 
-      objectReference: {fileID: 36722864}
-    - target: {fileID: 114073223293790476, guid: 08ca6d1566690b648a627bd201a6bfbc,
-        type: 2}
-      propertyPath: coinsUI
-      value: 
-      objectReference: {fileID: 896032457}
     - target: {fileID: 114229249750856946, guid: 08ca6d1566690b648a627bd201a6bfbc,
         type: 2}
       propertyPath: pointsUI
       value: 
       objectReference: {fileID: 222105744}
+    - target: {fileID: 114073223293790476, guid: 08ca6d1566690b648a627bd201a6bfbc,
+        type: 2}
+      propertyPath: coinsUI
+      value: 
+      objectReference: {fileID: 896032457}
+    - target: {fileID: 114005183694429844, guid: 08ca6d1566690b648a627bd201a6bfbc,
+        type: 2}
+      propertyPath: healthUI
+      value: 
+      objectReference: {fileID: 36722864}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08ca6d1566690b648a627bd201a6bfbc, type: 2}
   m_IsPrefabAsset: 0
