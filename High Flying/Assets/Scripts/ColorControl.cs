@@ -23,34 +23,14 @@ public class ColorControl : MonoBehaviour {
 	private GameObject bodyLinesGO; //Private GameObject for body lines
 	private GameObject helmetAccentsGO; //Private GameObject for helmet accents
 	private GameObject helmetGO; //Private GameObject for helmet
-	private GameObject anklesGO; //Private GameObject for ankles
-	private GameObject wristsGO; //Private GameObject for wrists
+	private GameObject anklesLeftGO; //Private GameObject for ankles
+	private GameObject wristsLeftGO; //Private GameObject for wrists
+	private GameObject anklesRightGO; //Private GameObject for ankles
+	private GameObject wristsRightGO; //Private GameObject for wrists
 
 	//Main initialization
 	void Awake(){
 		if(enable){
-
-            //If the variable container can not be found then tell the user, otherwise get and use the required values
-            if (GameObject.FindObjectsOfType<VariableContainer>().Length != 1)
-            {
-                Debug.Log("Could not find variable container");
-            }
-            else
-            {
-                //get the container 
-                theContainer = GameObject.FindObjectOfType<VariableContainer>();
-                
-                // then, set the wingsuit colours to the ones set by the user
-                anklesWrists = theContainer.anklesWrists;
-                armFlaps = theContainer.armFlaps;
-                bodyLines = theContainer.bodyLines;
-                helmet = theContainer.helmet;
-                helmetAccents = theContainer.helmetAccents;
-                mainBody = theContainer.mainBody;
-
-
-            }
-
             //Do not touch the child getters. Unfortunately, the only other way to do this is serialized fields and it looks ugly with a 
             //billion different variables for each object, so I'm using .Find
             //.Find only works per transform. It does not get children or grandchildren gameobjects.
@@ -80,14 +60,24 @@ public class ColorControl : MonoBehaviour {
 			else Debug.Log("helmet accents object NOT FOUND");
 
             //Get component from child of child ect of Pilot and then debug it
-			anklesGO = pilot.transform.Find("skydiver_rig9:Wingsuit_rig_dont_touch").gameObject.transform.Find("skydiver_rig9:Wingsuit").gameObject.transform.Find("skydiver_rig9:Body").gameObject.transform.Find("skydiver_rig9:LeftSneakers").gameObject;
-			if(anklesGO != null) Debug.Log("ankles object found");
-			else Debug.Log("ankles object NOT FOUND");
+			anklesLeftGO = pilot.transform.Find("skydiver_rig9:Wingsuit_rig_dont_touch").gameObject.transform.Find("skydiver_rig9:Wingsuit").gameObject.transform.Find("skydiver_rig9:Body").gameObject.transform.Find("skydiver_rig9:LeftSneakers").gameObject;
+			if(anklesLeftGO != null) Debug.Log("anklesLeft object found");
+			else Debug.Log("anklesLeft object NOT FOUND");
 
             //Get component from child of child ect of Pilot and then debug it
-			wristsGO = pilot.transform.Find("skydiver_rig9:Wingsuit_rig_dont_touch").gameObject.transform.Find("skydiver_rig9:Wingsuit").gameObject.transform.Find("skydiver_rig9:Body").gameObject.transform.Find("skydiver_rig9:LeftHand").gameObject;
-			if(wristsGO != null) Debug.Log("wrists object found");
-			else Debug.Log("wrists object NOT FOUND");
+			anklesRightGO = pilot.transform.Find("skydiver_rig9:Wingsuit_rig_dont_touch").gameObject.transform.Find("skydiver_rig9:Wingsuit").gameObject.transform.Find("skydiver_rig9:Body").gameObject.transform.Find("skydiver_rig9:RightSneakers").gameObject;
+			if(anklesRightGO != null) Debug.Log("anklesRight object found");
+			else Debug.Log("anklesRight object NOT FOUND");
+
+            //Get component from child of child ect of Pilot and then debug it
+			wristsLeftGO = pilot.transform.Find("skydiver_rig9:Wingsuit_rig_dont_touch").gameObject.transform.Find("skydiver_rig9:Wingsuit").gameObject.transform.Find("skydiver_rig9:Body").gameObject.transform.Find("skydiver_rig9:LeftHand").gameObject;
+			if(wristsLeftGO != null) Debug.Log("wristsLeft object found");
+			else Debug.Log("wristsLeft object NOT FOUND");
+
+            //Get component from child of child ect of Pilot and then debug it
+			wristsRightGO = pilot.transform.Find("skydiver_rig9:Wingsuit_rig_dont_touch").gameObject.transform.Find("skydiver_rig9:Wingsuit").gameObject.transform.Find("skydiver_rig9:Body").gameObject.transform.Find("skydiver_rig9:RightHand").gameObject;
+			if(wristsRightGO != null) Debug.Log("wristsRight object found");
+			else Debug.Log("wristsRight object NOT FOUND");
 		}
 		else{
 			//If script is disabled, debug
@@ -98,31 +88,81 @@ public class ColorControl : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		if(enable){
-            //Get the materials array from component since components sometimes have multiple materials
-			var mainBodyGomats = mainBodyGO.GetComponent<Renderer>().materials;
-			mainBodyGomats[1].color = mainBody;
-			
-            //Get the materials array from component since components sometimes have multiple materials
-			var armFlapsGOmats = armFlapsGO.GetComponent<Renderer>().materials;
-			armFlapsGOmats[0].color = armFlaps;
-			
-            //Get the materials array from component since components sometimes have multiple materials
-			var bodyLinesGOmats = bodyLinesGO.GetComponent<Renderer>().materials;
-			bodyLinesGOmats[3].color = bodyLines;
-			
-            //Get the materials array from component since components sometimes have multiple materials
-			var helmetGOmats = helmetGO.GetComponent<Renderer>().materials;
-			helmetGOmats[0].color = helmet;
-			
-            //Get the materials array from component since components sometimes have multiple materials
-			var helmetAccentsGOmats = helmetAccentsGO.GetComponent<Renderer>().materials;
-			helmetAccentsGOmats[3].color = helmetAccents;
-			
-            //Get the materials array from component since components sometimes have multiple materials
-			var anklesGOmats = anklesGO.GetComponent<Renderer>().materials;
-			var wristsGOmats = wristsGO.GetComponent<Renderer>().materials;
-			anklesGOmats[0].color = anklesWrists;
-			wristsGOmats[0].color = anklesWrists;
+			//If the variable container can not be found then tell the user, otherwise get and use the required values
+            if (GameObject.FindObjectsOfType<VariableContainer>().Length != 1){
+                Debug.Log("Could not find variable container");
+            }else{
+                //get the container 
+                theContainer = GameObject.FindObjectOfType<VariableContainer>();
+                
+                // then, set the wingsuit colours to the ones set by the user
+                anklesWrists = theContainer.anklesWrists;
+                armFlaps = theContainer.armFlaps;
+                bodyLines = theContainer.bodyLines;
+                helmet = theContainer.helmet;
+                helmetAccents = theContainer.helmetAccents;
+                mainBody = theContainer.mainBody;
+            }
+
+            this.updateColors(6);
 		}
+	}
+
+	public string updateColors(int changed){
+		//Get the materials array from component since components sometimes have multiple materials
+		var mainBodyGOmats = mainBodyGO.GetComponent<Renderer>().materials;
+		mainBodyGOmats[0].color = mainBody;
+		
+		//Get the materials array from component since components sometimes have multiple materials
+		var armFlapsGOmats = armFlapsGO.GetComponent<Renderer>().materials;
+		armFlapsGOmats[1].color = armFlaps;
+		
+		//Get the materials array from component since components sometimes have multiple materials
+		var bodyLinesGOmats = bodyLinesGO.GetComponent<Renderer>().materials;
+		bodyLinesGOmats[3].color = bodyLines;
+		
+		//Get the materials array from component since components sometimes have multiple materials
+		var helmetGOmats = helmetGO.GetComponent<Renderer>().materials;
+		helmetGOmats[0].color = helmet;
+		
+		//Get the materials array from component since components sometimes have multiple materials
+		var helmetAccentsGOmats = helmetAccentsGO.GetComponent<Renderer>().materials;
+		helmetAccentsGOmats[3].color = helmetAccents;
+		
+		//Get the materials array from component since components sometimes have multiple materials
+		var anklesLeftGOmats = anklesLeftGO.GetComponent<Renderer>().materials;
+		var anklesRightGOmats = anklesRightGO.GetComponent<Renderer>().materials;
+		var wristsLeftGOmats = wristsLeftGO.GetComponent<Renderer>().materials;
+		var wristsRightGOmats = wristsRightGO.GetComponent<Renderer>().materials;
+		anklesLeftGOmats[0].color = anklesWrists;
+		anklesRightGOmats[0].color = anklesWrists;
+		wristsLeftGOmats[0].color = anklesWrists;
+		wristsRightGOmats[0].color = anklesWrists;
+
+		switch(changed){
+			case 0:
+				print("Main body changed to: "+mainBody);
+				break;
+			case 1:
+				print("Arm Flaps changed to: "+armFlaps);
+				break;
+			case 2:
+				print("Body Lines changed to: "+bodyLines);
+				break;
+			case 3:
+				print("Helmet changed to: "+helmetAccents);
+				break;
+			case 4:
+				print("Helmet accents changed to: "+helmet);
+				break;
+			case 5:
+				print("ankles and wrists changed to: "+anklesWrists);
+				break;
+			case 6:
+				print("Changed all");
+				break;
+		}
+
+		return("updated colors");
 	}
 }

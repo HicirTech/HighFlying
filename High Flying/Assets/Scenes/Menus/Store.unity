@@ -190,10 +190,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 90842248}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -312,10 +312,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 98266456}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -514,10 +514,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 130433946}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -848,10 +848,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 279638898}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1071,10 +1071,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 338771499}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1193,10 +1193,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 493161955}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1762,10 +1762,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 804561448}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2099,10 +2099,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 841548169}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2226,10 +2226,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1042950505}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -2698,10 +2698,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1332301345}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3191,10 +3191,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1418800903}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3313,10 +3313,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1421967199}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3506,10 +3506,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1620744489}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3662,10 +3662,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1644063267}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -3784,10 +3784,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1786110594}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4064,10 +4064,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1816558411}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4118,7 +4118,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1819026264}
   - component: {fileID: 1819026263}
-  - component: {fileID: 1819026262}
   m_Layer: 0
   m_Name: Preview Render Texture Camera
   m_TagString: Untagged
@@ -4126,13 +4125,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1819026262
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1819026261}
-  m_Enabled: 1
 --- !u!20 &1819026263
 Camera:
   m_ObjectHideFlags: 0
@@ -4247,12 +4239,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enable: 1
-  mainBody: {r: 0, g: 0, b: 0, a: 0}
-  armFlaps: {r: 0, g: 0, b: 0, a: 0}
-  bodyLines: {r: 0, g: 0, b: 0, a: 0}
-  helmetAccents: {r: 0, g: 0, b: 0, a: 0}
-  helmet: {r: 0, g: 0, b: 0, a: 0}
-  anklesWrists: {r: 0, g: 0, b: 0, a: 0}
+  mainBody: {r: 0.8113208, g: 0.057404764, b: 0.057404764, a: 0}
+  armFlaps: {r: 0, g: 1, b: 0.57612944, a: 0}
+  bodyLines: {r: 0.8773585, g: 0, b: 0.77520823, a: 0}
+  helmetAccents: {r: 0.1986917, g: 0.33195108, b: 0.8962264, a: 0}
+  helmet: {r: 0.9528302, g: 0.9110036, b: 0.19326274, a: 0}
+  anklesWrists: {r: 0.0990566, g: 1, b: 0.9419013, a: 0}
   pilot: {fileID: 123157053}
 --- !u!114 &1852128217
 MonoBehaviour:
@@ -4265,6 +4257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a70d36cea12156147b83cef675d9b72c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonLayout: {fileID: 1143735950}
 --- !u!1 &1907451085
 GameObject:
   m_ObjectHideFlags: 0
@@ -4376,10 +4369,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 1928029132}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4649,10 +4642,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2020418245}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4772,10 +4765,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2044492963}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -4908,10 +4901,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2070869979}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5030,10 +5023,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2072946038}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5152,10 +5145,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2084625461}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5274,10 +5267,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2097183079}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -5465,10 +5458,10 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1852128217}
         m_MethodName: changeColourPreview
-        m_Mode: 1
+        m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_ObjectArgument: {fileID: 2107487769}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
