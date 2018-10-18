@@ -20,7 +20,7 @@ public class StoreVariableCommunicator : MonoBehaviour {
     void Start ()
     {
         //get the objects that are required for this script to run from the scene
-        thePasser = VariableContainer.FindObjectOfType<VariableContainer>();
+        thePasser = VariableContainer.FindObjectOfType<VariableContainer>(); //the VariableContainer from the scene
         colorController = ColorControl.FindObjectOfType<ColorControl>();
         thePartSelector = Dropdown.FindObjectOfType<Dropdown>();
 
@@ -39,7 +39,8 @@ public class StoreVariableCommunicator : MonoBehaviour {
 	
 	public void sendColourSelections()
     {
-        //syncronise the container and the character preview
+        //syncronise the container and the character preview 
+        //(set each colour in the VariableContainer equal to the colours in the ColorControl object)  
         thePasser.anklesWrists = colorController.anklesWrists;
         thePasser.armFlaps = colorController.armFlaps;
         thePasser.bodyLines = colorController.bodyLines;
