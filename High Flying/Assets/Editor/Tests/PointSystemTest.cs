@@ -27,7 +27,7 @@ public class PointSystemTest {
         testObject.AddComponent<PointSystem>();
 
         PointSystem testSystem = testObject.GetComponent<PointSystem>();
-        testSystem.points = 0;
+        testSystem.setPoints(0);
 
         testSystem.setCoinsCollectedCounter(1);
         testSystem.setRingsPassedCounter(1);
@@ -36,8 +36,8 @@ public class PointSystemTest {
 
         testSystem.calculatePoints();
 
-        Assert.AreNotEqual(testSystem.points, 0);
-        Assert.AreEqual(12.0f, testSystem.points); //Expected points with values set above
+        Assert.AreNotEqual(testSystem.getPoints(), 0);
+        Assert.AreEqual(12.0f, testSystem.getPoints()); //Expected points with values set above
     }
 
     

@@ -18,7 +18,7 @@ public class HealthSystem : MonoBehaviour {
 	[Tooltip("Intitial counter for invincability in frames")][SerializeField][Range(1, 100)]
 	public int initialInvincCount;
 	[System.NonSerialized]
-	public int health = 1;
+	private int health = 1;
 	private string[] tagsToCheck = {"Respawn","MainCamera","Player","GameController","RTCam","CoinRing","LifeRing","Finish","PointRing",
 									"CoinToCollect","ColliderWall"};
 
@@ -107,5 +107,8 @@ public class HealthSystem : MonoBehaviour {
 	//Enable this class
 	public void enableThis(bool enableThis){
 		this.enable = enableThis;
+	}
+	public int getHealth(){
+		return this.health;
 	}
 }

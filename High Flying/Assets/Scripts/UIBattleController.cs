@@ -98,7 +98,11 @@ public class UIBattleController : MonoBehaviour {
         hitBuldingHandler.onLevelComplete += () =>
         {
             gameOver.ShowPopup();
-            gameOver.LevelComplete(coinSystem.coins, pointSystem.getRingsPassedCounter(), 1, healthSystem.difficultyRating, pointSystem.points);
+            gameOver.LevelComplete(coinSystem.getCoins(),
+                                   pointSystem.getRingsPassedCounter(),
+                                   pointSystem.getRingMultiplier(),
+                                   healthSystem.difficultyRating,
+                                   pointSystem.getPoints());
         };
     }
 

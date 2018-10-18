@@ -35,7 +35,7 @@ public class GameOver : PanelBase
     // call when level complete
     /// update info about rings, coins, ring multiplier, difficult multiplier, total score
     /// </summary>
-    public void LevelComplete(int coinsCollected, int ringsCollected, int ringMultiplier, int difficultyMultiplier, float totalScore)
+    public void LevelComplete(int coinsCollected, int ringsCollected, float ringMultiplier, int difficultyMultiplier, float totalScore)
     {
         print("level compelte");
         SetTop(true);
@@ -63,10 +63,10 @@ public class GameOver : PanelBase
         bodyInfo.SetActive(isWin);
     }
 
-    private void UpdateBodyInfo(int coinsCollected, int ringsCollected, int ringMultiplier, int difficultyMultiplier, float totalScore)
+    private void UpdateBodyInfo(int coinsCollected, int ringsCollected, float ringMultiplier, int difficultyMultiplier, float totalScore)
     {
-        coinsCollectedText.text = string.Format("{0}/20", coinsCollected);
-        ringCollectedText.text = string.Format("{0}/10", ringsCollected);
+        coinsCollectedText.text = coinsCollected+"/53";
+        ringCollectedText.text = ringsCollected+"/10";
         ringMultiplierText.text = ringMultiplier.ToString();
         difficultyMultiplierText.text = difficultyMultiplier.ToString();
         totalScoreText.text = totalScore.ToString();

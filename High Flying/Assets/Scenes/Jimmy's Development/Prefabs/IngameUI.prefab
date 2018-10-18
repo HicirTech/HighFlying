@@ -1828,6 +1828,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelComplete: {fileID: 1349711131432466}
   gameOver: {fileID: 1487137058920274}
+  numOfCoins: {fileID: 0}
+  numOfRings: {fileID: 0}
   bodyInfo: {fileID: 1775528504398716}
   coinsCollectedText: {fileID: 114189660592034704}
   ringCollectedText: {fileID: 114233826536567692}

@@ -8,7 +8,7 @@ public class PointSystem : MonoBehaviour {
 	[Tooltip("Toggle to enable or disable")][SerializeField]
 	public bool enable = true; //Variable used for pause functionality
 	[Tooltip("Number of points player has")][SerializeField]
-	public float points;
+	private float points;
 
 	//Fill fields with GameObjects
 	[Tooltip("Drag and drop the points text here: ")][SerializeField]
@@ -72,7 +72,17 @@ public class PointSystem : MonoBehaviour {
 	{
 		return this.ringsPassedCounter;
 	}
+	public float getPoints(){
+		return this.points;
+	}
+	public float getRingMultiplier(){
+		float ringMultTemp = ringsPassMult;
+		return ringMultTemp;
+	}
 	//Setters
+	public void setPoints(float points){
+		this.points = points;
+	}
 	public void setCoinsCollectedCounter(int coinsCollected)
 	{
 		this.coinsCollectedCounter = coinsCollected;

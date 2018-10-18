@@ -8,7 +8,7 @@ public class CoinSystem : MonoBehaviour {
 	[Tooltip("Enable or disable this script")][SerializeField]
 	public bool enable = true; //Variable used for pause functionality
 	[Tooltip("Value for coins")][SerializeField]
-	public int coins;
+	private int coins;
 
 	[Tooltip("Drag and drop coins text here: ")][SerializeField]
 	private Text coinsUI;
@@ -59,5 +59,9 @@ public class CoinSystem : MonoBehaviour {
 
 	public void enableThis(bool enableThis){
 		this.enable = enableThis;
+	}
+
+	public int getCoins(){
+		return this.coins;
 	}
 }
