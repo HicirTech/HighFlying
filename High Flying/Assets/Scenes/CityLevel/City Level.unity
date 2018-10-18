@@ -33611,6 +33611,11 @@ Prefab:
       propertyPath: healthUI
       value: 
       objectReference: {fileID: 36722864}
+    - target: {fileID: 114229249750856946, guid: 08ca6d1566690b648a627bd201a6bfbc,
+        type: 2}
+      propertyPath: enable
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08ca6d1566690b648a627bd201a6bfbc, type: 2}
   m_IsPrefabAsset: 0
