@@ -21,13 +21,17 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		static CrossPlatformInputManager()
 		{
+            
 			s_TouchInput = new MobileInput();
-			s_HardwareInput = new StandaloneInput();
-#if MOBILE_INPUT
-            activeInput = s_TouchInput;
-#else
-			activeInput = s_HardwareInput;
-#endif
+            s_HardwareInput = new StandaloneInput();
+            if (Application.isMobilePlatform)
+            {
+                activeInput = s_TouchInput;
+            }
+            else
+            {
+                activeInput = s_HardwareInput;
+            }
 		}
 
 		public static void SwitchActiveInputMethod(ActiveInputMethod activeInputMethod)
@@ -160,6 +164,7 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		public static void SetAxis(string name, float value)
 		{
+            Debug.Log(value);
 			activeInput.SetAxis(name, value);
 		}
 

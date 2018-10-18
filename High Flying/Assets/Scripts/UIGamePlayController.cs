@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityStandardAssets.CrossPlatformInput;
 
-public class UIBattleController : MonoBehaviour {
+public class UIGamePlayController : MonoBehaviour {
 
     private GameObject character;
     private MovementControl movementControl;
@@ -9,6 +10,7 @@ public class UIBattleController : MonoBehaviour {
     private HealthSystem healthSystem;
     private PointSystem pointSystem;
     private CoinSystem coinSystem;
+    private int isPressedLeftButton = 0, isPressedRightButton = 0;
 
     #region UI_MAIN
     [SerializeField]
@@ -61,6 +63,34 @@ public class UIBattleController : MonoBehaviour {
         btnPause.onClick.AddListener(PauseGame);
         btnLeftJump.onClick.AddListener(movementControl.Jump);
         btnRightJump.onClick.AddListener(movementControl.Jump);
+    }
+
+    public void onMoveButtonUp(string name)
+    {
+        switch (name)
+        {
+            case "Right":
+                isPressedRightButton = 0;
+                break;
+            case "Left":
+                isPressedLeftButton = 0;
+                break;
+        }
+        CrossPlatformInputManager.SetAxis("Horizontal", isPressedRightButton - isPressedLeftButton);
+    }
+
+    public void onMoveButtonDown(string name)
+    {
+        switch (name)
+        {
+            case "Right":
+                isPressedRightButton = 1;
+                break;
+            case "Left":
+                isPressedLeftButton = 1;
+                break;
+        }
+        CrossPlatformInputManager.SetAxis("Horizontal", isPressedRightButton - isPressedLeftButton);
     }
 
     private void getMovementControl(GameObject character)
