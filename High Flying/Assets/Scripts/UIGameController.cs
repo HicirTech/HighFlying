@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIGameController : MonoBehaviour {
+public class UIBattleController : MonoBehaviour {
 
     private GameObject character;
     private MovementControl movementControl;
