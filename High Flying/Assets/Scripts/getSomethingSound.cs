@@ -7,29 +7,24 @@ public class getSomethingSound : MonoBehaviour {
 	[SerializeField]AudioClip clip;
 	private void OnCollisionEnter(Collision collision)
     {
-		source = this.gameObject.AddComponent<AudioSource>();
-		source.playOnAwake=false;
-        print("C");
-		AudioListener.volume=1;
-		source.PlayOneShot(clip);
-		
+			playSound();		
     }
 
     private void OnTriggerEnter(Collider other)
     {
-		source = this.gameObject.AddComponent<AudioSource>();
-		source.playOnAwake=false;
-		print("T");
-		AudioListener.volume=1;
-		source.PlayOneShot(clip);
+			playSound();
     }
-	// Use this for initialization
-	void Start () {
-			
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+
+		/// <summary>
+		/// if get some thing, 
+		/// add audiosource
+		/// and play clip
+		/// </summary>
+		private void playSound()
+		{
+			source = this.gameObject.AddComponent<AudioSource>();
+			source.playOnAwake=false;
+			AudioListener.volume=1;
+			source.PlayOneShot(clip);
+		}
 }

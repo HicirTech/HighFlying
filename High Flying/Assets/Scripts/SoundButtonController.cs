@@ -15,22 +15,23 @@ public class SoundButtonController : MonoBehaviour {
 
     }
 
+    /// <summary>
+    // change button image 
+    /// if current index is 1 ->0
+    /// else current index is 0 ->1
+    /// </summary>
     private void changeButtonSprite()
     {
-        /*/
-        if (sourceButton.image.sprite.Equals(buttonImages[0]))
-        {
-            sourceButton.image.sprite = buttonImages[1];
-        }
-        else
-        {
-            sourceButton.image.sprite = buttonImages[0];
-        }*/
-
-        sourceButton.image.sprite =sourceButton.image.sprite.Equals(buttonImages[0])? buttonImages[1]:buttonImages[0];
-
+        sourceButton.image.sprite = sourceButton.image.sprite.Equals(buttonImages[0])? 
+                                                                buttonImages[1]:buttonImages[0];
     }
 
+
+    /// <summary>
+    /// mute button will call the switch funtion in backgroundplay
+    /// also set audiolister if current 1 -> 0
+    ///                                 0 -> 1
+    /// </summary>
     public void muteAndUnmute()
     {
       AudioListener.volume= (AudioListener.volume==0)?1:0;    

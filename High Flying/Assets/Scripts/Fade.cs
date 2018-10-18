@@ -17,18 +17,15 @@ public class Fade : MonoBehaviour
     private void Update()
     {
         gameObject.isStatic = false;
-        
         fade();
     }
     private void OnCollisionEnter(Collision collision)
     {
-        print("C");
         fadable = true;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        print("T");
         fadable = true;
     }
     /// <summary>
@@ -64,7 +61,9 @@ public class Fade : MonoBehaviour
             }
         }
     }
-
+    /// <summary>
+    /// fade function used in edit mode
+    /// </summary>
     public void EditFade()
     {
         if (fadable&&Application.isEditor)
