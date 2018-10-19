@@ -164,7 +164,6 @@ namespace UnityStandardAssets.CrossPlatformInput
 
 		public static void SetAxis(string name, float value)
 		{
-            Debug.Log(value);
 			activeInput.SetAxis(name, value);
 		}
 

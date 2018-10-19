@@ -37,7 +37,7 @@ public class Fade : MonoBehaviour
     public void fade()
     {   
         if(fadable){
-            print("Player"+gameObject.GetComponent<Renderer>().material.color);
+            //print("Player"+gameObject.GetComponent<Renderer>().material.color);
             gameObject.GetComponent<Renderer>().material.color = new Color(
             gameObject.GetComponent<Renderer>().material.color.r,
                 gameObject.GetComponent<Renderer>().material.color.g,

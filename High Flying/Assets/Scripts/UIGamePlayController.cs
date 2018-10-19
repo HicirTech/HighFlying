@@ -2,7 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class UIGamePlayController : MonoBehaviour {
+public class UIGamePlayController : MonoBehaviour
+{
 
     private GameObject character;
     private MovementControl movementControl;
@@ -76,7 +77,7 @@ public class UIGamePlayController : MonoBehaviour {
                 isPressedLeftButton = 0;
                 break;
         }
-        CrossPlatformInputManager.SetAxis("Horizontal", isPressedRightButton - isPressedLeftButton);
+        UpdateMove();
     }
 
     public void onMoveButtonDown(string name)
@@ -90,7 +91,14 @@ public class UIGamePlayController : MonoBehaviour {
                 isPressedLeftButton = 1;
                 break;
         }
-        CrossPlatformInputManager.SetAxis("Horizontal", isPressedRightButton - isPressedLeftButton);
+        UpdateMove();
+    }
+
+    private void UpdateMove()
+    {
+        var speed = isPressedRightButton - isPressedLeftButton;
+
+        CrossPlatformInputManager.SetAxis("Horizontal", speed);
     }
 
     private void getMovementControl(GameObject character)
