@@ -2,8 +2,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class UIGamePlayController : MonoBehaviour
-{
+
+public class UIGameController : MonoBehaviour {
 
     private GameObject character;
     private MovementControl movementControl;

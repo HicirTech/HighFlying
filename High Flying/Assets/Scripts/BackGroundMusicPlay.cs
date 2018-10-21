@@ -3,27 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 public class BackGroundMusicPlay : MonoBehaviour {
-
-	// Use this for initialization
-	AudioSource audioSource;
-	Scene currentScene;
-	string nameOfStart="";
+	
 	[SerializeField] AudioClip CityNoise;
 	[SerializeField] AudioClip Wind;
 	public bool isPlaying ;
 	AudioClip music;
-		
+	AudioSource audioSource;
+	Scene currentScene;
+	string nameOfStart="";
+	
+	
 	private void Awake()
     {
+		//music will not play when it awake
+		//will check double player in the game
 		checkDouble();
 		isPlaying=false;
 	}
 
-	void Start(){
+	void Start()
+	{
 		setupPlayer();
 	}
 
 
+	/// <summary>
+	/// set up a audio source with clip 
+	/// play loop of background music
+	/// and call begin play function
+	///  </summary>
 	public void setupPlayer()
 	{
 		this.currentScene= SceneManager.GetActiveScene();
@@ -32,6 +40,12 @@ public class BackGroundMusicPlay : MonoBehaviour {
 		this.audioSource.loop=true;
 		this.PlayMusic();
 	}
+	/// <summary>
+	/// if it is playing
+	/// then stop play
+	/// else
+	/// begin play background music
+	/// </summary>
 	public void switchPlay()
 	{
 		
@@ -44,13 +58,23 @@ public class BackGroundMusicPlay : MonoBehaviour {
 			this.PlayMusic();
 		}
 	}
+
+	/// <summary>
+	/// will check if game change level
+	/// </summary>
 	void Update()
 	{
-		this.CheckUpdate();	
-		
+		this.CheckUpdate();			
 	}
 
 	
+	/// <summary>
+	/// play music when it is not playing
+	/// </summary>
+	/// 
+	/// <returns>
+	/// is the music playing
+	/// </returns>
 	private bool PlayMusic()
 	{
 		if(!this.isPlaying)
@@ -61,6 +85,10 @@ public class BackGroundMusicPlay : MonoBehaviour {
 		return isPlaying;
 	}
 
+	/// <summary>
+	/// check what level the game is 
+	/// and based on it switch music
+	/// </summary>
 	private void CheckUpdate()
 	{ 
 
@@ -75,6 +103,9 @@ public class BackGroundMusicPlay : MonoBehaviour {
 		}
 	}
 
+	/// <summary>
+	/// update current music
+	/// </summary>
 	private void DoUpdateMusic()
 	{
 		this.StopPlay();;
@@ -83,12 +114,23 @@ public class BackGroundMusicPlay : MonoBehaviour {
 		nameOfStart=this.currentScene.name;
 	}
 
+	/// <summary>
+	/// base on city level change to city noise
+	/// or other level will paly wind sound
+	/// </summary>
 	private void SetClipForPlay()
 	{
 		this.audioSource.clip=(this.currentScene.name.Contains("City"))?CityNoise:Wind;
 	}
 	
 
+	/// <summary>
+	/// stop playing music
+	/// </summary>
+	/// 
+	/// <returns>
+	/// is it playing
+	/// </returns>
 	private bool StopPlay()
 	{
 		if(this.isPlaying)
@@ -99,6 +141,13 @@ public class BackGroundMusicPlay : MonoBehaviour {
 		return isPlaying;
 	}
 
+
+	/// <summary>
+	/// check if a level have two 
+	/// backgroundmusicplayer
+	/// if yes destory one
+	/// else keep it
+	/// </summary>
 	private void checkDouble()
 	{
 		if(GameObject.FindObjectsOfType<BackGroundMusicPlay>().Length>1)

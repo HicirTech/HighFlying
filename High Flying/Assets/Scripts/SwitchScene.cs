@@ -11,7 +11,7 @@ public class SwitchScene : MonoBehaviour {
     [SerializeField]
     private string iceLevelName = "Ice Level";
     [SerializeField]
-    private string cityLevelName = "CityLevel";
+    private string cityLevelName = "City Level";
     [SerializeField]
     private string mainMenuLevelName = "MainPlay";
     [SerializeField]

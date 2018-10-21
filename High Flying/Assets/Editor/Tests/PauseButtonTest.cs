@@ -8,7 +8,7 @@ public class NewTestScript {
     [Test]    
     public void PauseUnitTest() {
     // Use the Assert class to test conditions.
-    UIGamePlayController UIButtons = new UIGamePlayController();
+    UIGameController UIButtons = new UIGameController();
    // set object for UIbatttleController 
     PauseAndMenu pauseMenu = UIButtons.getPauseAndMenu(); 
     //get object from pauseMenu       

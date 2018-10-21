@@ -10,20 +10,21 @@ public class HitBuildingHandler : MonoBehaviour {
 	[SerializeField] AudioClip whenHit;
 
 	void OnCollisionEnter(Collision col){
-	
-		
-		if(col.gameObject.tag.Equals("Finish"))
+			
+		if(col.gameObject.tag.Equals("Finish")) // if game finish
 		{
 			print("fin");
             LevelComplete();
 		}
-		else if(col.gameObject.tag.Equals("CoinToCollect")){
+		else if(col.gameObject.tag.Equals("CoinToCollect"))// if hit point 
+		{
 			print("points");
 		}
-		else if(col.gameObject.tag.Equals("ColliderWall")){
+		else if(col.gameObject.tag.Equals("ColliderWall"))// if hif wall 
+		{
 			print("Hit on colliderwall");
 		}
-		else{
+		else{ //hit any others
 			print("hit");
 			AudioSource audio = gameObject.GetComponent<AudioSource>();
 			audio.PlayOneShot(this.whenHit);
@@ -33,7 +34,7 @@ public class HitBuildingHandler : MonoBehaviour {
     private void LevelComplete()
     {
         onLevelComplete();
-        //Invoke("Landing", 2f);
+
     }
 
     public void Landing()
