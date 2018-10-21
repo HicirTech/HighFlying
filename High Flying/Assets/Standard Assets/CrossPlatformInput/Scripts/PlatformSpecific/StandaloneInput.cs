@@ -5,10 +5,9 @@ namespace UnityStandardAssets.CrossPlatformInput.PlatformSpecific
 {
     public class StandaloneInput : VirtualInput
     {
-        float horizontalSpeed = 0;
         public override float GetAxis(string name, bool raw)
         {
-            return raw ? Input.GetAxisRaw(name) : ((name.Equals("Horizontal") && horizontalSpeed != 0) ? horizontalSpeed : Input.GetAxis(name));
+            return raw ? Input.GetAxisRaw(name) : Input.GetAxis(name);
         }
 
 
@@ -67,8 +66,8 @@ namespace UnityStandardAssets.CrossPlatformInput.PlatformSpecific
 
         public override void SetAxis(string name, float value)
         {
-            if (name.Equals("Horizontal"))
-                horizontalSpeed = value;
+            throw new Exception(
+                " This is not possible to be called for standalone input. Please check your platform and code where this is called");
         }
 
 
